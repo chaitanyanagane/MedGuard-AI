@@ -16,6 +16,7 @@ import {
   Zap
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { addWorkOrder } from '../lib/api';
 
 export default function DeviceDetailView({ device, onClose, onScheduleInspection }) {
   if (!device) return null;
@@ -33,7 +34,21 @@ export default function DeviceDetailView({ device, onClose, onScheduleInspection
       origin: { y: 0.6 }
     });
 
-    setToast(`Preventive inspection scheduled for ${device.name} (${device.id})! Lead engineer notified.`);
+    const newWorkOrder = {
+      id: `WO-${Date.now()}`,
+      deviceId: device.id,
+      deviceName: device.name,
+      manufacturer: device.manufacturer,
+      assignedEngineer: device.assignedEngineer?.name || 'Dr. Marcus Vance',
+      status: 'SCHEDULED',
+      priority: device.riskLevel || 'HIGH',
+      scheduledDate: new Date().toLocaleDateString(),
+      description: `Preventive inspection & teardown audit for ${device.primaryFailureMode || 'Routine Inspection'}`
+    };
+
+    addWorkOrder(newWorkOrder);
+
+    setToast(`Work Order #${newWorkOrder.id} logged & scheduled for ${device.name}! Lead engineer (${newWorkOrder.assignedEngineer}) notified.`);
     setTimeout(() => setToast(null), 4000);
 
     if (onScheduleInspection) {

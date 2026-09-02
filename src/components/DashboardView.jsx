@@ -38,6 +38,8 @@ export default function DashboardView({
     ctCriticalScanners: 6
   });
 
+  const [historyItems, setHistoryItems] = useState([]);
+
   useEffect(() => {
     async function loadData() {
       try {
@@ -46,6 +48,14 @@ export default function DashboardView({
       } catch (err) {
         console.error("Dashboard error:", err);
       }
+
+      try {
+        const saved = localStorage.getItem('medguard_prediction_history');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          setHistoryItems(parsed);
+        }
+      } catch (e) {}
     }
     loadData();
   }, []);
@@ -56,7 +66,7 @@ export default function DashboardView({
     { name: '> 18 months (ROUTINE)', count: summary.routineCount, color: '#10b981' }
   ];
 
-  const recentPredictions = [
+  const defaultPredictions = [
     {
       id: "PRED-CT-901",
       deviceType: "CT Scanner (Deep Analysis)",
@@ -89,30 +99,21 @@ export default function DashboardView({
       priority: "URGENT",
       priorityColor: "rose",
       date: "2026-08-31 09:40 AM"
-    },
-    {
-      id: "PRED-CT-898",
-      deviceType: "CT Scanner (Deep Analysis)",
-      scannerId: "CT-004",
-      manufacturer: "Siemens Healthineers",
-      analysisType: "CT Scanner",
-      result: "89.5 / 100 Health Score (304 Days RUL)",
-      priority: "LOW",
-      priorityColor: "emerald",
-      date: "2026-08-30 05:10 PM"
-    },
-    {
-      id: "PRED-103",
-      deviceType: "Infusion Pump",
-      scannerId: "MD-6204",
-      manufacturer: "Baxter Healthcare Corp",
-      analysisType: "General Equipment",
-      result: "14.7 Months to Failure",
-      priority: "ATTENTION",
-      priorityColor: "amber",
-      date: "2026-08-30 04:20 PM"
     }
   ];
+
+  const formattedHistory = historyItems.map(item => ({
+    id: item.id || `PRED-${Math.random()}`,
+    deviceType: item.TypeDescription || item.scanner_id || 'Medical Equipment',
+    scannerId: item.scanner_id || 'MD-SYSTEM',
+    manufacturer: item.Manufacturer || 'Medical Systems',
+    analysisType: item.analysisType || 'General Equipment',
+    result: item.result || `${item.monthsToFailure} Months`,
+    priority: typeof item.priority === 'object' ? item.priority.level : (item.priority || 'ATTENTION'),
+    date: item.timestamp || item.date || new Date().toLocaleString()
+  }));
+
+  const recentPredictions = [...formattedHistory, ...defaultPredictions].slice(0, 5);
 
   return (
     <div className="space-y-6 animate-fadeIn">

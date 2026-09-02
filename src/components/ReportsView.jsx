@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FileText, Download, CheckCircle2, ShieldCheck, Printer, FileSpreadsheet, Lock } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { jsPDF } from 'jspdf';
+import { INITIAL_DEVICES } from '../data/medicalDevices';
 
 export default function ReportsView() {
   const [downloadNotice, setDownloadNotice] = useState(null);
@@ -48,13 +50,107 @@ export default function ReportsView() {
     }
   ];
 
-  const handleDownload = (reportTitle) => {
+  const handleDownload = (report) => {
     confetti({
       particleCount: 75,
       spread: 70,
       origin: { y: 0.6 }
     });
-    setDownloadNotice(`Exporting "${reportTitle}" (Cryptographically Sealed PDF)...`);
+
+    setDownloadNotice(`Generating & Downloading "${report.title}"...`);
+
+    if (report.type === 'CSV') {
+      // Build real CSV content from device equipment dataset
+      let csvRows = ['Device ID,Device Name,Category,Manufacturer,Serial Number,Risk Score,Risk Level,Last Event Date'];
+      INITIAL_DEVICES.forEach(d => {
+        csvRows.push(`"${d.id}","${d.name}","${d.type}","${d.manufacturer}","${d.serialNumber}",${d.riskScore},"${d.riskLevel}","${d.lastEventDate}"`);
+      });
+
+      const blob = new Blob([csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', `${report.id}_${report.category.replace(/\s+/g, '_')}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    } else {
+      // Build real PDF document using jsPDF
+      const doc = new jsPDF();
+
+      // Header Banner
+      doc.setFillColor(15, 23, 42); // slate-900
+      doc.rect(0, 0, 210, 40, 'F');
+      
+      doc.setTextColor(6, 182, 212); // cyan-500
+      doc.setFontSize(20);
+      doc.setFont('helvetica', 'bold');
+      doc.text('MedGuard AI', 14, 18);
+
+      doc.setTextColor(255, 255, 255);
+      doc.setFontSize(10);
+      doc.setFont('helvetica', 'normal');
+      doc.text('Medical Equipment Command Center & ISO-13485 Compliance System', 14, 28);
+
+      // Document Meta
+      doc.setTextColor(30, 41, 59);
+      doc.setFontSize(14);
+      doc.setFont('helvetica', 'bold');
+      doc.text(report.title, 14, 52);
+
+      doc.setFontSize(10);
+      doc.setFont('helvetica', 'normal');
+      doc.text(`Report ID: ${report.id}`, 14, 62);
+      doc.text(`Category: ${report.category}`, 14, 68);
+      doc.text(`Generated Date: ${report.generatedDate}`, 14, 74);
+      doc.text(`Author: ${report.author}`, 14, 80);
+      doc.text(`Compliance Standard: ISO-13485 & FDA Medical Device Reporting (MDR)`, 14, 86);
+
+      // Divider Line
+      doc.setDrawColor(203, 213, 225);
+      doc.line(14, 92, 196, 92);
+
+      // Section: Hospital Fleet Risk Summary
+      doc.setFontSize(12);
+      doc.setFont('helvetica', 'bold');
+      doc.text('High-Risk Equipment Ledger Summary', 14, 102);
+
+      let yPos = 112;
+      doc.setFontSize(9);
+      doc.setFont('helvetica', 'bold');
+      doc.setFillColor(241, 245, 249);
+      doc.rect(14, yPos - 5, 182, 8, 'F');
+      doc.text('ID', 16, yPos);
+      doc.text('Device Name', 40, yPos);
+      doc.text('Manufacturer', 105, yPos);
+      doc.text('Risk', 155, yPos);
+      doc.text('Status', 178, yPos);
+
+      yPos += 8;
+      doc.setFont('helvetica', 'normal');
+
+      INITIAL_DEVICES.forEach((d) => {
+        doc.text(d.id, 16, yPos);
+        doc.text(d.name.substring(0, 30), 40, yPos);
+        doc.text(d.manufacturer.substring(0, 22), 105, yPos);
+        doc.text(`${d.riskScore}%`, 155, yPos);
+        doc.text(d.riskLevel, 178, yPos);
+        yPos += 7;
+      });
+
+      // Footer Sign-off
+      yPos += 15;
+      doc.setDrawColor(203, 213, 225);
+      doc.line(14, yPos, 196, yPos);
+      yPos += 8;
+      doc.setFontSize(8);
+      doc.setTextColor(100, 116, 139);
+      doc.text('Document electronically signed & sealed by MedGuard AI Engine. Confidential Healthcare Asset Record.', 14, yPos);
+
+      doc.save(`${report.id}_Report.pdf`);
+    }
+
     setTimeout(() => setDownloadNotice(null), 4000);
   };
 

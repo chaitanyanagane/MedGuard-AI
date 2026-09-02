@@ -1,14 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Sliders, Cpu, Database, Save, CheckCircle2, Shield, RefreshCw } from 'lucide-react';
+import { getSettings, saveSettings } from '../lib/api';
 
 export default function SettingsView() {
   const [criticalThreshold, setCriticalThreshold] = useState(85);
   const [highThreshold, setHighThreshold] = useState(70);
-  const [apiUrl, setApiUrl] = useState('https://api.medguard.ai/v1/predict');
+  const [apiUrl, setApiUrl] = useState('http://localhost:8000');
   const [apiMode, setApiMode] = useState('MOCK');
   const [savedNotice, setSavedNotice] = useState(false);
 
+  useEffect(() => {
+    const current = getSettings();
+    setCriticalThreshold(current.criticalThreshold || 85);
+    setHighThreshold(current.highThreshold || 70);
+    setApiUrl(current.apiUrl || 'http://localhost:8000');
+    setApiMode(current.apiMode || 'MOCK');
+  }, []);
+
   const handleSaveSettings = () => {
+    const updated = {
+      criticalThreshold,
+      highThreshold,
+      apiUrl,
+      apiMode
+    };
+    saveSettings(updated);
     setSavedNotice(true);
     setTimeout(() => setSavedNotice(false), 3500);
   };

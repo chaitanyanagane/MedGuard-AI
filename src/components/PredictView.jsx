@@ -40,7 +40,7 @@ export default function PredictView({ onSaveToHistory }) {
         setOptions(opts);
       } catch (err) {
         console.error("Failed to load options:", err);
-      } font-mono;
+      }
       setLoadingOptions(false);
     }
     loadFormOptions();

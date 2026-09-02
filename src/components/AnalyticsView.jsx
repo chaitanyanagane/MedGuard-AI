@@ -24,6 +24,7 @@ import {
 } from 'recharts';
 import { getAnalytics } from '../lib/api';
 import confetti from 'canvas-confetti';
+import { jsPDF } from 'jspdf';
 
 export default function AnalyticsView({ devices }) {
   const [activeTab, setActiveTab] = useState('general'); // 'general' | 'ct'
@@ -53,6 +54,79 @@ export default function AnalyticsView({ devices }) {
       origin: { y: 0.6 }
     });
     setExportSuccess(true);
+
+    try {
+      const doc = new jsPDF();
+      doc.setFillColor(15, 23, 42);
+      doc.rect(0, 0, 210, 35, 'F');
+      
+      doc.setTextColor(6, 182, 212);
+      doc.setFontSize(18);
+      doc.setFont('helvetica', 'bold');
+      doc.text('MedGuard AI — Equipment Predictive Analytics Report', 14, 18);
+
+      doc.setTextColor(255, 255, 255);
+      doc.setFontSize(10);
+      doc.setFont('helvetica', 'normal');
+      doc.text(`Exported Date: ${new Date().toLocaleDateString()} | Command Center Intelligence`, 14, 27);
+
+      doc.setTextColor(30, 41, 59);
+      doc.setFontSize(13);
+      doc.setFont('helvetica', 'bold');
+      doc.text('1. General Equipment Category Summary', 14, 48);
+
+      let yPos = 58;
+      doc.setFontSize(9);
+      doc.setFont('helvetica', 'bold');
+      doc.setFillColor(241, 245, 249);
+      doc.rect(14, yPos - 5, 182, 8, 'F');
+      doc.text('Category Name', 16, yPos);
+      doc.text('Device Count', 100, yPos);
+      doc.text('Avg Remaining Lifespan', 145, yPos);
+
+      yPos += 8;
+      doc.setFont('helvetica', 'normal');
+
+      if (analytics && analytics.devicesByCategory) {
+        analytics.devicesByCategory.forEach((cat) => {
+          doc.text(cat.category, 16, yPos);
+          doc.text(String(cat.count), 100, yPos);
+          doc.text(`${cat.avgMonths} Months`, 145, yPos);
+          yPos += 7;
+        });
+      }
+
+      yPos += 10;
+      doc.setFontSize(13);
+      doc.setFont('helvetica', 'bold');
+      doc.text('2. CT Scanner Component Risk Ranking', 14, yPos);
+      yPos += 10;
+
+      doc.setFontSize(9);
+      doc.setFont('helvetica', 'bold');
+      doc.setFillColor(241, 245, 249);
+      doc.rect(14, yPos - 5, 182, 8, 'F');
+      doc.text('Component Name', 16, yPos);
+      doc.text('Risk Trigger Count', 100, yPos);
+      doc.text('Average Wear', 145, yPos);
+
+      yPos += 8;
+      doc.setFont('helvetica', 'normal');
+
+      if (analytics && analytics.ctComponentRisk) {
+        analytics.ctComponentRisk.forEach((comp) => {
+          doc.text(comp.component, 16, yPos);
+          doc.text(String(comp.riskCount), 100, yPos);
+          doc.text(`${comp.avgWear}%`, 145, yPos);
+          yPos += 7;
+        });
+      }
+
+      doc.save(`MedGuard_Analytics_Report_${Date.now()}.pdf`);
+    } catch (e) {
+      console.error("PDF export error:", e);
+    }
+
     setTimeout(() => setExportSuccess(false), 4000);
   };
 
