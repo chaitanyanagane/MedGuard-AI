@@ -1,0 +1,2501 @@
+TypeDescription,Manufacturer,Age,AssetCondition,Operations,MonthsToFailure
+Physiologic Monitoring System,Baxter Healthcare Corp,2,1,1,33.8
+Radiographic System,Koninklijke Philips N.V.,7,0,2,27.5
+Defibrillator,Canon Inc (Toshiba Medical),13,0,1,29.0
+Radiographic System,Koninklijke Philips N.V.,25,0,2,6.6
+Radiographic System,Physio-Control Inc,0,0,1,43.6
+Infusion Pump,Drager Medical AG & Co KGaA,13,0,1,32.2
+Defibrillator,Koninklijke Philips N.V.,1,1,1,33.4
+Defibrillator,Omron Healthcare Co Ltd,28,0,1,11.0
+Defibrillator,Physio-Control Inc,22,0,1,20.2
+Radiographic System,Physio-Control Inc,3,1,2,26.3
+Physiologic Monitoring System,GE Healthcare,23,1,2,3.7
+Defibrillator,Omron Healthcare Co Ltd,26,2,2,2.0
+Sphygmomanometers,Siemens Healthineers,28,1,2,2.0
+Radiographic System,Medtronic,18,0,2,11.8
+Infusion Pump,Blease Medical Equipment Ltd,5,2,2,19.0
+Physiologic Monitoring System,Baxter Healthcare Corp,24,1,2,9.0
+Sphygmomanometers,Nihon Kohden Corp,0,0,1,56.5
+Sphygmomanometers,Medtronic,16,1,1,21.9
+Infusion Pump,Koninklijke Philips N.V.,7,2,1,16.2
+Physiologic Monitoring System,Baxter Healthcare Corp,18,0,1,27.4
+Radiographic System,B. Braun Melsungen AG,20,0,1,21.0
+Ventilator,Siemens Healthineers,0,0,2,40.0
+Physiologic Monitoring System,B. Braun Melsungen AG,4,0,1,51.0
+Infusion Pump,Omron Healthcare Co Ltd,26,0,1,17.3
+Sphygmomanometers,Med-Vantage Sdn Bhd,15,1,1,22.0
+Radiographic System,B. Braun Melsungen AG,5,0,1,36.0
+Physiologic Monitoring System,Welch Allyn Inc,7,2,1,16.0
+Ventilator,Drager Medical AG & Co KGaA,12,1,1,18.2
+Ventilator,Medtronic,15,1,1,9.8
+Defibrillator,Nihon Kohden Corp,29,2,1,2.0
+Defibrillator,Welch Allyn Inc,2,0,2,42.7
+Infusion Pump,Med-Vantage Sdn Bhd,18,1,2,7.7
+Physiologic Monitoring System,GE Healthcare,11,1,1,27.4
+Physiologic Monitoring System,Nihon Kohden Corp,15,2,1,2.3
+Sphygmomanometers,B. Braun Melsungen AG,26,1,1,12.3
+Sphygmomanometers,Koninklijke Philips N.V.,10,0,2,33.8
+Sphygmomanometers,Canon Inc (Toshiba Medical),9,2,1,16.1
+Defibrillator,Siemens Healthineers,24,0,1,17.5
+Physiologic Monitoring System,Blease Medical Equipment Ltd,19,2,2,2.0
+Physiologic Monitoring System,Datex-Ohmeda Inc,30,2,1,2.0
+Ventilator,Nihon Kohden Corp,3,0,1,37.9
+Defibrillator,Blease Medical Equipment Ltd,11,1,1,19.5
+Radiographic System,Blease Medical Equipment Ltd,22,0,2,8.9
+Defibrillator,B. Braun Melsungen AG,1,0,2,37.9
+Radiographic System,Siemens Healthineers,23,1,2,2.0
+Ventilator,Baxter Healthcare Corp,21,1,1,7.6
+Infusion Pump,Medtronic,18,2,1,2.0
+Physiologic Monitoring System,Blease Medical Equipment Ltd,24,1,2,7.1
+Ventilator,Physio-Control Inc,4,1,2,20.3
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,7,2,1,21.6
+Sphygmomanometers,Drager Medical AG & Co KGaA,6,2,2,18.6
+Infusion Pump,Siemens Healthineers,13,0,1,31.0
+Infusion Pump,Koninklijke Philips N.V.,23,2,1,2.0
+Ventilator,Omron Healthcare Co Ltd,22,0,2,10.3
+Infusion Pump,Koninklijke Philips N.V.,2,2,1,26.4
+Radiographic System,Siemens Healthineers,17,0,2,17.3
+Infusion Pump,Koninklijke Philips N.V.,15,0,1,32.4
+Physiologic Monitoring System,Blease Medical Equipment Ltd,22,0,1,25.7
+Physiologic Monitoring System,Medtronic,18,1,2,13.2
+Physiologic Monitoring System,Koninklijke Philips N.V.,18,0,2,22.7
+Physiologic Monitoring System,Nihon Kohden Corp,17,0,1,31.2
+Radiographic System,Physio-Control Inc,19,1,1,7.9
+Defibrillator,Koninklijke Philips N.V.,15,2,2,2.0
+Sphygmomanometers,Physio-Control Inc,7,0,1,45.4
+Ventilator,Canon Inc (Toshiba Medical),27,0,2,5.4
+Physiologic Monitoring System,B. Braun Melsungen AG,0,0,2,51.9
+Infusion Pump,GE Healthcare,16,0,1,29.5
+Physiologic Monitoring System,Medtronic,11,2,1,15.7
+Infusion Pump,Med-Vantage Sdn Bhd,29,2,1,2.0
+Sphygmomanometers,Blease Medical Equipment Ltd,20,1,2,9.3
+Sphygmomanometers,GE Healthcare,10,0,1,50.2
+Sphygmomanometers,Blease Medical Equipment Ltd,4,1,1,38.7
+Infusion Pump,B. Braun Melsungen AG,26,1,1,6.1
+Physiologic Monitoring System,Blease Medical Equipment Ltd,11,2,2,9.2
+Sphygmomanometers,Canon Inc (Toshiba Medical),16,1,1,25.2
+Radiographic System,Medtronic,5,1,1,26.0
+Infusion Pump,Siemens Healthineers,0,1,2,35.5
+Infusion Pump,Siemens Healthineers,4,0,2,38.2
+Physiologic Monitoring System,Physio-Control Inc,24,2,2,2.0
+Infusion Pump,B. Braun Melsungen AG,27,1,1,2.8
+Infusion Pump,Physio-Control Inc,13,1,1,23.3
+Sphygmomanometers,Canon Inc (Toshiba Medical),4,0,2,40.5
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,21,1,1,13.8
+Sphygmomanometers,Koninklijke Philips N.V.,23,1,2,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,26,0,2,15.5
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,0,0,1,47.7
+Ventilator,Koninklijke Philips N.V.,29,1,2,2.0
+Sphygmomanometers,Medtronic,17,1,2,15.6
+Radiographic System,Physio-Control Inc,15,1,1,10.1
+Radiographic System,Med-Vantage Sdn Bhd,8,0,1,37.2
+Infusion Pump,Medtronic,18,1,1,12.9
+Radiographic System,Canon Inc (Toshiba Medical),21,0,1,9.1
+Infusion Pump,Welch Allyn Inc,4,0,1,47.1
+Ventilator,Welch Allyn Inc,26,0,2,2.0
+Physiologic Monitoring System,Welch Allyn Inc,1,0,2,43.5
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),29,0,1,13.0
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,14,0,1,30.2
+Radiographic System,Blease Medical Equipment Ltd,6,0,2,30.0
+Ventilator,Medtronic,3,0,1,37.6
+Radiographic System,Koninklijke Philips N.V.,0,1,2,26.9
+Radiographic System,Canon Inc (Toshiba Medical),12,1,1,12.8
+Ventilator,Welch Allyn Inc,19,0,1,20.4
+Ventilator,Med-Vantage Sdn Bhd,21,2,1,2.0
+Ventilator,B. Braun Melsungen AG,6,0,2,34.2
+Ventilator,Canon Inc (Toshiba Medical),14,1,1,14.1
+Physiologic Monitoring System,Omron Healthcare Co Ltd,22,0,2,15.9
+Defibrillator,Blease Medical Equipment Ltd,13,0,1,30.5
+Defibrillator,Koninklijke Philips N.V.,22,1,1,4.2
+Ventilator,Welch Allyn Inc,18,1,1,9.6
+Defibrillator,Baxter Healthcare Corp,21,2,2,2.0
+Defibrillator,Siemens Healthineers,28,1,2,2.0
+Ventilator,Med-Vantage Sdn Bhd,23,2,1,2.0
+Defibrillator,Siemens Healthineers,19,0,1,27.8
+Radiographic System,Drager Medical AG & Co KGaA,28,0,1,10.9
+Infusion Pump,Siemens Healthineers,23,0,1,22.5
+Infusion Pump,Koninklijke Philips N.V.,17,0,1,28.6
+Ventilator,Nihon Kohden Corp,30,1,2,2.0
+Physiologic Monitoring System,Physio-Control Inc,9,1,2,25.2
+Ventilator,Koninklijke Philips N.V.,8,0,1,34.0
+Physiologic Monitoring System,Blease Medical Equipment Ltd,24,2,1,2.0
+Infusion Pump,Omron Healthcare Co Ltd,7,2,2,12.9
+Ventilator,Koninklijke Philips N.V.,25,0,2,8.5
+Sphygmomanometers,Canon Inc (Toshiba Medical),29,0,1,18.8
+Radiographic System,Med-Vantage Sdn Bhd,28,0,1,5.3
+Defibrillator,Datex-Ohmeda Inc,9,0,1,32.7
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,16,0,1,28.6
+Sphygmomanometers,Physio-Control Inc,1,1,1,43.8
+Defibrillator,Baxter Healthcare Corp,5,0,1,38.1
+Defibrillator,Siemens Healthineers,25,0,2,7.4
+Ventilator,Physio-Control Inc,4,2,1,16.1
+Defibrillator,Siemens Healthineers,27,1,1,2.0
+Radiographic System,Drager Medical AG & Co KGaA,29,2,1,2.0
+Sphygmomanometers,Physio-Control Inc,8,0,2,38.4
+Defibrillator,Welch Allyn Inc,4,0,2,31.0
+Ventilator,Blease Medical Equipment Ltd,17,1,1,8.0
+Radiographic System,Blease Medical Equipment Ltd,25,0,1,14.5
+Infusion Pump,Siemens Healthineers,19,0,2,20.0
+Sphygmomanometers,Baxter Healthcare Corp,8,1,1,27.3
+Defibrillator,Welch Allyn Inc,16,1,1,11.2
+Ventilator,GE Healthcare,26,0,1,12.1
+Infusion Pump,Medtronic,16,1,1,18.6
+Infusion Pump,Medtronic,11,0,1,36.0
+Physiologic Monitoring System,Baxter Healthcare Corp,6,0,2,37.5
+Radiographic System,Datex-Ohmeda Inc,26,0,2,2.0
+Defibrillator,GE Healthcare,2,0,1,45.3
+Ventilator,Drager Medical AG & Co KGaA,9,0,2,30.4
+Physiologic Monitoring System,Baxter Healthcare Corp,1,2,1,28.9
+Radiographic System,Welch Allyn Inc,24,1,1,2.0
+Physiologic Monitoring System,Medtronic,2,1,2,35.3
+Sphygmomanometers,Canon Inc (Toshiba Medical),15,0,2,30.4
+Radiographic System,Medtronic,1,0,1,42.8
+Radiographic System,Medtronic,27,0,1,11.1
+Defibrillator,Welch Allyn Inc,23,0,2,10.7
+Radiographic System,B. Braun Melsungen AG,9,0,2,21.9
+Physiologic Monitoring System,Baxter Healthcare Corp,5,1,2,29.8
+Radiographic System,Koninklijke Philips N.V.,21,1,1,5.1
+Defibrillator,Med-Vantage Sdn Bhd,25,1,1,2.0
+Defibrillator,Drager Medical AG & Co KGaA,10,1,1,23.1
+Sphygmomanometers,Medtronic,22,2,1,3.5
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,6,0,2,35.4
+Infusion Pump,Blease Medical Equipment Ltd,26,0,1,17.3
+Infusion Pump,Canon Inc (Toshiba Medical),28,0,1,8.9
+Radiographic System,Siemens Healthineers,14,1,2,8.0
+Sphygmomanometers,Baxter Healthcare Corp,5,2,1,22.6
+Ventilator,Omron Healthcare Co Ltd,19,0,1,21.5
+Radiographic System,Welch Allyn Inc,26,2,2,2.0
+Sphygmomanometers,B. Braun Melsungen AG,8,2,2,13.5
+Physiologic Monitoring System,Blease Medical Equipment Ltd,21,0,2,11.7
+Physiologic Monitoring System,Baxter Healthcare Corp,19,0,1,28.7
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,11,0,2,32.5
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),18,2,2,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,19,0,1,23.6
+Sphygmomanometers,Drager Medical AG & Co KGaA,2,1,1,40.9
+Sphygmomanometers,Blease Medical Equipment Ltd,14,0,2,35.9
+Defibrillator,Baxter Healthcare Corp,1,1,1,32.7
+Infusion Pump,Koninklijke Philips N.V.,29,0,2,9.9
+Physiologic Monitoring System,Blease Medical Equipment Ltd,20,1,1,11.3
+Ventilator,Omron Healthcare Co Ltd,1,2,1,18.5
+Sphygmomanometers,Drager Medical AG & Co KGaA,21,2,1,2.0
+Ventilator,B. Braun Melsungen AG,2,2,2,14.4
+Ventilator,B. Braun Melsungen AG,5,0,1,38.9
+Ventilator,Med-Vantage Sdn Bhd,14,1,1,11.3
+Defibrillator,Drager Medical AG & Co KGaA,26,0,2,6.2
+Sphygmomanometers,Nihon Kohden Corp,9,0,2,38.5
+Ventilator,Baxter Healthcare Corp,8,1,2,19.4
+Physiologic Monitoring System,Nihon Kohden Corp,0,0,1,55.7
+Radiographic System,Datex-Ohmeda Inc,15,1,1,11.7
+Ventilator,Baxter Healthcare Corp,5,2,2,5.1
+Defibrillator,Drager Medical AG & Co KGaA,8,0,2,32.2
+Sphygmomanometers,GE Healthcare,26,1,1,13.2
+Defibrillator,Canon Inc (Toshiba Medical),3,0,1,39.0
+Ventilator,Drager Medical AG & Co KGaA,26,0,2,3.8
+Sphygmomanometers,Nihon Kohden Corp,27,0,1,21.4
+Radiographic System,Koninklijke Philips N.V.,1,2,2,13.1
+Ventilator,Canon Inc (Toshiba Medical),28,2,1,2.0
+Defibrillator,Drager Medical AG & Co KGaA,3,2,1,18.7
+Infusion Pump,Drager Medical AG & Co KGaA,0,2,2,23.4
+Physiologic Monitoring System,Koninklijke Philips N.V.,18,0,1,28.4
+Defibrillator,Drager Medical AG & Co KGaA,25,0,1,14.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),24,1,1,12.8
+Ventilator,Medtronic,9,1,1,20.1
+Physiologic Monitoring System,GE Healthcare,20,0,2,23.9
+Ventilator,Siemens Healthineers,14,0,2,26.9
+Sphygmomanometers,GE Healthcare,26,1,2,2.0
+Ventilator,Welch Allyn Inc,21,1,1,2.1
+Infusion Pump,Omron Healthcare Co Ltd,18,0,1,28.5
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,15,1,1,16.8
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,20,1,2,5.2
+Sphygmomanometers,Medtronic,26,1,2,2.0
+Infusion Pump,Baxter Healthcare Corp,23,0,2,15.1
+Defibrillator,Drager Medical AG & Co KGaA,21,1,1,7.1
+Ventilator,Nihon Kohden Corp,3,0,1,39.8
+Radiographic System,Blease Medical Equipment Ltd,1,0,1,46.2
+Ventilator,Medtronic,29,1,1,2.0
+Ventilator,Koninklijke Philips N.V.,24,1,1,6.1
+Defibrillator,Medtronic,12,0,2,26.5
+Ventilator,Welch Allyn Inc,27,1,1,2.0
+Infusion Pump,Koninklijke Philips N.V.,0,1,1,39.3
+Infusion Pump,Datex-Ohmeda Inc,16,1,1,18.2
+Physiologic Monitoring System,Siemens Healthineers,12,1,2,17.7
+Sphygmomanometers,Physio-Control Inc,3,1,2,27.9
+Radiographic System,Canon Inc (Toshiba Medical),6,1,2,20.3
+Ventilator,Medtronic,16,0,2,22.1
+Ventilator,Canon Inc (Toshiba Medical),8,0,1,30.8
+Defibrillator,B. Braun Melsungen AG,3,0,2,38.1
+Sphygmomanometers,Nihon Kohden Corp,18,1,1,21.6
+Infusion Pump,Drager Medical AG & Co KGaA,0,1,1,37.6
+Radiographic System,Nihon Kohden Corp,9,0,2,30.3
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),3,0,2,42.7
+Infusion Pump,GE Healthcare,8,1,1,26.8
+Sphygmomanometers,Physio-Control Inc,12,0,1,42.5
+Physiologic Monitoring System,GE Healthcare,13,1,1,20.3
+Defibrillator,Datex-Ohmeda Inc,9,0,1,33.5
+Defibrillator,Physio-Control Inc,5,1,1,25.8
+Ventilator,Physio-Control Inc,15,2,1,2.0
+Sphygmomanometers,GE Healthcare,5,0,1,48.9
+Radiographic System,Koninklijke Philips N.V.,16,1,2,4.4
+Physiologic Monitoring System,Welch Allyn Inc,9,0,1,41.5
+Infusion Pump,Canon Inc (Toshiba Medical),17,1,1,12.1
+Sphygmomanometers,GE Healthcare,26,1,1,5.9
+Sphygmomanometers,Nihon Kohden Corp,21,0,2,22.8
+Defibrillator,Koninklijke Philips N.V.,17,1,1,16.1
+Ventilator,Nihon Kohden Corp,2,2,1,18.3
+Ventilator,Welch Allyn Inc,19,0,1,18.8
+Physiologic Monitoring System,Datex-Ohmeda Inc,26,0,2,9.5
+Defibrillator,Drager Medical AG & Co KGaA,20,2,2,2.0
+Sphygmomanometers,Welch Allyn Inc,30,1,2,2.0
+Radiographic System,Omron Healthcare Co Ltd,24,2,2,2.0
+Defibrillator,Baxter Healthcare Corp,27,1,2,2.0
+Physiologic Monitoring System,Koninklijke Philips N.V.,14,2,2,2.0
+Physiologic Monitoring System,Datex-Ohmeda Inc,14,0,1,33.2
+Defibrillator,Omron Healthcare Co Ltd,3,1,1,30.5
+Physiologic Monitoring System,B. Braun Melsungen AG,28,2,2,2.0
+Defibrillator,Datex-Ohmeda Inc,26,1,1,2.0
+Infusion Pump,GE Healthcare,8,0,1,40.9
+Defibrillator,Med-Vantage Sdn Bhd,26,0,2,7.3
+Defibrillator,GE Healthcare,25,0,1,16.1
+Physiologic Monitoring System,Welch Allyn Inc,18,0,2,25.0
+Physiologic Monitoring System,Baxter Healthcare Corp,23,0,2,13.5
+Ventilator,Datex-Ohmeda Inc,27,1,1,2.0
+Ventilator,Canon Inc (Toshiba Medical),16,1,2,8.9
+Infusion Pump,Siemens Healthineers,10,0,1,40.6
+Ventilator,Drager Medical AG & Co KGaA,24,1,1,2.2
+Defibrillator,Welch Allyn Inc,8,0,1,36.0
+Physiologic Monitoring System,GE Healthcare,9,0,2,36.4
+Ventilator,Baxter Healthcare Corp,17,0,2,19.9
+Ventilator,Drager Medical AG & Co KGaA,19,1,1,8.1
+Infusion Pump,Datex-Ohmeda Inc,12,0,2,31.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),7,0,1,45.3
+Infusion Pump,Datex-Ohmeda Inc,6,0,2,34.9
+Defibrillator,Physio-Control Inc,16,2,1,2.0
+Physiologic Monitoring System,Baxter Healthcare Corp,20,0,2,19.3
+Infusion Pump,Omron Healthcare Co Ltd,22,1,1,8.2
+Ventilator,GE Healthcare,14,1,1,17.9
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),19,1,1,17.2
+Physiologic Monitoring System,Siemens Healthineers,14,2,2,2.0
+Ventilator,Datex-Ohmeda Inc,30,0,1,3.3
+Infusion Pump,Siemens Healthineers,0,0,2,45.1
+Ventilator,Datex-Ohmeda Inc,24,2,1,2.0
+Sphygmomanometers,GE Healthcare,13,1,1,26.4
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,4,1,1,31.2
+Radiographic System,Medtronic,10,1,2,15.9
+Radiographic System,Drager Medical AG & Co KGaA,15,1,1,11.9
+Defibrillator,Datex-Ohmeda Inc,1,2,2,14.8
+Ventilator,Nihon Kohden Corp,7,2,2,5.9
+Ventilator,Med-Vantage Sdn Bhd,10,1,2,13.5
+Defibrillator,Blease Medical Equipment Ltd,28,0,1,5.5
+Defibrillator,Medtronic,17,2,2,2.0
+Defibrillator,Omron Healthcare Co Ltd,2,0,2,38.6
+Physiologic Monitoring System,Medtronic,29,0,1,11.9
+Sphygmomanometers,Med-Vantage Sdn Bhd,25,2,2,2.0
+Ventilator,Siemens Healthineers,0,0,1,46.7
+Physiologic Monitoring System,Baxter Healthcare Corp,10,0,1,45.1
+Defibrillator,Siemens Healthineers,15,0,1,29.6
+Ventilator,Welch Allyn Inc,17,2,1,2.0
+Physiologic Monitoring System,Siemens Healthineers,29,1,1,2.0
+Sphygmomanometers,Omron Healthcare Co Ltd,15,1,1,21.8
+Physiologic Monitoring System,Nihon Kohden Corp,22,0,2,16.7
+Sphygmomanometers,Drager Medical AG & Co KGaA,9,1,1,31.1
+Defibrillator,Drager Medical AG & Co KGaA,17,1,1,8.6
+Sphygmomanometers,Blease Medical Equipment Ltd,5,0,1,50.1
+Ventilator,B. Braun Melsungen AG,30,0,2,2.0
+Defibrillator,Datex-Ohmeda Inc,18,0,2,19.9
+Ventilator,Nihon Kohden Corp,3,2,2,8.2
+Radiographic System,B. Braun Melsungen AG,26,1,2,2.0
+Infusion Pump,Med-Vantage Sdn Bhd,30,2,1,2.0
+Sphygmomanometers,Welch Allyn Inc,12,0,2,32.2
+Infusion Pump,GE Healthcare,23,1,1,6.4
+Infusion Pump,Med-Vantage Sdn Bhd,13,1,1,23.4
+Sphygmomanometers,Datex-Ohmeda Inc,2,1,2,32.5
+Defibrillator,Datex-Ohmeda Inc,9,2,1,9.7
+Radiographic System,Physio-Control Inc,5,0,2,36.2
+Ventilator,Physio-Control Inc,0,0,2,37.8
+Physiologic Monitoring System,Koninklijke Philips N.V.,22,1,1,14.8
+Ventilator,Med-Vantage Sdn Bhd,23,1,1,2.0
+Physiologic Monitoring System,Koninklijke Philips N.V.,26,1,1,2.9
+Ventilator,Siemens Healthineers,13,0,2,24.6
+Sphygmomanometers,GE Healthcare,7,1,2,28.7
+Radiographic System,Medtronic,18,0,1,20.6
+Physiologic Monitoring System,Blease Medical Equipment Ltd,13,0,1,33.2
+Defibrillator,Medtronic,9,1,2,18.1
+Ventilator,Blease Medical Equipment Ltd,16,1,2,2.0
+Ventilator,Physio-Control Inc,8,0,1,35.1
+Physiologic Monitoring System,Physio-Control Inc,28,0,1,18.8
+Defibrillator,Physio-Control Inc,5,0,2,31.1
+Defibrillator,Nihon Kohden Corp,10,0,1,33.0
+Sphygmomanometers,Baxter Healthcare Corp,24,1,1,9.1
+Sphygmomanometers,Blease Medical Equipment Ltd,6,2,2,13.4
+Sphygmomanometers,Med-Vantage Sdn Bhd,16,0,2,24.1
+Sphygmomanometers,Koninklijke Philips N.V.,27,1,1,4.4
+Sphygmomanometers,Nihon Kohden Corp,27,2,1,2.0
+Sphygmomanometers,Drager Medical AG & Co KGaA,0,2,1,32.9
+Radiographic System,Medtronic,21,0,1,12.9
+Defibrillator,Welch Allyn Inc,4,2,2,12.5
+Sphygmomanometers,Omron Healthcare Co Ltd,8,0,1,45.1
+Defibrillator,Datex-Ohmeda Inc,17,0,2,24.1
+Defibrillator,Koninklijke Philips N.V.,23,0,2,13.5
+Infusion Pump,B. Braun Melsungen AG,26,1,1,6.3
+Radiographic System,Canon Inc (Toshiba Medical),20,0,1,19.7
+Sphygmomanometers,Drager Medical AG & Co KGaA,1,0,1,51.4
+Ventilator,Med-Vantage Sdn Bhd,28,0,2,2.2
+Physiologic Monitoring System,Welch Allyn Inc,25,2,2,2.0
+Ventilator,Koninklijke Philips N.V.,10,2,1,2.0
+Radiographic System,Omron Healthcare Co Ltd,26,0,2,3.5
+Physiologic Monitoring System,Nihon Kohden Corp,27,2,2,2.0
+Radiographic System,Med-Vantage Sdn Bhd,5,2,2,8.1
+Defibrillator,GE Healthcare,25,1,1,2.0
+Physiologic Monitoring System,Datex-Ohmeda Inc,7,0,1,44.5
+Defibrillator,Koninklijke Philips N.V.,3,1,2,25.3
+Ventilator,Baxter Healthcare Corp,17,2,1,2.0
+Ventilator,Physio-Control Inc,27,1,1,2.0
+Physiologic Monitoring System,Physio-Control Inc,10,0,1,39.0
+Physiologic Monitoring System,Datex-Ohmeda Inc,4,1,1,32.4
+Sphygmomanometers,Omron Healthcare Co Ltd,14,1,1,23.0
+Radiographic System,Blease Medical Equipment Ltd,27,1,2,2.0
+Sphygmomanometers,Welch Allyn Inc,17,0,1,34.8
+Radiographic System,Nihon Kohden Corp,1,0,1,47.2
+Sphygmomanometers,Physio-Control Inc,30,2,2,2.0
+Defibrillator,Koninklijke Philips N.V.,21,2,1,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,10,0,1,40.0
+Ventilator,Medtronic,25,2,2,2.0
+Radiographic System,Blease Medical Equipment Ltd,24,0,2,6.5
+Radiographic System,Medtronic,12,1,2,10.4
+Ventilator,Drager Medical AG & Co KGaA,3,1,2,27.7
+Sphygmomanometers,Welch Allyn Inc,21,2,1,4.5
+Radiographic System,Siemens Healthineers,6,2,2,8.2
+Defibrillator,Blease Medical Equipment Ltd,28,0,1,14.6
+Physiologic Monitoring System,GE Healthcare,10,2,2,11.3
+Ventilator,Datex-Ohmeda Inc,21,0,1,14.9
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,23,1,2,6.8
+Radiographic System,Siemens Healthineers,3,1,2,25.1
+Radiographic System,Nihon Kohden Corp,27,1,2,2.0
+Ventilator,Blease Medical Equipment Ltd,14,0,1,26.3
+Defibrillator,Baxter Healthcare Corp,0,2,1,23.4
+Infusion Pump,Baxter Healthcare Corp,22,0,2,17.3
+Ventilator,GE Healthcare,2,0,2,35.0
+Infusion Pump,Welch Allyn Inc,13,1,1,19.8
+Sphygmomanometers,Physio-Control Inc,5,1,2,32.8
+Infusion Pump,Med-Vantage Sdn Bhd,17,2,2,2.0
+Defibrillator,Koninklijke Philips N.V.,24,0,1,13.8
+Sphygmomanometers,Drager Medical AG & Co KGaA,0,0,2,51.9
+Infusion Pump,Canon Inc (Toshiba Medical),5,2,1,19.8
+Sphygmomanometers,Blease Medical Equipment Ltd,5,1,1,37.4
+Infusion Pump,Drager Medical AG & Co KGaA,20,0,1,21.9
+Defibrillator,Blease Medical Equipment Ltd,15,1,2,11.4
+Infusion Pump,Datex-Ohmeda Inc,28,1,2,2.0
+Infusion Pump,Blease Medical Equipment Ltd,4,1,1,30.8
+Infusion Pump,Datex-Ohmeda Inc,16,1,2,11.4
+Ventilator,Blease Medical Equipment Ltd,9,2,2,6.7
+Ventilator,Baxter Healthcare Corp,27,2,2,2.0
+Ventilator,Baxter Healthcare Corp,20,1,1,12.0
+Defibrillator,Welch Allyn Inc,17,0,2,14.7
+Sphygmomanometers,Omron Healthcare Co Ltd,6,2,1,18.3
+Radiographic System,B. Braun Melsungen AG,2,1,1,32.2
+Infusion Pump,B. Braun Melsungen AG,12,1,1,26.8
+Infusion Pump,Omron Healthcare Co Ltd,14,0,1,30.6
+Defibrillator,Physio-Control Inc,19,2,2,2.0
+Infusion Pump,B. Braun Melsungen AG,18,1,1,16.9
+Ventilator,Welch Allyn Inc,2,0,2,36.8
+Radiographic System,Canon Inc (Toshiba Medical),3,0,1,40.5
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),4,2,1,21.8
+Infusion Pump,Koninklijke Philips N.V.,0,0,2,42.3
+Ventilator,Koninklijke Philips N.V.,3,2,2,10.2
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),11,1,1,25.2
+Radiographic System,Drager Medical AG & Co KGaA,27,1,1,2.0
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,26,0,1,13.9
+Ventilator,Medtronic,23,0,1,17.0
+Sphygmomanometers,Omron Healthcare Co Ltd,9,2,2,13.6
+Sphygmomanometers,Koninklijke Philips N.V.,22,0,2,18.8
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,24,1,1,12.8
+Defibrillator,Med-Vantage Sdn Bhd,20,0,2,15.1
+Physiologic Monitoring System,Siemens Healthineers,28,0,2,9.9
+Infusion Pump,Baxter Healthcare Corp,30,0,1,13.6
+Infusion Pump,Datex-Ohmeda Inc,25,1,1,10.7
+Sphygmomanometers,Welch Allyn Inc,19,2,2,2.0
+Defibrillator,Canon Inc (Toshiba Medical),23,0,2,14.2
+Ventilator,B. Braun Melsungen AG,24,0,1,11.3
+Infusion Pump,Omron Healthcare Co Ltd,12,0,1,35.6
+Sphygmomanometers,Drager Medical AG & Co KGaA,22,1,1,12.6
+Radiographic System,Canon Inc (Toshiba Medical),13,0,2,23.9
+Sphygmomanometers,GE Healthcare,22,2,1,3.4
+Infusion Pump,Datex-Ohmeda Inc,4,1,1,37.4
+Infusion Pump,Siemens Healthineers,3,1,2,24.2
+Sphygmomanometers,Med-Vantage Sdn Bhd,13,0,2,31.5
+Ventilator,B. Braun Melsungen AG,9,2,2,6.6
+Physiologic Monitoring System,Siemens Healthineers,16,0,1,27.7
+Infusion Pump,Baxter Healthcare Corp,9,0,1,41.3
+Sphygmomanometers,Canon Inc (Toshiba Medical),25,1,1,12.8
+Sphygmomanometers,Blease Medical Equipment Ltd,6,1,1,34.6
+Defibrillator,Baxter Healthcare Corp,15,0,2,18.9
+Physiologic Monitoring System,Welch Allyn Inc,0,0,1,51.7
+Radiographic System,Med-Vantage Sdn Bhd,16,1,1,14.3
+Ventilator,Physio-Control Inc,20,0,1,22.8
+Radiographic System,Drager Medical AG & Co KGaA,28,2,1,2.0
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,8,1,2,21.7
+Physiologic Monitoring System,Datex-Ohmeda Inc,5,0,1,49.8
+Physiologic Monitoring System,Nihon Kohden Corp,18,1,1,18.2
+Radiographic System,Nihon Kohden Corp,12,0,1,26.1
+Physiologic Monitoring System,Datex-Ohmeda Inc,2,1,1,37.8
+Sphygmomanometers,GE Healthcare,6,1,1,35.4
+Radiographic System,Welch Allyn Inc,21,0,2,10.1
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,8,1,2,25.0
+Sphygmomanometers,Siemens Healthineers,21,2,2,2.0
+Defibrillator,GE Healthcare,4,0,2,36.1
+Physiologic Monitoring System,Medtronic,9,2,2,13.3
+Radiographic System,Datex-Ohmeda Inc,22,0,2,6.0
+Infusion Pump,Siemens Healthineers,16,0,1,35.7
+Physiologic Monitoring System,Nihon Kohden Corp,11,0,1,37.8
+Infusion Pump,Koninklijke Philips N.V.,22,0,1,25.1
+Sphygmomanometers,Omron Healthcare Co Ltd,15,0,2,31.0
+Defibrillator,Physio-Control Inc,2,0,2,37.3
+Ventilator,Nihon Kohden Corp,29,2,2,2.0
+Defibrillator,Drager Medical AG & Co KGaA,24,2,1,2.0
+Physiologic Monitoring System,Blease Medical Equipment Ltd,30,1,2,2.0
+Infusion Pump,Baxter Healthcare Corp,21,0,1,24.2
+Infusion Pump,Omron Healthcare Co Ltd,8,0,1,40.1
+Radiographic System,Omron Healthcare Co Ltd,28,0,1,9.5
+Infusion Pump,Koninklijke Philips N.V.,14,1,1,20.4
+Radiographic System,Physio-Control Inc,4,2,1,15.3
+Sphygmomanometers,Canon Inc (Toshiba Medical),22,0,1,28.8
+Ventilator,Physio-Control Inc,12,0,1,28.0
+Physiologic Monitoring System,Medtronic,13,1,2,15.5
+Radiographic System,Medtronic,19,0,2,10.0
+Ventilator,B. Braun Melsungen AG,14,0,2,22.1
+Infusion Pump,Nihon Kohden Corp,15,1,1,20.1
+Infusion Pump,Nihon Kohden Corp,22,1,2,2.0
+Ventilator,Nihon Kohden Corp,12,0,2,28.0
+Infusion Pump,B. Braun Melsungen AG,16,0,1,28.1
+Sphygmomanometers,Welch Allyn Inc,22,2,1,2.0
+Sphygmomanometers,GE Healthcare,7,0,1,49.6
+Ventilator,Blease Medical Equipment Ltd,20,0,1,14.1
+Radiographic System,Blease Medical Equipment Ltd,1,0,2,40.1
+Radiographic System,Physio-Control Inc,4,0,2,35.6
+Ventilator,Koninklijke Philips N.V.,5,0,1,39.3
+Radiographic System,Drager Medical AG & Co KGaA,11,2,2,2.0
+Radiographic System,Physio-Control Inc,17,0,2,18.2
+Sphygmomanometers,Medtronic,29,0,2,14.9
+Radiographic System,Omron Healthcare Co Ltd,21,1,1,2.0
+Defibrillator,Siemens Healthineers,21,1,2,4.6
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,0,2,1,29.3
+Infusion Pump,Baxter Healthcare Corp,29,2,2,2.0
+Defibrillator,B. Braun Melsungen AG,16,0,1,24.9
+Radiographic System,Datex-Ohmeda Inc,29,1,1,2.0
+Sphygmomanometers,Siemens Healthineers,10,1,2,25.8
+Ventilator,Drager Medical AG & Co KGaA,9,2,1,5.8
+Radiographic System,Nihon Kohden Corp,18,1,1,7.2
+Sphygmomanometers,Medtronic,13,2,1,15.1
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,25,1,2,2.3
+Radiographic System,Canon Inc (Toshiba Medical),9,0,1,35.0
+Ventilator,Medtronic,14,1,2,8.4
+Sphygmomanometers,Medtronic,27,2,1,2.0
+Sphygmomanometers,Nihon Kohden Corp,18,2,1,12.1
+Sphygmomanometers,Datex-Ohmeda Inc,3,0,1,46.9
+Physiologic Monitoring System,B. Braun Melsungen AG,1,1,1,37.0
+Radiographic System,Siemens Healthineers,8,0,1,34.3
+Physiologic Monitoring System,Nihon Kohden Corp,9,0,1,42.8
+Infusion Pump,Drager Medical AG & Co KGaA,27,0,2,12.5
+Infusion Pump,B. Braun Melsungen AG,10,0,2,38.8
+Radiographic System,Drager Medical AG & Co KGaA,13,2,1,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,6,0,1,42.0
+Ventilator,Datex-Ohmeda Inc,22,2,2,2.0
+Sphygmomanometers,Baxter Healthcare Corp,14,0,1,36.0
+Sphygmomanometers,Drager Medical AG & Co KGaA,21,0,1,27.5
+Radiographic System,Nihon Kohden Corp,30,0,2,2.0
+Infusion Pump,B. Braun Melsungen AG,18,0,2,24.6
+Infusion Pump,Blease Medical Equipment Ltd,21,0,2,19.6
+Sphygmomanometers,Medtronic,14,0,1,33.6
+Radiographic System,Welch Allyn Inc,29,1,1,2.0
+Physiologic Monitoring System,Physio-Control Inc,27,0,2,9.9
+Infusion Pump,Canon Inc (Toshiba Medical),23,0,1,18.1
+Physiologic Monitoring System,Medtronic,7,0,1,43.1
+Infusion Pump,GE Healthcare,10,2,1,8.6
+Infusion Pump,Baxter Healthcare Corp,28,2,1,2.0
+Defibrillator,Baxter Healthcare Corp,8,1,2,12.0
+Infusion Pump,Medtronic,14,0,2,25.2
+Ventilator,Canon Inc (Toshiba Medical),0,0,2,43.9
+Radiographic System,Blease Medical Equipment Ltd,29,2,1,2.0
+Radiographic System,Siemens Healthineers,0,0,1,42.7
+Physiologic Monitoring System,Datex-Ohmeda Inc,18,0,1,31.8
+Infusion Pump,Drager Medical AG & Co KGaA,2,0,1,46.4
+Ventilator,Nihon Kohden Corp,9,0,2,30.2
+Physiologic Monitoring System,Baxter Healthcare Corp,7,0,1,45.8
+Defibrillator,Medtronic,14,1,1,17.5
+Physiologic Monitoring System,Medtronic,9,0,1,36.7
+Physiologic Monitoring System,Datex-Ohmeda Inc,0,1,2,33.0
+Infusion Pump,Blease Medical Equipment Ltd,28,0,1,21.4
+Defibrillator,Datex-Ohmeda Inc,17,0,1,23.7
+Physiologic Monitoring System,Koninklijke Philips N.V.,1,2,1,33.2
+Ventilator,Blease Medical Equipment Ltd,18,0,2,20.9
+Ventilator,Koninklijke Philips N.V.,12,2,1,5.7
+Radiographic System,Siemens Healthineers,21,1,2,2.0
+Defibrillator,Med-Vantage Sdn Bhd,0,0,2,40.8
+Defibrillator,Welch Allyn Inc,1,2,1,20.5
+Radiographic System,Welch Allyn Inc,28,0,2,2.0
+Physiologic Monitoring System,Siemens Healthineers,15,2,1,7.3
+Defibrillator,GE Healthcare,14,0,2,20.4
+Ventilator,Med-Vantage Sdn Bhd,12,2,1,2.0
+Ventilator,Blease Medical Equipment Ltd,15,0,1,28.8
+Infusion Pump,Siemens Healthineers,16,1,1,13.7
+Defibrillator,B. Braun Melsungen AG,20,1,1,10.7
+Physiologic Monitoring System,Datex-Ohmeda Inc,28,2,2,2.0
+Radiographic System,Canon Inc (Toshiba Medical),28,2,1,2.0
+Radiographic System,Welch Allyn Inc,6,2,2,5.7
+Physiologic Monitoring System,Blease Medical Equipment Ltd,23,2,1,2.0
+Sphygmomanometers,Nihon Kohden Corp,25,0,2,16.7
+Infusion Pump,B. Braun Melsungen AG,16,0,1,25.2
+Radiographic System,Drager Medical AG & Co KGaA,6,0,1,35.7
+Defibrillator,Med-Vantage Sdn Bhd,12,0,1,31.8
+Infusion Pump,Medtronic,4,0,2,40.5
+Defibrillator,Siemens Healthineers,25,1,1,3.4
+Ventilator,Canon Inc (Toshiba Medical),16,0,1,22.8
+Infusion Pump,Medtronic,2,1,1,32.7
+Radiographic System,Blease Medical Equipment Ltd,6,0,2,28.7
+Infusion Pump,Baxter Healthcare Corp,25,0,1,17.2
+Infusion Pump,GE Healthcare,16,1,2,11.4
+Infusion Pump,Baxter Healthcare Corp,6,1,1,36.7
+Sphygmomanometers,GE Healthcare,20,1,2,14.6
+Infusion Pump,Koninklijke Philips N.V.,0,1,2,35.2
+Defibrillator,Med-Vantage Sdn Bhd,16,0,1,27.3
+Ventilator,Medtronic,29,1,1,2.0
+Physiologic Monitoring System,GE Healthcare,16,0,1,32.0
+Infusion Pump,Omron Healthcare Co Ltd,10,0,1,38.4
+Radiographic System,Welch Allyn Inc,24,0,1,12.9
+Infusion Pump,Omron Healthcare Co Ltd,26,0,2,7.0
+Radiographic System,Med-Vantage Sdn Bhd,28,0,1,6.7
+Defibrillator,Omron Healthcare Co Ltd,2,2,2,13.8
+Radiographic System,Physio-Control Inc,14,2,1,2.0
+Physiologic Monitoring System,Welch Allyn Inc,28,0,2,9.2
+Ventilator,B. Braun Melsungen AG,20,0,1,19.8
+Radiographic System,Canon Inc (Toshiba Medical),10,0,1,32.9
+Radiographic System,GE Healthcare,25,0,1,12.2
+Ventilator,GE Healthcare,27,2,1,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,15,0,1,34.4
+Infusion Pump,Medtronic,24,1,2,2.0
+Radiographic System,Medtronic,21,0,2,13.0
+Ventilator,Med-Vantage Sdn Bhd,27,2,1,2.0
+Defibrillator,Omron Healthcare Co Ltd,8,0,1,35.6
+Ventilator,Med-Vantage Sdn Bhd,23,1,1,2.0
+Defibrillator,B. Braun Melsungen AG,23,0,1,20.9
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,0,1,1,40.3
+Infusion Pump,Blease Medical Equipment Ltd,28,0,2,6.3
+Ventilator,Welch Allyn Inc,24,0,2,10.3
+Sphygmomanometers,Omron Healthcare Co Ltd,21,2,2,2.0
+Radiographic System,Baxter Healthcare Corp,15,2,1,2.0
+Physiologic Monitoring System,Physio-Control Inc,8,2,2,13.3
+Ventilator,Nihon Kohden Corp,18,1,2,2.0
+Radiographic System,Drager Medical AG & Co KGaA,11,2,1,2.0
+Ventilator,Physio-Control Inc,18,0,1,18.7
+Defibrillator,Medtronic,21,0,2,15.1
+Ventilator,Canon Inc (Toshiba Medical),8,0,1,38.4
+Sphygmomanometers,Nihon Kohden Corp,6,1,1,31.9
+Ventilator,Koninklijke Philips N.V.,13,0,1,26.0
+Ventilator,Siemens Healthineers,28,0,2,3.8
+Sphygmomanometers,Canon Inc (Toshiba Medical),18,1,1,17.9
+Physiologic Monitoring System,Omron Healthcare Co Ltd,18,2,2,2.0
+Ventilator,GE Healthcare,1,0,2,37.6
+Sphygmomanometers,Blease Medical Equipment Ltd,8,0,2,42.9
+Radiographic System,Blease Medical Equipment Ltd,12,0,1,31.2
+Defibrillator,B. Braun Melsungen AG,14,0,2,23.9
+Defibrillator,Canon Inc (Toshiba Medical),2,0,1,48.5
+Ventilator,B. Braun Melsungen AG,10,1,1,20.8
+Physiologic Monitoring System,GE Healthcare,20,1,1,16.4
+Physiologic Monitoring System,Omron Healthcare Co Ltd,13,1,1,20.4
+Radiographic System,Canon Inc (Toshiba Medical),29,0,2,2.0
+Ventilator,Siemens Healthineers,24,2,1,2.0
+Defibrillator,Drager Medical AG & Co KGaA,7,0,1,37.7
+Physiologic Monitoring System,Siemens Healthineers,17,1,1,17.5
+Ventilator,Nihon Kohden Corp,18,2,2,2.0
+Physiologic Monitoring System,Siemens Healthineers,15,0,2,32.4
+Sphygmomanometers,Blease Medical Equipment Ltd,1,0,2,50.5
+Physiologic Monitoring System,Nihon Kohden Corp,7,2,1,16.6
+Defibrillator,Siemens Healthineers,21,0,1,19.7
+Infusion Pump,Drager Medical AG & Co KGaA,5,1,2,30.8
+Radiographic System,Canon Inc (Toshiba Medical),11,0,1,31.7
+Radiographic System,Drager Medical AG & Co KGaA,14,1,1,17.0
+Defibrillator,Medtronic,24,0,2,9.6
+Physiologic Monitoring System,GE Healthcare,7,0,1,41.1
+Ventilator,Drager Medical AG & Co KGaA,3,1,2,21.9
+Physiologic Monitoring System,Nihon Kohden Corp,14,0,1,32.8
+Defibrillator,Drager Medical AG & Co KGaA,27,0,1,9.2
+Radiographic System,Medtronic,19,0,1,20.0
+Physiologic Monitoring System,B. Braun Melsungen AG,24,0,1,21.6
+Radiographic System,Nihon Kohden Corp,16,0,2,21.5
+Ventilator,Medtronic,12,0,2,20.0
+Radiographic System,Blease Medical Equipment Ltd,17,2,1,2.0
+Radiographic System,Baxter Healthcare Corp,1,0,1,44.7
+Infusion Pump,Baxter Healthcare Corp,12,1,2,18.4
+Infusion Pump,Koninklijke Philips N.V.,12,0,2,30.5
+Sphygmomanometers,Siemens Healthineers,21,0,1,30.9
+Infusion Pump,GE Healthcare,14,2,1,5.3
+Radiographic System,Datex-Ohmeda Inc,19,0,1,17.5
+Defibrillator,Physio-Control Inc,28,2,2,2.0
+Radiographic System,Medtronic,26,0,2,2.0
+Defibrillator,B. Braun Melsungen AG,9,1,1,23.1
+Defibrillator,Physio-Control Inc,28,1,2,2.0
+Infusion Pump,B. Braun Melsungen AG,2,2,1,21.6
+Physiologic Monitoring System,Blease Medical Equipment Ltd,18,1,1,13.8
+Ventilator,Welch Allyn Inc,2,1,1,29.9
+Infusion Pump,Welch Allyn Inc,21,0,2,16.7
+Infusion Pump,Welch Allyn Inc,13,0,1,34.7
+Physiologic Monitoring System,Physio-Control Inc,7,2,1,19.0
+Ventilator,Med-Vantage Sdn Bhd,26,0,1,10.5
+Radiographic System,Medtronic,22,0,1,14.5
+Sphygmomanometers,Datex-Ohmeda Inc,29,1,1,5.3
+Sphygmomanometers,Physio-Control Inc,3,0,2,46.0
+Radiographic System,Medtronic,26,2,1,2.0
+Infusion Pump,Drager Medical AG & Co KGaA,27,1,2,2.0
+Ventilator,Blease Medical Equipment Ltd,19,1,1,10.5
+Infusion Pump,Datex-Ohmeda Inc,10,2,1,14.5
+Defibrillator,Welch Allyn Inc,25,0,1,11.2
+Infusion Pump,Nihon Kohden Corp,30,0,1,10.6
+Infusion Pump,Blease Medical Equipment Ltd,10,1,1,25.4
+Radiographic System,B. Braun Melsungen AG,26,0,1,12.4
+Radiographic System,Welch Allyn Inc,29,1,2,2.0
+Radiographic System,Baxter Healthcare Corp,10,2,2,2.0
+Sphygmomanometers,Siemens Healthineers,1,0,1,53.8
+Defibrillator,Baxter Healthcare Corp,29,0,1,11.3
+Radiographic System,Welch Allyn Inc,16,2,1,2.0
+Ventilator,Blease Medical Equipment Ltd,8,0,1,38.7
+Sphygmomanometers,Datex-Ohmeda Inc,27,1,1,4.0
+Physiologic Monitoring System,Nihon Kohden Corp,30,0,2,9.7
+Ventilator,B. Braun Melsungen AG,27,2,1,2.0
+Ventilator,Med-Vantage Sdn Bhd,1,1,1,34.1
+Radiographic System,Nihon Kohden Corp,28,1,1,2.0
+Physiologic Monitoring System,Physio-Control Inc,23,2,1,2.0
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),14,0,2,28.2
+Sphygmomanometers,B. Braun Melsungen AG,15,0,1,33.5
+Physiologic Monitoring System,Welch Allyn Inc,24,2,1,2.0
+Defibrillator,Physio-Control Inc,3,0,2,34.5
+Radiographic System,Canon Inc (Toshiba Medical),7,1,1,21.3
+Physiologic Monitoring System,Medtronic,8,2,2,12.4
+Sphygmomanometers,Datex-Ohmeda Inc,25,1,2,4.5
+Defibrillator,Omron Healthcare Co Ltd,25,1,1,2.5
+Infusion Pump,Medtronic,4,2,2,18.9
+Infusion Pump,Koninklijke Philips N.V.,15,2,1,5.2
+Defibrillator,Nihon Kohden Corp,12,0,1,37.3
+Sphygmomanometers,Omron Healthcare Co Ltd,29,0,1,19.2
+Defibrillator,Physio-Control Inc,6,0,1,38.7
+Radiographic System,Drager Medical AG & Co KGaA,25,1,2,2.0
+Radiographic System,Medtronic,19,1,2,2.0
+Infusion Pump,Koninklijke Philips N.V.,16,1,2,12.6
+Physiologic Monitoring System,GE Healthcare,2,0,2,39.0
+Sphygmomanometers,Omron Healthcare Co Ltd,4,1,1,40.4
+Infusion Pump,Baxter Healthcare Corp,18,0,1,20.6
+Physiologic Monitoring System,B. Braun Melsungen AG,11,1,1,25.3
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,28,1,1,2.0
+Radiographic System,Med-Vantage Sdn Bhd,26,0,1,8.4
+Ventilator,Koninklijke Philips N.V.,6,0,2,30.8
+Ventilator,Datex-Ohmeda Inc,27,1,1,2.2
+Defibrillator,Omron Healthcare Co Ltd,8,1,1,21.3
+Radiographic System,Medtronic,30,0,1,7.3
+Physiologic Monitoring System,Datex-Ohmeda Inc,27,2,2,2.0
+Sphygmomanometers,Med-Vantage Sdn Bhd,5,1,2,25.2
+Ventilator,Baxter Healthcare Corp,28,2,2,2.0
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,25,0,1,23.2
+Ventilator,Nihon Kohden Corp,16,1,2,3.4
+Ventilator,Nihon Kohden Corp,15,2,1,3.5
+Ventilator,Welch Allyn Inc,22,1,2,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,30,1,1,3.3
+Radiographic System,Blease Medical Equipment Ltd,2,0,1,41.6
+Sphygmomanometers,Physio-Control Inc,20,0,1,29.9
+Infusion Pump,Drager Medical AG & Co KGaA,25,0,2,11.1
+Physiologic Monitoring System,Nihon Kohden Corp,3,0,1,47.4
+Radiographic System,Drager Medical AG & Co KGaA,9,0,2,28.2
+Radiographic System,Koninklijke Philips N.V.,4,0,1,39.2
+Radiographic System,Drager Medical AG & Co KGaA,20,2,1,2.0
+Radiographic System,Siemens Healthineers,21,0,1,14.9
+Sphygmomanometers,Baxter Healthcare Corp,29,1,1,6.4
+Radiographic System,Nihon Kohden Corp,9,2,1,7.6
+Defibrillator,Drager Medical AG & Co KGaA,11,1,1,16.2
+Physiologic Monitoring System,Datex-Ohmeda Inc,9,0,2,34.0
+Radiographic System,GE Healthcare,28,1,1,2.0
+Physiologic Monitoring System,Siemens Healthineers,12,1,2,16.6
+Defibrillator,Siemens Healthineers,10,1,2,15.3
+Defibrillator,Physio-Control Inc,21,1,2,3.7
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,15,2,1,5.9
+Ventilator,Welch Allyn Inc,7,1,1,24.0
+Infusion Pump,Physio-Control Inc,7,0,1,42.1
+Ventilator,Canon Inc (Toshiba Medical),26,1,2,2.0
+Ventilator,Physio-Control Inc,24,0,2,7.9
+Sphygmomanometers,GE Healthcare,7,2,1,23.1
+Ventilator,Koninklijke Philips N.V.,12,0,1,29.8
+Radiographic System,Drager Medical AG & Co KGaA,26,0,2,6.6
+Sphygmomanometers,Medtronic,1,2,1,31.9
+Sphygmomanometers,Med-Vantage Sdn Bhd,29,1,2,2.0
+Defibrillator,Nihon Kohden Corp,29,0,1,4.5
+Ventilator,Physio-Control Inc,11,1,2,13.9
+Defibrillator,Baxter Healthcare Corp,9,2,1,8.8
+Physiologic Monitoring System,B. Braun Melsungen AG,11,0,1,42.2
+Infusion Pump,Baxter Healthcare Corp,10,2,2,9.0
+Sphygmomanometers,GE Healthcare,14,0,2,30.3
+Physiologic Monitoring System,GE Healthcare,15,1,1,21.4
+Physiologic Monitoring System,Datex-Ohmeda Inc,16,2,1,6.4
+Radiographic System,Canon Inc (Toshiba Medical),25,0,2,2.2
+Infusion Pump,Canon Inc (Toshiba Medical),1,0,2,46.9
+Physiologic Monitoring System,Koninklijke Philips N.V.,17,0,2,23.9
+Physiologic Monitoring System,Welch Allyn Inc,11,1,2,23.8
+Infusion Pump,Nihon Kohden Corp,18,1,1,14.8
+Infusion Pump,Omron Healthcare Co Ltd,25,1,1,9.6
+Physiologic Monitoring System,Physio-Control Inc,22,0,2,19.5
+Infusion Pump,Baxter Healthcare Corp,17,0,2,26.3
+Physiologic Monitoring System,B. Braun Melsungen AG,29,0,1,13.1
+Physiologic Monitoring System,GE Healthcare,16,0,1,32.1
+Radiographic System,GE Healthcare,29,1,2,2.0
+Ventilator,Koninklijke Philips N.V.,5,2,1,13.2
+Physiologic Monitoring System,B. Braun Melsungen AG,24,1,1,4.6
+Defibrillator,Blease Medical Equipment Ltd,14,0,1,25.9
+Sphygmomanometers,B. Braun Melsungen AG,2,2,2,20.2
+Ventilator,Koninklijke Philips N.V.,5,1,2,22.7
+Ventilator,GE Healthcare,2,2,1,17.0
+Ventilator,Nihon Kohden Corp,29,1,2,2.0
+Radiographic System,Drager Medical AG & Co KGaA,28,0,2,2.2
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,0,0,1,54.7
+Radiographic System,Koninklijke Philips N.V.,29,1,2,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,12,0,1,37.0
+Radiographic System,Physio-Control Inc,27,0,1,7.5
+Radiographic System,Koninklijke Philips N.V.,20,1,1,8.4
+Sphygmomanometers,Nihon Kohden Corp,25,1,1,13.1
+Defibrillator,Koninklijke Philips N.V.,13,1,1,17.5
+Radiographic System,Siemens Healthineers,12,0,2,21.9
+Sphygmomanometers,Canon Inc (Toshiba Medical),26,0,2,12.2
+Infusion Pump,Baxter Healthcare Corp,3,1,2,27.4
+Defibrillator,B. Braun Melsungen AG,6,2,1,8.8
+Radiographic System,Welch Allyn Inc,21,1,1,2.0
+Ventilator,Datex-Ohmeda Inc,9,2,1,9.2
+Infusion Pump,Med-Vantage Sdn Bhd,6,1,1,30.6
+Infusion Pump,Datex-Ohmeda Inc,20,1,1,18.3
+Sphygmomanometers,B. Braun Melsungen AG,14,0,2,30.9
+Infusion Pump,Welch Allyn Inc,14,1,2,14.2
+Defibrillator,Omron Healthcare Co Ltd,3,1,1,33.3
+Radiographic System,Nihon Kohden Corp,22,1,1,2.0
+Radiographic System,Siemens Healthineers,22,1,2,2.0
+Ventilator,Siemens Healthineers,5,1,1,27.7
+Sphygmomanometers,Med-Vantage Sdn Bhd,23,0,2,19.6
+Ventilator,GE Healthcare,19,1,2,2.4
+Infusion Pump,Baxter Healthcare Corp,25,0,2,11.2
+Ventilator,Drager Medical AG & Co KGaA,4,2,1,15.4
+Defibrillator,Medtronic,19,0,2,15.3
+Radiographic System,Nihon Kohden Corp,11,0,1,29.9
+Infusion Pump,Med-Vantage Sdn Bhd,0,0,2,43.1
+Ventilator,Medtronic,27,1,1,2.0
+Sphygmomanometers,Blease Medical Equipment Ltd,7,0,1,51.0
+Defibrillator,Medtronic,0,0,1,45.9
+Defibrillator,B. Braun Melsungen AG,4,1,1,29.0
+Ventilator,Med-Vantage Sdn Bhd,30,0,2,2.0
+Radiographic System,Datex-Ohmeda Inc,21,2,2,2.0
+Ventilator,Datex-Ohmeda Inc,5,2,2,9.7
+Infusion Pump,Drager Medical AG & Co KGaA,28,1,1,2.7
+Ventilator,Med-Vantage Sdn Bhd,20,0,2,14.7
+Defibrillator,B. Braun Melsungen AG,2,1,1,31.4
+Ventilator,Medtronic,14,0,2,22.1
+Radiographic System,Welch Allyn Inc,4,1,2,20.8
+Sphygmomanometers,Blease Medical Equipment Ltd,27,0,1,15.4
+Physiologic Monitoring System,Omron Healthcare Co Ltd,23,2,2,2.0
+Ventilator,Canon Inc (Toshiba Medical),13,0,1,29.9
+Radiographic System,Physio-Control Inc,17,1,1,7.0
+Radiographic System,Datex-Ohmeda Inc,15,1,1,12.6
+Sphygmomanometers,Nihon Kohden Corp,5,1,1,32.6
+Defibrillator,Welch Allyn Inc,24,0,2,9.6
+Radiographic System,Nihon Kohden Corp,23,2,1,2.0
+Radiographic System,GE Healthcare,13,1,1,14.5
+Radiographic System,Med-Vantage Sdn Bhd,26,1,2,2.0
+Radiographic System,Koninklijke Philips N.V.,23,0,2,10.1
+Infusion Pump,Physio-Control Inc,7,1,2,26.1
+Infusion Pump,Datex-Ohmeda Inc,30,0,2,4.9
+Defibrillator,Blease Medical Equipment Ltd,28,0,2,6.0
+Ventilator,Siemens Healthineers,6,0,1,35.0
+Radiographic System,Datex-Ohmeda Inc,7,2,1,11.2
+Sphygmomanometers,Welch Allyn Inc,12,0,1,37.7
+Ventilator,GE Healthcare,5,0,1,40.5
+Sphygmomanometers,Nihon Kohden Corp,17,1,2,10.9
+Ventilator,Medtronic,1,1,1,28.7
+Defibrillator,Siemens Healthineers,7,0,2,30.1
+Radiographic System,B. Braun Melsungen AG,10,1,1,19.0
+Radiographic System,Baxter Healthcare Corp,0,0,1,45.4
+Physiologic Monitoring System,Medtronic,21,0,1,25.4
+Sphygmomanometers,Baxter Healthcare Corp,28,0,2,12.3
+Ventilator,Physio-Control Inc,5,2,2,2.0
+Ventilator,Omron Healthcare Co Ltd,15,0,2,20.6
+Infusion Pump,Koninklijke Philips N.V.,26,0,1,19.2
+Physiologic Monitoring System,Omron Healthcare Co Ltd,19,0,2,29.0
+Infusion Pump,Siemens Healthineers,11,2,1,10.6
+Infusion Pump,Drager Medical AG & Co KGaA,10,0,1,36.3
+Infusion Pump,Siemens Healthineers,28,0,2,10.4
+Sphygmomanometers,Omron Healthcare Co Ltd,30,0,1,15.4
+Sphygmomanometers,Datex-Ohmeda Inc,26,0,2,19.4
+Defibrillator,Welch Allyn Inc,28,1,1,2.0
+Defibrillator,Nihon Kohden Corp,9,1,2,17.2
+Infusion Pump,Datex-Ohmeda Inc,2,0,2,45.6
+Physiologic Monitoring System,Datex-Ohmeda Inc,12,0,1,37.2
+Ventilator,Welch Allyn Inc,26,0,2,9.1
+Sphygmomanometers,Welch Allyn Inc,2,0,1,51.3
+Physiologic Monitoring System,Physio-Control Inc,30,0,2,11.2
+Radiographic System,Medtronic,14,1,1,9.1
+Sphygmomanometers,Drager Medical AG & Co KGaA,15,2,1,6.4
+Sphygmomanometers,Drager Medical AG & Co KGaA,28,2,1,2.0
+Defibrillator,Datex-Ohmeda Inc,12,2,1,6.4
+Ventilator,Baxter Healthcare Corp,16,1,2,9.0
+Ventilator,Physio-Control Inc,2,1,1,30.1
+Radiographic System,Med-Vantage Sdn Bhd,19,0,1,19.3
+Radiographic System,Med-Vantage Sdn Bhd,10,1,1,15.2
+Sphygmomanometers,Blease Medical Equipment Ltd,26,1,1,8.6
+Infusion Pump,Datex-Ohmeda Inc,20,1,2,10.9
+Defibrillator,Koninklijke Philips N.V.,18,1,2,6.2
+Defibrillator,Nihon Kohden Corp,21,0,1,21.4
+Sphygmomanometers,Welch Allyn Inc,10,0,2,38.6
+Physiologic Monitoring System,Medtronic,29,2,2,2.0
+Infusion Pump,B. Braun Melsungen AG,30,0,1,14.1
+Sphygmomanometers,Welch Allyn Inc,27,1,2,2.0
+Infusion Pump,Koninklijke Philips N.V.,15,2,1,5.9
+Infusion Pump,Baxter Healthcare Corp,20,1,2,12.7
+Infusion Pump,Siemens Healthineers,2,1,2,32.4
+Sphygmomanometers,Canon Inc (Toshiba Medical),21,0,1,26.1
+Defibrillator,Siemens Healthineers,5,0,2,35.7
+Defibrillator,Omron Healthcare Co Ltd,30,2,2,2.0
+Infusion Pump,Koninklijke Philips N.V.,13,1,1,25.8
+Physiologic Monitoring System,Omron Healthcare Co Ltd,23,1,2,4.7
+Ventilator,Datex-Ohmeda Inc,17,0,1,28.4
+Sphygmomanometers,B. Braun Melsungen AG,16,0,2,26.0
+Ventilator,GE Healthcare,3,2,2,11.0
+Physiologic Monitoring System,Welch Allyn Inc,22,0,1,21.5
+Sphygmomanometers,GE Healthcare,14,1,1,23.1
+Infusion Pump,Baxter Healthcare Corp,10,0,2,31.8
+Defibrillator,Datex-Ohmeda Inc,25,1,1,2.0
+Ventilator,Drager Medical AG & Co KGaA,2,2,1,21.7
+Radiographic System,Welch Allyn Inc,2,1,1,32.5
+Radiographic System,Omron Healthcare Co Ltd,15,0,1,25.5
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,4,1,1,33.1
+Infusion Pump,Medtronic,20,1,1,10.8
+Ventilator,Blease Medical Equipment Ltd,28,0,1,10.5
+Infusion Pump,B. Braun Melsungen AG,9,2,2,10.1
+Ventilator,Blease Medical Equipment Ltd,18,1,1,8.7
+Physiologic Monitoring System,B. Braun Melsungen AG,24,2,1,2.0
+Physiologic Monitoring System,Siemens Healthineers,3,1,1,37.8
+Radiographic System,Physio-Control Inc,28,0,2,2.2
+Infusion Pump,Welch Allyn Inc,28,0,1,12.6
+Sphygmomanometers,Omron Healthcare Co Ltd,30,0,1,12.7
+Radiographic System,Blease Medical Equipment Ltd,18,2,1,2.0
+Infusion Pump,Baxter Healthcare Corp,10,1,2,25.9
+Radiographic System,GE Healthcare,1,1,2,22.4
+Sphygmomanometers,Med-Vantage Sdn Bhd,9,0,2,41.0
+Defibrillator,Canon Inc (Toshiba Medical),28,0,2,3.9
+Defibrillator,Baxter Healthcare Corp,10,1,2,15.3
+Defibrillator,Drager Medical AG & Co KGaA,24,1,1,5.6
+Defibrillator,Drager Medical AG & Co KGaA,19,0,2,16.7
+Ventilator,Blease Medical Equipment Ltd,15,1,1,13.6
+Defibrillator,Canon Inc (Toshiba Medical),18,0,2,19.2
+Sphygmomanometers,Koninklijke Philips N.V.,22,0,2,19.7
+Physiologic Monitoring System,Medtronic,23,1,1,11.8
+Physiologic Monitoring System,Welch Allyn Inc,10,0,1,38.8
+Ventilator,B. Braun Melsungen AG,13,2,1,2.0
+Defibrillator,Nihon Kohden Corp,1,0,2,38.5
+Defibrillator,Med-Vantage Sdn Bhd,22,0,2,5.6
+Defibrillator,Omron Healthcare Co Ltd,27,0,2,7.0
+Radiographic System,Baxter Healthcare Corp,4,1,1,29.6
+Infusion Pump,Omron Healthcare Co Ltd,30,0,2,4.4
+Radiographic System,Drager Medical AG & Co KGaA,26,1,2,2.0
+Infusion Pump,Physio-Control Inc,4,0,2,41.9
+Defibrillator,Siemens Healthineers,18,0,1,21.7
+Defibrillator,GE Healthcare,20,0,1,24.8
+Radiographic System,Medtronic,11,2,2,2.0
+Radiographic System,Physio-Control Inc,17,2,2,2.0
+Infusion Pump,Medtronic,3,0,2,38.0
+Physiologic Monitoring System,Koninklijke Philips N.V.,21,1,1,11.5
+Infusion Pump,Nihon Kohden Corp,16,2,1,4.8
+Radiographic System,Blease Medical Equipment Ltd,9,0,2,27.2
+Sphygmomanometers,Blease Medical Equipment Ltd,19,2,1,7.1
+Radiographic System,Drager Medical AG & Co KGaA,5,0,2,41.0
+Sphygmomanometers,Siemens Healthineers,24,2,1,2.0
+Ventilator,Canon Inc (Toshiba Medical),13,1,1,15.7
+Radiographic System,Welch Allyn Inc,10,2,2,2.0
+Ventilator,Canon Inc (Toshiba Medical),10,1,2,9.8
+Physiologic Monitoring System,Physio-Control Inc,28,0,1,18.5
+Infusion Pump,Medtronic,17,2,1,2.5
+Sphygmomanometers,B. Braun Melsungen AG,26,0,2,22.7
+Infusion Pump,Koninklijke Philips N.V.,22,0,1,24.6
+Ventilator,B. Braun Melsungen AG,21,1,2,2.0
+Sphygmomanometers,Siemens Healthineers,17,1,1,21.4
+Infusion Pump,Welch Allyn Inc,23,2,2,2.0
+Radiographic System,Welch Allyn Inc,22,0,2,8.7
+Defibrillator,Physio-Control Inc,10,1,2,12.1
+Ventilator,Omron Healthcare Co Ltd,20,1,1,5.1
+Infusion Pump,Koninklijke Philips N.V.,11,0,2,31.7
+Ventilator,Med-Vantage Sdn Bhd,4,0,1,38.2
+Ventilator,Welch Allyn Inc,22,0,1,13.2
+Sphygmomanometers,Welch Allyn Inc,8,0,2,37.7
+Sphygmomanometers,Physio-Control Inc,26,2,2,2.0
+Defibrillator,Drager Medical AG & Co KGaA,30,1,2,2.0
+Radiographic System,Datex-Ohmeda Inc,24,1,1,2.0
+Ventilator,Koninklijke Philips N.V.,8,2,1,11.1
+Infusion Pump,B. Braun Melsungen AG,21,0,1,20.9
+Physiologic Monitoring System,Siemens Healthineers,9,2,2,8.3
+Ventilator,Welch Allyn Inc,21,0,2,13.5
+Ventilator,Welch Allyn Inc,18,2,1,2.0
+Defibrillator,Blease Medical Equipment Ltd,0,0,2,42.3
+Radiographic System,Nihon Kohden Corp,6,2,1,8.0
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,3,0,1,44.0
+Sphygmomanometers,Welch Allyn Inc,0,0,1,56.8
+Sphygmomanometers,Datex-Ohmeda Inc,14,1,1,26.9
+Infusion Pump,Nihon Kohden Corp,7,0,1,40.3
+Physiologic Monitoring System,Blease Medical Equipment Ltd,11,1,2,16.4
+Sphygmomanometers,GE Healthcare,21,0,1,22.2
+Infusion Pump,Drager Medical AG & Co KGaA,21,1,2,10.8
+Radiographic System,Siemens Healthineers,17,0,1,22.2
+Infusion Pump,Medtronic,14,0,2,26.3
+Sphygmomanometers,Koninklijke Philips N.V.,16,0,2,28.3
+Defibrillator,Physio-Control Inc,28,1,2,2.0
+Defibrillator,Siemens Healthineers,13,0,1,31.6
+Defibrillator,Med-Vantage Sdn Bhd,13,0,2,30.1
+Sphygmomanometers,Koninklijke Philips N.V.,17,0,2,25.9
+Defibrillator,Nihon Kohden Corp,19,0,1,28.3
+Physiologic Monitoring System,Omron Healthcare Co Ltd,17,1,1,17.1
+Radiographic System,Physio-Control Inc,15,2,1,3.7
+Infusion Pump,Baxter Healthcare Corp,0,0,2,46.8
+Infusion Pump,B. Braun Melsungen AG,22,1,1,10.7
+Sphygmomanometers,GE Healthcare,26,1,1,13.3
+Defibrillator,Drager Medical AG & Co KGaA,10,0,1,36.0
+Defibrillator,Welch Allyn Inc,14,1,1,17.2
+Ventilator,Omron Healthcare Co Ltd,11,0,2,20.8
+Radiographic System,Blease Medical Equipment Ltd,7,1,1,18.6
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,21,0,2,20.8
+Infusion Pump,Omron Healthcare Co Ltd,19,1,2,12.5
+Ventilator,Siemens Healthineers,29,1,1,2.0
+Ventilator,GE Healthcare,5,0,2,32.0
+Sphygmomanometers,Medtronic,2,0,1,47.8
+Infusion Pump,Canon Inc (Toshiba Medical),27,2,2,2.0
+Sphygmomanometers,Koninklijke Philips N.V.,23,0,1,25.4
+Physiologic Monitoring System,Koninklijke Philips N.V.,25,1,2,2.0
+Ventilator,Siemens Healthineers,29,2,1,2.0
+Ventilator,Datex-Ohmeda Inc,12,1,1,16.8
+Radiographic System,Datex-Ohmeda Inc,12,1,2,14.5
+Physiologic Monitoring System,Welch Allyn Inc,1,1,1,39.9
+Ventilator,Med-Vantage Sdn Bhd,4,2,2,10.5
+Physiologic Monitoring System,Baxter Healthcare Corp,16,1,1,19.2
+Infusion Pump,B. Braun Melsungen AG,5,1,2,28.4
+Defibrillator,Physio-Control Inc,1,0,1,45.4
+Ventilator,Medtronic,3,2,2,10.1
+Radiographic System,Welch Allyn Inc,21,1,1,6.0
+Infusion Pump,GE Healthcare,25,0,1,17.9
+Physiologic Monitoring System,Datex-Ohmeda Inc,10,2,1,11.0
+Sphygmomanometers,Baxter Healthcare Corp,7,1,2,32.0
+Infusion Pump,Baxter Healthcare Corp,11,0,1,32.0
+Ventilator,Med-Vantage Sdn Bhd,7,1,2,22.2
+Physiologic Monitoring System,Siemens Healthineers,10,0,2,35.3
+Defibrillator,Medtronic,21,2,1,2.0
+Infusion Pump,Nihon Kohden Corp,19,0,2,21.4
+Ventilator,Physio-Control Inc,7,2,1,9.8
+Radiographic System,Med-Vantage Sdn Bhd,28,1,1,2.0
+Sphygmomanometers,B. Braun Melsungen AG,7,0,2,42.9
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,25,2,2,2.0
+Infusion Pump,Med-Vantage Sdn Bhd,29,1,2,2.0
+Infusion Pump,Drager Medical AG & Co KGaA,16,0,1,29.9
+Defibrillator,Siemens Healthineers,19,1,1,14.2
+Defibrillator,Physio-Control Inc,19,2,1,2.0
+Radiographic System,Drager Medical AG & Co KGaA,22,0,2,9.2
+Sphygmomanometers,Drager Medical AG & Co KGaA,15,0,1,37.5
+Radiographic System,Blease Medical Equipment Ltd,13,0,2,23.9
+Ventilator,Medtronic,29,0,1,6.7
+Ventilator,Blease Medical Equipment Ltd,10,1,1,18.7
+Radiographic System,Medtronic,6,1,1,26.7
+Sphygmomanometers,Welch Allyn Inc,15,0,1,35.5
+Radiographic System,GE Healthcare,12,0,1,29.1
+Sphygmomanometers,Baxter Healthcare Corp,26,0,2,19.7
+Sphygmomanometers,Physio-Control Inc,14,2,2,13.1
+Physiologic Monitoring System,Siemens Healthineers,23,0,1,20.8
+Sphygmomanometers,Welch Allyn Inc,15,2,1,9.9
+Defibrillator,Canon Inc (Toshiba Medical),26,1,1,2.0
+Sphygmomanometers,Med-Vantage Sdn Bhd,20,0,2,24.2
+Sphygmomanometers,Koninklijke Philips N.V.,22,2,1,2.3
+Sphygmomanometers,Siemens Healthineers,23,1,2,6.4
+Ventilator,GE Healthcare,30,1,1,2.0
+Defibrillator,B. Braun Melsungen AG,8,2,1,16.0
+Defibrillator,Omron Healthcare Co Ltd,2,0,2,40.9
+Radiographic System,Omron Healthcare Co Ltd,18,0,1,19.6
+Physiologic Monitoring System,Baxter Healthcare Corp,19,1,2,10.9
+Sphygmomanometers,Omron Healthcare Co Ltd,4,0,1,54.4
+Infusion Pump,Omron Healthcare Co Ltd,9,0,1,37.3
+Physiologic Monitoring System,Koninklijke Philips N.V.,16,0,1,31.7
+Physiologic Monitoring System,Datex-Ohmeda Inc,14,0,2,25.3
+Defibrillator,Blease Medical Equipment Ltd,30,1,2,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,22,0,1,24.9
+Sphygmomanometers,Blease Medical Equipment Ltd,24,1,2,3.5
+Sphygmomanometers,Medtronic,7,1,1,32.9
+Ventilator,Drager Medical AG & Co KGaA,14,0,1,28.8
+Sphygmomanometers,Datex-Ohmeda Inc,30,0,1,17.5
+Sphygmomanometers,Blease Medical Equipment Ltd,20,1,1,13.6
+Defibrillator,Siemens Healthineers,29,0,1,10.2
+Sphygmomanometers,Siemens Healthineers,13,1,2,22.0
+Ventilator,Blease Medical Equipment Ltd,19,2,1,2.0
+Infusion Pump,Med-Vantage Sdn Bhd,27,0,1,18.6
+Defibrillator,Blease Medical Equipment Ltd,6,1,1,25.2
+Infusion Pump,Omron Healthcare Co Ltd,20,1,2,8.5
+Defibrillator,Medtronic,22,0,2,10.5
+Radiographic System,GE Healthcare,11,2,1,2.0
+Physiologic Monitoring System,Physio-Control Inc,16,2,1,8.2
+Radiographic System,Datex-Ohmeda Inc,16,0,1,23.3
+Sphygmomanometers,Datex-Ohmeda Inc,9,1,1,29.6
+Infusion Pump,Blease Medical Equipment Ltd,29,2,1,2.0
+Sphygmomanometers,Nihon Kohden Corp,28,2,1,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,18,1,1,12.3
+Defibrillator,Baxter Healthcare Corp,13,1,1,20.1
+Physiologic Monitoring System,B. Braun Melsungen AG,10,0,1,40.1
+Ventilator,Physio-Control Inc,1,2,2,10.1
+Physiologic Monitoring System,Siemens Healthineers,17,0,2,25.2
+Ventilator,Blease Medical Equipment Ltd,6,1,2,26.3
+Physiologic Monitoring System,Siemens Healthineers,11,0,1,40.7
+Ventilator,Siemens Healthineers,25,0,1,10.4
+Infusion Pump,Nihon Kohden Corp,1,0,1,51.5
+Sphygmomanometers,Siemens Healthineers,26,2,2,2.0
+Sphygmomanometers,Physio-Control Inc,19,0,1,26.9
+Radiographic System,Welch Allyn Inc,17,1,2,4.2
+Sphygmomanometers,Medtronic,5,0,2,44.9
+Defibrillator,Canon Inc (Toshiba Medical),23,0,1,19.1
+Physiologic Monitoring System,Baxter Healthcare Corp,9,0,2,37.4
+Radiographic System,Blease Medical Equipment Ltd,19,1,1,8.0
+Defibrillator,Med-Vantage Sdn Bhd,14,0,1,24.8
+Defibrillator,Physio-Control Inc,4,0,1,41.6
+Ventilator,Omron Healthcare Co Ltd,19,0,1,22.7
+Sphygmomanometers,Welch Allyn Inc,2,0,2,48.5
+Infusion Pump,Baxter Healthcare Corp,4,2,1,21.3
+Infusion Pump,Physio-Control Inc,29,2,1,2.0
+Radiographic System,Welch Allyn Inc,24,0,2,8.6
+Infusion Pump,Siemens Healthineers,7,1,2,19.5
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,7,2,1,20.8
+Infusion Pump,Medtronic,7,0,2,36.6
+Radiographic System,Blease Medical Equipment Ltd,11,2,2,2.0
+Infusion Pump,Datex-Ohmeda Inc,23,2,1,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,22,0,1,27.6
+Ventilator,Drager Medical AG & Co KGaA,7,0,1,33.0
+Radiographic System,Canon Inc (Toshiba Medical),10,2,2,7.4
+Ventilator,Medtronic,13,1,2,15.9
+Ventilator,Datex-Ohmeda Inc,7,0,2,27.6
+Ventilator,GE Healthcare,28,0,1,10.6
+Defibrillator,Blease Medical Equipment Ltd,29,0,1,6.8
+Sphygmomanometers,Physio-Control Inc,23,1,1,11.0
+Defibrillator,GE Healthcare,27,1,1,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,9,2,2,14.4
+Ventilator,Medtronic,6,0,2,33.0
+Radiographic System,Physio-Control Inc,27,1,1,2.0
+Sphygmomanometers,Blease Medical Equipment Ltd,16,1,1,22.8
+Physiologic Monitoring System,Omron Healthcare Co Ltd,3,0,1,47.6
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,28,0,1,11.0
+Infusion Pump,Siemens Healthineers,12,2,1,9.3
+Sphygmomanometers,Physio-Control Inc,3,2,1,30.3
+Radiographic System,Omron Healthcare Co Ltd,4,1,1,25.3
+Defibrillator,Blease Medical Equipment Ltd,25,1,1,2.0
+Ventilator,Blease Medical Equipment Ltd,21,0,1,19.7
+Infusion Pump,Physio-Control Inc,3,1,1,32.3
+Physiologic Monitoring System,Medtronic,30,1,2,2.0
+Defibrillator,Omron Healthcare Co Ltd,17,1,1,12.0
+Defibrillator,Medtronic,5,2,2,14.9
+Ventilator,Welch Allyn Inc,30,1,1,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,23,0,1,22.2
+Physiologic Monitoring System,Koninklijke Philips N.V.,30,1,1,2.0
+Radiographic System,Physio-Control Inc,23,0,1,11.0
+Defibrillator,Canon Inc (Toshiba Medical),22,0,2,12.9
+Ventilator,Blease Medical Equipment Ltd,21,0,1,22.1
+Radiographic System,B. Braun Melsungen AG,1,0,2,40.8
+Sphygmomanometers,Physio-Control Inc,30,1,2,3.6
+Physiologic Monitoring System,Datex-Ohmeda Inc,22,1,1,12.1
+Sphygmomanometers,Med-Vantage Sdn Bhd,10,1,1,29.9
+Defibrillator,Med-Vantage Sdn Bhd,27,1,2,2.0
+Radiographic System,Baxter Healthcare Corp,13,0,1,27.8
+Radiographic System,Canon Inc (Toshiba Medical),29,2,2,2.0
+Radiographic System,Blease Medical Equipment Ltd,4,0,1,40.7
+Defibrillator,GE Healthcare,5,0,1,37.7
+Defibrillator,Blease Medical Equipment Ltd,9,1,1,22.9
+Sphygmomanometers,Welch Allyn Inc,7,0,1,42.0
+Infusion Pump,Siemens Healthineers,13,0,2,29.9
+Sphygmomanometers,Omron Healthcare Co Ltd,23,1,1,14.3
+Physiologic Monitoring System,Blease Medical Equipment Ltd,2,1,2,27.8
+Ventilator,Koninklijke Philips N.V.,11,0,1,27.4
+Radiographic System,Drager Medical AG & Co KGaA,15,2,1,2.0
+Infusion Pump,Med-Vantage Sdn Bhd,27,1,1,3.0
+Ventilator,Drager Medical AG & Co KGaA,29,2,1,2.0
+Infusion Pump,Drager Medical AG & Co KGaA,22,0,1,25.8
+Sphygmomanometers,Medtronic,16,1,1,22.8
+Defibrillator,Drager Medical AG & Co KGaA,0,2,2,18.5
+Radiographic System,Siemens Healthineers,22,1,1,2.0
+Sphygmomanometers,Welch Allyn Inc,30,1,1,6.7
+Ventilator,GE Healthcare,30,0,2,2.6
+Ventilator,Drager Medical AG & Co KGaA,9,0,2,26.6
+Ventilator,Canon Inc (Toshiba Medical),24,1,1,2.0
+Ventilator,Physio-Control Inc,22,0,1,16.2
+Ventilator,Canon Inc (Toshiba Medical),9,2,2,2.1
+Infusion Pump,Physio-Control Inc,20,0,2,18.9
+Sphygmomanometers,Medtronic,23,2,1,2.0
+Radiographic System,Siemens Healthineers,1,2,1,19.5
+Defibrillator,GE Healthcare,8,0,2,25.1
+Defibrillator,Koninklijke Philips N.V.,21,0,1,23.3
+Sphygmomanometers,Datex-Ohmeda Inc,12,2,2,11.9
+Sphygmomanometers,GE Healthcare,24,2,1,2.0
+Defibrillator,Datex-Ohmeda Inc,15,0,2,22.1
+Defibrillator,Canon Inc (Toshiba Medical),17,0,1,27.6
+Infusion Pump,Baxter Healthcare Corp,18,1,1,15.0
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,11,1,2,19.5
+Radiographic System,Datex-Ohmeda Inc,7,0,1,37.7
+Ventilator,Welch Allyn Inc,16,1,1,16.9
+Physiologic Monitoring System,B. Braun Melsungen AG,14,0,1,31.4
+Sphygmomanometers,Welch Allyn Inc,9,0,1,44.4
+Defibrillator,Blease Medical Equipment Ltd,14,0,1,26.1
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,14,0,2,30.1
+Radiographic System,Med-Vantage Sdn Bhd,30,0,1,3.1
+Sphygmomanometers,Physio-Control Inc,22,1,1,16.9
+Ventilator,Siemens Healthineers,6,0,1,36.9
+Ventilator,Nihon Kohden Corp,12,0,2,24.5
+Radiographic System,Medtronic,16,0,2,22.3
+Radiographic System,Canon Inc (Toshiba Medical),8,2,1,6.8
+Defibrillator,B. Braun Melsungen AG,7,0,1,39.6
+Ventilator,Datex-Ohmeda Inc,19,0,2,13.7
+Sphygmomanometers,Drager Medical AG & Co KGaA,25,1,1,13.0
+Physiologic Monitoring System,Siemens Healthineers,26,2,2,2.0
+Sphygmomanometers,B. Braun Melsungen AG,20,0,2,23.3
+Infusion Pump,Medtronic,17,1,2,5.9
+Infusion Pump,Physio-Control Inc,12,1,1,21.2
+Radiographic System,Canon Inc (Toshiba Medical),15,1,2,13.1
+Defibrillator,Siemens Healthineers,8,0,2,30.1
+Infusion Pump,Medtronic,30,1,2,2.0
+Ventilator,Baxter Healthcare Corp,11,0,1,29.2
+Sphygmomanometers,Baxter Healthcare Corp,11,1,1,26.6
+Sphygmomanometers,Welch Allyn Inc,5,1,1,37.9
+Radiographic System,Welch Allyn Inc,18,0,1,22.2
+Physiologic Monitoring System,Medtronic,27,2,2,2.0
+Radiographic System,B. Braun Melsungen AG,6,0,1,36.2
+Physiologic Monitoring System,Welch Allyn Inc,24,2,1,2.0
+Radiographic System,Canon Inc (Toshiba Medical),2,1,1,31.3
+Radiographic System,Siemens Healthineers,15,0,2,22.4
+Radiographic System,B. Braun Melsungen AG,17,0,2,15.3
+Physiologic Monitoring System,Welch Allyn Inc,15,2,1,10.1
+Physiologic Monitoring System,Koninklijke Philips N.V.,22,0,1,22.1
+Radiographic System,Datex-Ohmeda Inc,6,0,1,35.8
+Infusion Pump,Koninklijke Philips N.V.,3,0,2,41.7
+Defibrillator,Omron Healthcare Co Ltd,26,1,2,2.0
+Defibrillator,Baxter Healthcare Corp,24,1,2,2.0
+Defibrillator,Physio-Control Inc,29,0,1,12.4
+Physiologic Monitoring System,GE Healthcare,7,0,2,36.1
+Physiologic Monitoring System,Datex-Ohmeda Inc,12,0,1,35.7
+Infusion Pump,Baxter Healthcare Corp,12,0,2,28.6
+Defibrillator,B. Braun Melsungen AG,16,0,1,25.6
+Defibrillator,B. Braun Melsungen AG,16,1,2,7.4
+Radiographic System,B. Braun Melsungen AG,4,0,1,42.0
+Physiologic Monitoring System,Physio-Control Inc,5,0,2,39.0
+Defibrillator,Koninklijke Philips N.V.,18,0,2,22.9
+Sphygmomanometers,GE Healthcare,12,2,1,17.2
+Infusion Pump,Canon Inc (Toshiba Medical),24,2,1,2.0
+Sphygmomanometers,Welch Allyn Inc,27,2,2,2.0
+Sphygmomanometers,B. Braun Melsungen AG,25,0,1,23.8
+Infusion Pump,Nihon Kohden Corp,13,0,1,36.2
+Sphygmomanometers,Omron Healthcare Co Ltd,30,0,1,18.4
+Defibrillator,Datex-Ohmeda Inc,21,0,2,15.2
+Physiologic Monitoring System,Siemens Healthineers,3,1,1,33.2
+Infusion Pump,Welch Allyn Inc,27,1,1,5.0
+Radiographic System,Nihon Kohden Corp,6,2,1,10.6
+Sphygmomanometers,GE Healthcare,7,2,1,13.9
+Infusion Pump,Physio-Control Inc,24,0,2,15.8
+Ventilator,Canon Inc (Toshiba Medical),12,1,2,10.1
+Ventilator,Canon Inc (Toshiba Medical),26,0,2,5.1
+Physiologic Monitoring System,GE Healthcare,5,0,1,45.5
+Defibrillator,Siemens Healthineers,30,1,2,2.0
+Physiologic Monitoring System,Datex-Ohmeda Inc,5,0,1,45.8
+Physiologic Monitoring System,Blease Medical Equipment Ltd,23,0,1,21.3
+Physiologic Monitoring System,Siemens Healthineers,27,0,2,9.7
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),20,1,2,8.6
+Radiographic System,Medtronic,29,1,2,2.0
+Radiographic System,Datex-Ohmeda Inc,2,0,2,36.6
+Infusion Pump,GE Healthcare,27,2,1,2.0
+Ventilator,Canon Inc (Toshiba Medical),2,0,1,43.2
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),12,0,2,33.4
+Infusion Pump,B. Braun Melsungen AG,21,1,1,14.1
+Ventilator,GE Healthcare,1,1,1,31.0
+Sphygmomanometers,Blease Medical Equipment Ltd,15,2,2,8.2
+Defibrillator,GE Healthcare,21,0,2,14.5
+Radiographic System,Blease Medical Equipment Ltd,28,1,1,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,5,1,2,30.0
+Ventilator,Omron Healthcare Co Ltd,7,2,2,6.6
+Sphygmomanometers,Medtronic,22,0,2,24.1
+Defibrillator,Welch Allyn Inc,7,1,1,25.4
+Ventilator,GE Healthcare,29,1,1,2.0
+Sphygmomanometers,Nihon Kohden Corp,24,0,1,27.4
+Radiographic System,Baxter Healthcare Corp,5,1,1,21.4
+Radiographic System,Drager Medical AG & Co KGaA,13,0,1,25.4
+Infusion Pump,Drager Medical AG & Co KGaA,2,1,1,38.1
+Sphygmomanometers,GE Healthcare,9,2,1,22.7
+Physiologic Monitoring System,Blease Medical Equipment Ltd,2,1,2,33.1
+Sphygmomanometers,Nihon Kohden Corp,26,1,1,9.3
+Ventilator,Omron Healthcare Co Ltd,11,1,2,12.5
+Ventilator,B. Braun Melsungen AG,16,0,2,20.6
+Sphygmomanometers,Blease Medical Equipment Ltd,26,0,1,21.5
+Defibrillator,Physio-Control Inc,30,1,2,2.0
+Radiographic System,Physio-Control Inc,28,0,2,2.0
+Ventilator,Datex-Ohmeda Inc,30,0,1,3.8
+Radiographic System,Drager Medical AG & Co KGaA,4,1,2,21.3
+Ventilator,GE Healthcare,29,0,1,7.7
+Infusion Pump,Physio-Control Inc,19,0,2,25.4
+Physiologic Monitoring System,GE Healthcare,24,1,1,6.8
+Ventilator,Datex-Ohmeda Inc,30,0,2,2.0
+Radiographic System,Drager Medical AG & Co KGaA,8,2,1,11.7
+Infusion Pump,Siemens Healthineers,30,2,2,2.0
+Ventilator,Omron Healthcare Co Ltd,29,1,1,2.0
+Defibrillator,Baxter Healthcare Corp,20,0,2,15.4
+Physiologic Monitoring System,Baxter Healthcare Corp,25,1,2,2.0
+Ventilator,Physio-Control Inc,19,2,1,2.0
+Infusion Pump,Baxter Healthcare Corp,6,1,2,23.4
+Defibrillator,Canon Inc (Toshiba Medical),30,0,1,8.3
+Sphygmomanometers,Omron Healthcare Co Ltd,21,1,2,9.7
+Infusion Pump,Blease Medical Equipment Ltd,3,2,1,23.7
+Infusion Pump,Siemens Healthineers,12,1,2,17.4
+Defibrillator,Omron Healthcare Co Ltd,12,1,2,12.1
+Infusion Pump,Canon Inc (Toshiba Medical),30,1,1,2.0
+Defibrillator,Med-Vantage Sdn Bhd,9,1,1,29.1
+Ventilator,Blease Medical Equipment Ltd,17,0,1,22.1
+Defibrillator,Canon Inc (Toshiba Medical),16,1,2,9.0
+Defibrillator,GE Healthcare,19,0,1,24.4
+Physiologic Monitoring System,Datex-Ohmeda Inc,19,0,1,25.9
+Defibrillator,Welch Allyn Inc,12,0,2,29.6
+Defibrillator,Siemens Healthineers,16,1,1,9.8
+Sphygmomanometers,Welch Allyn Inc,21,0,2,21.7
+Ventilator,Datex-Ohmeda Inc,3,1,1,27.8
+Physiologic Monitoring System,Datex-Ohmeda Inc,0,1,1,39.9
+Sphygmomanometers,Canon Inc (Toshiba Medical),0,0,2,45.1
+Radiographic System,Drager Medical AG & Co KGaA,14,0,1,29.2
+Ventilator,Canon Inc (Toshiba Medical),12,0,1,30.4
+Ventilator,Welch Allyn Inc,16,2,2,2.0
+Radiographic System,Canon Inc (Toshiba Medical),23,1,1,5.6
+Defibrillator,GE Healthcare,25,1,2,2.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),7,0,2,34.7
+Infusion Pump,Nihon Kohden Corp,17,1,1,19.3
+Physiologic Monitoring System,Baxter Healthcare Corp,26,2,1,2.0
+Infusion Pump,Welch Allyn Inc,12,2,2,2.6
+Radiographic System,Nihon Kohden Corp,22,1,1,4.3
+Ventilator,Drager Medical AG & Co KGaA,13,0,1,34.3
+Ventilator,Datex-Ohmeda Inc,7,0,2,30.6
+Physiologic Monitoring System,Physio-Control Inc,7,0,1,45.3
+Ventilator,Omron Healthcare Co Ltd,26,0,2,3.7
+Ventilator,Blease Medical Equipment Ltd,25,0,1,8.3
+Physiologic Monitoring System,Baxter Healthcare Corp,14,0,1,36.1
+Sphygmomanometers,Blease Medical Equipment Ltd,26,0,1,22.6
+Sphygmomanometers,Canon Inc (Toshiba Medical),12,2,2,8.2
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,6,1,2,31.0
+Radiographic System,Baxter Healthcare Corp,4,2,2,4.4
+Ventilator,GE Healthcare,16,1,1,8.6
+Ventilator,Med-Vantage Sdn Bhd,27,0,1,8.5
+Radiographic System,Medtronic,24,1,1,2.0
+Sphygmomanometers,Koninklijke Philips N.V.,28,0,1,22.3
+Defibrillator,Koninklijke Philips N.V.,15,1,2,10.1
+Defibrillator,Koninklijke Philips N.V.,22,0,2,12.9
+Defibrillator,Medtronic,1,2,1,17.5
+Sphygmomanometers,Blease Medical Equipment Ltd,21,0,2,25.4
+Sphygmomanometers,GE Healthcare,17,0,1,30.1
+Radiographic System,Med-Vantage Sdn Bhd,30,2,2,2.0
+Ventilator,Medtronic,16,0,1,23.2
+Radiographic System,Koninklijke Philips N.V.,29,1,1,2.0
+Radiographic System,Drager Medical AG & Co KGaA,6,1,1,21.9
+Sphygmomanometers,Siemens Healthineers,12,2,1,16.2
+Defibrillator,Med-Vantage Sdn Bhd,17,2,2,2.0
+Infusion Pump,Welch Allyn Inc,28,2,1,2.0
+Ventilator,Datex-Ohmeda Inc,13,0,1,29.4
+Sphygmomanometers,Medtronic,29,2,2,2.0
+Defibrillator,GE Healthcare,17,1,2,6.3
+Infusion Pump,GE Healthcare,12,1,2,20.0
+Infusion Pump,Welch Allyn Inc,10,0,1,33.5
+Sphygmomanometers,Nihon Kohden Corp,20,1,2,18.7
+Physiologic Monitoring System,Siemens Healthineers,29,2,2,2.0
+Ventilator,Med-Vantage Sdn Bhd,20,2,1,2.0
+Infusion Pump,Physio-Control Inc,15,0,1,30.9
+Sphygmomanometers,Baxter Healthcare Corp,22,0,1,25.8
+Sphygmomanometers,Koninklijke Philips N.V.,16,0,1,38.8
+Defibrillator,Med-Vantage Sdn Bhd,7,2,1,15.1
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),18,1,1,15.0
+Ventilator,Physio-Control Inc,19,1,2,2.0
+Radiographic System,Nihon Kohden Corp,14,0,2,23.8
+Defibrillator,Koninklijke Philips N.V.,8,0,2,33.7
+Infusion Pump,Siemens Healthineers,19,1,2,10.6
+Infusion Pump,Omron Healthcare Co Ltd,9,2,1,14.1
+Defibrillator,Canon Inc (Toshiba Medical),11,1,2,14.5
+Sphygmomanometers,Nihon Kohden Corp,30,0,2,15.2
+Infusion Pump,Blease Medical Equipment Ltd,20,1,1,16.9
+Physiologic Monitoring System,Koninklijke Philips N.V.,22,0,2,20.0
+Ventilator,Siemens Healthineers,19,2,2,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,29,0,1,14.9
+Infusion Pump,Physio-Control Inc,0,1,2,30.1
+Radiographic System,Physio-Control Inc,24,0,1,10.4
+Ventilator,Baxter Healthcare Corp,19,1,1,10.7
+Ventilator,Welch Allyn Inc,8,1,1,25.3
+Defibrillator,Siemens Healthineers,21,1,2,4.8
+Defibrillator,Medtronic,14,0,2,24.7
+Radiographic System,B. Braun Melsungen AG,0,0,2,41.7
+Sphygmomanometers,Omron Healthcare Co Ltd,11,0,1,40.6
+Ventilator,Drager Medical AG & Co KGaA,2,1,1,31.5
+Radiographic System,Koninklijke Philips N.V.,10,0,2,25.5
+Defibrillator,Canon Inc (Toshiba Medical),1,1,2,25.6
+Defibrillator,B. Braun Melsungen AG,15,2,1,4.7
+Ventilator,Siemens Healthineers,8,2,1,12.8
+Physiologic Monitoring System,Blease Medical Equipment Ltd,14,0,2,35.0
+Infusion Pump,Datex-Ohmeda Inc,11,1,2,19.9
+Defibrillator,Koninklijke Philips N.V.,0,0,1,44.4
+Sphygmomanometers,GE Healthcare,12,1,1,26.1
+Sphygmomanometers,Physio-Control Inc,13,2,2,7.8
+Defibrillator,Blease Medical Equipment Ltd,24,0,2,11.2
+Physiologic Monitoring System,Welch Allyn Inc,24,0,1,22.0
+Physiologic Monitoring System,Siemens Healthineers,7,2,1,18.8
+Radiographic System,Omron Healthcare Co Ltd,7,2,2,6.8
+Sphygmomanometers,GE Healthcare,26,0,1,21.7
+Radiographic System,Baxter Healthcare Corp,29,1,1,2.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),11,0,1,41.3
+Infusion Pump,Med-Vantage Sdn Bhd,0,0,1,51.2
+Infusion Pump,Nihon Kohden Corp,10,2,2,9.4
+Ventilator,Drager Medical AG & Co KGaA,7,2,1,10.0
+Radiographic System,Drager Medical AG & Co KGaA,9,1,2,15.4
+Defibrillator,Blease Medical Equipment Ltd,29,0,1,10.7
+Radiographic System,GE Healthcare,18,2,1,2.0
+Defibrillator,Med-Vantage Sdn Bhd,10,0,1,35.7
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,6,0,2,39.4
+Radiographic System,Physio-Control Inc,10,1,2,13.9
+Physiologic Monitoring System,Baxter Healthcare Corp,30,0,1,5.7
+Infusion Pump,Datex-Ohmeda Inc,16,1,2,9.8
+Infusion Pump,Physio-Control Inc,0,1,2,30.6
+Ventilator,B. Braun Melsungen AG,25,0,2,8.0
+Radiographic System,Welch Allyn Inc,28,0,1,10.8
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,20,0,2,20.7
+Defibrillator,B. Braun Melsungen AG,20,0,1,23.1
+Infusion Pump,Omron Healthcare Co Ltd,7,1,1,31.0
+Infusion Pump,Koninklijke Philips N.V.,22,2,2,2.0
+Defibrillator,Medtronic,23,0,1,18.5
+Physiologic Monitoring System,Siemens Healthineers,5,0,1,46.1
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),21,1,1,11.8
+Radiographic System,Baxter Healthcare Corp,17,2,2,2.0
+Radiographic System,Physio-Control Inc,5,0,2,36.1
+Sphygmomanometers,Drager Medical AG & Co KGaA,4,0,1,51.0
+Sphygmomanometers,B. Braun Melsungen AG,12,1,2,22.4
+Ventilator,Nihon Kohden Corp,18,0,1,19.4
+Infusion Pump,Blease Medical Equipment Ltd,21,0,1,27.2
+Radiographic System,Welch Allyn Inc,7,1,2,13.9
+Physiologic Monitoring System,Welch Allyn Inc,8,1,1,24.8
+Defibrillator,Koninklijke Philips N.V.,16,1,1,14.6
+Physiologic Monitoring System,Siemens Healthineers,2,1,1,34.7
+Infusion Pump,Siemens Healthineers,18,1,2,12.8
+Sphygmomanometers,Welch Allyn Inc,10,0,1,37.8
+Physiologic Monitoring System,Welch Allyn Inc,23,0,2,19.5
+Ventilator,Med-Vantage Sdn Bhd,16,0,2,21.3
+Infusion Pump,Physio-Control Inc,20,0,1,25.3
+Sphygmomanometers,Med-Vantage Sdn Bhd,18,1,2,8.9
+Defibrillator,Baxter Healthcare Corp,1,2,1,16.4
+Sphygmomanometers,Datex-Ohmeda Inc,30,2,1,2.0
+Ventilator,Omron Healthcare Co Ltd,7,1,2,17.8
+Infusion Pump,Nihon Kohden Corp,18,0,2,24.4
+Defibrillator,Omron Healthcare Co Ltd,6,0,1,39.0
+Ventilator,Physio-Control Inc,27,2,1,2.0
+Sphygmomanometers,B. Braun Melsungen AG,26,1,1,2.6
+Ventilator,Medtronic,16,1,1,13.8
+Infusion Pump,Welch Allyn Inc,5,1,1,30.4
+Radiographic System,GE Healthcare,18,1,1,7.1
+Ventilator,Datex-Ohmeda Inc,23,2,2,2.0
+Ventilator,Baxter Healthcare Corp,5,0,1,34.6
+Sphygmomanometers,Koninklijke Philips N.V.,27,1,1,11.1
+Sphygmomanometers,Datex-Ohmeda Inc,1,2,2,25.7
+Defibrillator,Welch Allyn Inc,5,0,2,37.5
+Sphygmomanometers,Drager Medical AG & Co KGaA,22,1,1,13.4
+Physiologic Monitoring System,Baxter Healthcare Corp,4,0,1,42.5
+Infusion Pump,Medtronic,18,2,2,2.9
+Infusion Pump,Drager Medical AG & Co KGaA,19,0,1,27.4
+Radiographic System,Datex-Ohmeda Inc,3,1,1,27.9
+Radiographic System,GE Healthcare,21,0,2,10.8
+Infusion Pump,GE Healthcare,25,1,1,2.0
+Radiographic System,Med-Vantage Sdn Bhd,16,0,1,26.1
+Defibrillator,Medtronic,10,0,1,31.4
+Sphygmomanometers,Siemens Healthineers,3,1,1,40.0
+Infusion Pump,Canon Inc (Toshiba Medical),25,2,1,2.0
+Radiographic System,Nihon Kohden Corp,12,0,2,24.2
+Infusion Pump,Welch Allyn Inc,19,0,1,27.5
+Physiologic Monitoring System,Koninklijke Philips N.V.,25,1,1,10.4
+Ventilator,Welch Allyn Inc,16,1,1,9.7
+Sphygmomanometers,Siemens Healthineers,8,2,2,15.0
+Infusion Pump,Omron Healthcare Co Ltd,3,0,1,46.5
+Ventilator,Med-Vantage Sdn Bhd,22,1,1,2.0
+Radiographic System,Med-Vantage Sdn Bhd,27,0,2,4.6
+Ventilator,Omron Healthcare Co Ltd,13,0,1,31.2
+Sphygmomanometers,Blease Medical Equipment Ltd,18,1,1,22.5
+Infusion Pump,Omron Healthcare Co Ltd,25,1,1,10.6
+Physiologic Monitoring System,GE Healthcare,27,1,1,2.0
+Radiographic System,GE Healthcare,2,0,1,45.5
+Infusion Pump,B. Braun Melsungen AG,13,0,2,29.6
+Sphygmomanometers,Drager Medical AG & Co KGaA,7,0,1,49.9
+Radiographic System,Datex-Ohmeda Inc,23,2,2,2.0
+Defibrillator,Koninklijke Philips N.V.,26,0,1,11.9
+Ventilator,Medtronic,27,0,1,6.9
+Sphygmomanometers,Datex-Ohmeda Inc,0,0,1,56.9
+Defibrillator,Welch Allyn Inc,9,1,2,19.1
+Infusion Pump,B. Braun Melsungen AG,17,0,1,26.1
+Physiologic Monitoring System,GE Healthcare,15,2,2,2.0
+Radiographic System,Med-Vantage Sdn Bhd,7,0,1,35.9
+Ventilator,Medtronic,0,2,1,21.3
+Radiographic System,GE Healthcare,30,0,1,2.5
+Infusion Pump,Canon Inc (Toshiba Medical),11,1,1,21.2
+Radiographic System,Koninklijke Philips N.V.,7,2,1,11.5
+Ventilator,Drager Medical AG & Co KGaA,23,0,1,19.7
+Infusion Pump,Blease Medical Equipment Ltd,15,2,2,2.0
+Radiographic System,Datex-Ohmeda Inc,17,1,1,7.2
+Physiologic Monitoring System,Datex-Ohmeda Inc,3,2,2,18.8
+Sphygmomanometers,Omron Healthcare Co Ltd,5,1,1,37.6
+Infusion Pump,Siemens Healthineers,11,0,1,35.8
+Sphygmomanometers,Omron Healthcare Co Ltd,26,0,2,21.3
+Infusion Pump,Canon Inc (Toshiba Medical),8,0,1,42.9
+Physiologic Monitoring System,Medtronic,14,0,1,32.8
+Sphygmomanometers,Nihon Kohden Corp,15,0,2,26.5
+Defibrillator,Omron Healthcare Co Ltd,23,0,2,15.4
+Ventilator,Blease Medical Equipment Ltd,11,0,1,33.7
+Defibrillator,B. Braun Melsungen AG,30,1,1,2.0
+Radiographic System,Omron Healthcare Co Ltd,23,0,2,10.0
+Physiologic Monitoring System,Omron Healthcare Co Ltd,22,0,1,23.0
+Defibrillator,Nihon Kohden Corp,13,1,2,13.9
+Infusion Pump,Siemens Healthineers,12,0,1,32.8
+Radiographic System,Koninklijke Philips N.V.,24,0,1,9.9
+Radiographic System,B. Braun Melsungen AG,30,0,2,2.0
+Defibrillator,Omron Healthcare Co Ltd,1,2,1,23.0
+Defibrillator,Canon Inc (Toshiba Medical),2,2,1,18.2
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,25,0,1,17.6
+Ventilator,Drager Medical AG & Co KGaA,23,1,2,2.0
+Defibrillator,Blease Medical Equipment Ltd,29,1,2,2.0
+Defibrillator,Nihon Kohden Corp,21,1,1,7.3
+Sphygmomanometers,Drager Medical AG & Co KGaA,9,1,1,30.6
+Infusion Pump,Nihon Kohden Corp,8,1,2,19.4
+Sphygmomanometers,Canon Inc (Toshiba Medical),25,0,2,18.0
+Sphygmomanometers,Drager Medical AG & Co KGaA,19,0,2,25.5
+Radiographic System,Nihon Kohden Corp,7,1,1,23.3
+Ventilator,Welch Allyn Inc,9,2,2,3.7
+Infusion Pump,Drager Medical AG & Co KGaA,18,1,2,15.4
+Physiologic Monitoring System,Siemens Healthineers,2,2,1,27.3
+Physiologic Monitoring System,Baxter Healthcare Corp,23,2,1,2.0
+Defibrillator,B. Braun Melsungen AG,4,0,1,42.1
+Defibrillator,Medtronic,2,1,2,31.3
+Physiologic Monitoring System,Koninklijke Philips N.V.,25,1,1,9.2
+Defibrillator,Welch Allyn Inc,26,2,2,2.0
+Ventilator,Physio-Control Inc,15,2,2,2.0
+Sphygmomanometers,GE Healthcare,16,1,2,19.8
+Defibrillator,Canon Inc (Toshiba Medical),14,0,2,27.8
+Radiographic System,Canon Inc (Toshiba Medical),2,1,2,22.9
+Defibrillator,Omron Healthcare Co Ltd,11,0,1,31.5
+Infusion Pump,Med-Vantage Sdn Bhd,8,1,2,20.7
+Ventilator,Blease Medical Equipment Ltd,20,2,1,2.0
+Infusion Pump,Medtronic,11,0,2,33.5
+Infusion Pump,GE Healthcare,25,1,1,4.7
+Radiographic System,Canon Inc (Toshiba Medical),14,0,2,20.4
+Ventilator,B. Braun Melsungen AG,1,0,2,33.6
+Ventilator,Medtronic,22,0,2,15.2
+Ventilator,Drager Medical AG & Co KGaA,30,1,1,2.0
+Ventilator,Drager Medical AG & Co KGaA,17,2,1,2.0
+Ventilator,Physio-Control Inc,19,2,2,2.0
+Radiographic System,GE Healthcare,11,0,1,29.8
+Defibrillator,Canon Inc (Toshiba Medical),22,2,2,2.0
+Infusion Pump,Koninklijke Philips N.V.,3,1,1,32.1
+Ventilator,Canon Inc (Toshiba Medical),22,0,2,10.6
+Defibrillator,B. Braun Melsungen AG,15,0,1,29.9
+Defibrillator,Drager Medical AG & Co KGaA,22,0,2,16.6
+Infusion Pump,Omron Healthcare Co Ltd,15,2,2,2.0
+Radiographic System,Baxter Healthcare Corp,0,1,1,27.6
+Physiologic Monitoring System,Siemens Healthineers,21,1,1,10.3
+Physiologic Monitoring System,Siemens Healthineers,24,0,1,25.4
+Defibrillator,Nihon Kohden Corp,1,1,2,26.4
+Sphygmomanometers,Koninklijke Philips N.V.,29,0,1,17.1
+Sphygmomanometers,Canon Inc (Toshiba Medical),2,0,2,50.9
+Infusion Pump,Siemens Healthineers,25,1,1,4.7
+Physiologic Monitoring System,Nihon Kohden Corp,20,0,1,25.6
+Defibrillator,GE Healthcare,24,2,1,2.0
+Radiographic System,Drager Medical AG & Co KGaA,19,0,1,23.6
+Physiologic Monitoring System,Blease Medical Equipment Ltd,16,1,1,17.1
+Defibrillator,Med-Vantage Sdn Bhd,19,0,2,20.8
+Defibrillator,Welch Allyn Inc,21,1,2,2.0
+Ventilator,Drager Medical AG & Co KGaA,20,0,1,16.8
+Radiographic System,Welch Allyn Inc,29,0,2,2.0
+Ventilator,Omron Healthcare Co Ltd,28,2,2,2.0
+Infusion Pump,Baxter Healthcare Corp,0,0,1,52.2
+Ventilator,Medtronic,19,2,1,3.2
+Ventilator,Siemens Healthineers,5,2,1,16.3
+Physiologic Monitoring System,GE Healthcare,28,0,1,15.3
+Sphygmomanometers,Welch Allyn Inc,14,0,2,34.4
+Defibrillator,Med-Vantage Sdn Bhd,25,1,2,2.0
+Radiographic System,Datex-Ohmeda Inc,25,2,1,2.0
+Ventilator,Canon Inc (Toshiba Medical),13,2,1,2.9
+Radiographic System,Siemens Healthineers,19,1,2,2.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),14,1,2,16.1
+Sphygmomanometers,Med-Vantage Sdn Bhd,13,0,2,32.3
+Ventilator,Koninklijke Philips N.V.,24,2,2,2.0
+Infusion Pump,Omron Healthcare Co Ltd,20,2,1,3.9
+Ventilator,Medtronic,23,0,2,6.9
+Physiologic Monitoring System,Siemens Healthineers,24,0,2,12.3
+Defibrillator,Canon Inc (Toshiba Medical),25,0,1,14.9
+Infusion Pump,GE Healthcare,4,0,2,43.7
+Ventilator,Siemens Healthineers,5,2,1,14.9
+Radiographic System,Welch Allyn Inc,16,0,1,24.0
+Infusion Pump,Koninklijke Philips N.V.,10,0,1,37.3
+Infusion Pump,Datex-Ohmeda Inc,15,0,1,33.2
+Ventilator,B. Braun Melsungen AG,11,2,1,7.8
+Infusion Pump,Physio-Control Inc,14,1,1,19.7
+Radiographic System,Datex-Ohmeda Inc,22,0,1,13.0
+Sphygmomanometers,Nihon Kohden Corp,3,0,1,48.7
+Infusion Pump,Siemens Healthineers,26,2,1,2.0
+Sphygmomanometers,Drager Medical AG & Co KGaA,17,2,1,4.0
+Radiographic System,Baxter Healthcare Corp,20,0,2,17.2
+Ventilator,Drager Medical AG & Co KGaA,27,0,1,8.8
+Defibrillator,Datex-Ohmeda Inc,2,0,1,45.2
+Infusion Pump,Welch Allyn Inc,21,0,2,20.5
+Defibrillator,Drager Medical AG & Co KGaA,7,1,2,18.7
+Radiographic System,GE Healthcare,22,2,2,2.0
+Infusion Pump,Drager Medical AG & Co KGaA,2,1,1,36.2
+Sphygmomanometers,Medtronic,7,2,1,18.8
+Physiologic Monitoring System,B. Braun Melsungen AG,17,0,2,22.2
+Defibrillator,Siemens Healthineers,9,1,1,20.4
+Infusion Pump,Med-Vantage Sdn Bhd,24,1,1,10.3
+Defibrillator,Omron Healthcare Co Ltd,19,0,1,23.3
+Infusion Pump,Drager Medical AG & Co KGaA,16,0,2,23.2
+Ventilator,Koninklijke Philips N.V.,7,1,1,25.6
+Sphygmomanometers,Omron Healthcare Co Ltd,22,0,2,19.6
+Defibrillator,B. Braun Melsungen AG,10,0,2,24.1
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),28,1,1,4.8
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,4,2,2,20.9
+Radiographic System,Welch Allyn Inc,25,1,2,2.0
+Infusion Pump,B. Braun Melsungen AG,12,2,2,2.0
+Defibrillator,Drager Medical AG & Co KGaA,20,0,1,20.9
+Radiographic System,B. Braun Melsungen AG,22,1,2,2.0
+Defibrillator,Omron Healthcare Co Ltd,4,1,1,30.2
+Infusion Pump,Baxter Healthcare Corp,23,2,2,2.0
+Physiologic Monitoring System,Welch Allyn Inc,26,0,1,17.4
+Ventilator,Drager Medical AG & Co KGaA,12,1,1,13.3
+Physiologic Monitoring System,GE Healthcare,5,1,2,28.6
+Radiographic System,Datex-Ohmeda Inc,28,0,2,2.0
+Sphygmomanometers,Medtronic,4,0,2,45.9
+Ventilator,Physio-Control Inc,8,0,1,32.7
+Radiographic System,Blease Medical Equipment Ltd,26,0,1,2.3
+Infusion Pump,Nihon Kohden Corp,15,2,2,3.5
+Ventilator,Welch Allyn Inc,1,0,2,39.9
+Radiographic System,B. Braun Melsungen AG,0,0,2,42.4
+Infusion Pump,GE Healthcare,7,1,1,24.2
+Physiologic Monitoring System,Siemens Healthineers,27,0,1,15.3
+Sphygmomanometers,Siemens Healthineers,18,1,2,14.4
+Infusion Pump,Nihon Kohden Corp,29,0,2,9.7
+Defibrillator,Welch Allyn Inc,10,2,1,5.3
+Infusion Pump,Welch Allyn Inc,27,2,2,2.0
+Infusion Pump,Medtronic,11,2,1,10.3
+Sphygmomanometers,B. Braun Melsungen AG,11,0,1,36.1
+Defibrillator,Med-Vantage Sdn Bhd,6,1,1,24.8
+Radiographic System,Baxter Healthcare Corp,25,0,1,12.8
+Radiographic System,Nihon Kohden Corp,12,0,1,23.9
+Infusion Pump,Medtronic,26,0,1,18.8
+Defibrillator,B. Braun Melsungen AG,7,1,1,26.1
+Defibrillator,Omron Healthcare Co Ltd,30,1,2,2.0
+Sphygmomanometers,GE Healthcare,28,1,1,2.0
+Physiologic Monitoring System,Blease Medical Equipment Ltd,28,0,1,11.7
+Radiographic System,Datex-Ohmeda Inc,21,0,1,15.7
+Sphygmomanometers,Baxter Healthcare Corp,27,1,1,4.6
+Ventilator,Med-Vantage Sdn Bhd,25,0,2,6.7
+Radiographic System,Omron Healthcare Co Ltd,29,1,1,2.0
+Sphygmomanometers,Omron Healthcare Co Ltd,8,0,2,38.9
+Radiographic System,Physio-Control Inc,6,2,2,5.4
+Physiologic Monitoring System,Siemens Healthineers,30,1,1,2.0
+Ventilator,Koninklijke Philips N.V.,25,0,1,15.0
+Physiologic Monitoring System,GE Healthcare,20,0,1,29.2
+Ventilator,Siemens Healthineers,23,1,1,3.7
+Infusion Pump,Drager Medical AG & Co KGaA,14,2,2,3.1
+Sphygmomanometers,Blease Medical Equipment Ltd,1,0,2,49.3
+Ventilator,Omron Healthcare Co Ltd,22,0,1,20.0
+Physiologic Monitoring System,Koninklijke Philips N.V.,30,2,1,2.0
+Radiographic System,Welch Allyn Inc,19,1,1,10.6
+Ventilator,Siemens Healthineers,24,0,2,7.8
+Sphygmomanometers,Med-Vantage Sdn Bhd,11,1,1,24.9
+Ventilator,Med-Vantage Sdn Bhd,0,0,1,43.3
+Defibrillator,Med-Vantage Sdn Bhd,22,1,1,4.5
+Radiographic System,Medtronic,21,0,2,15.7
+Sphygmomanometers,Baxter Healthcare Corp,7,2,2,17.7
+Sphygmomanometers,Canon Inc (Toshiba Medical),4,1,1,35.7
+Infusion Pump,Siemens Healthineers,14,1,1,22.3
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,0,1,2,34.2
+Infusion Pump,Physio-Control Inc,0,2,1,30.1
+Sphygmomanometers,Datex-Ohmeda Inc,24,2,2,2.0
+Radiographic System,Medtronic,30,1,1,2.0
+Ventilator,Canon Inc (Toshiba Medical),9,1,2,15.3
+Ventilator,GE Healthcare,21,1,1,4.4
+Radiographic System,GE Healthcare,9,1,2,11.4
+Sphygmomanometers,GE Healthcare,20,0,2,25.5
+Ventilator,GE Healthcare,14,1,2,12.9
+Ventilator,Datex-Ohmeda Inc,16,0,2,16.4
+Ventilator,Siemens Healthineers,21,2,2,2.0
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,5,0,1,44.0
+Physiologic Monitoring System,B. Braun Melsungen AG,2,2,2,19.3
+Defibrillator,Siemens Healthineers,12,1,2,13.6
+Infusion Pump,Omron Healthcare Co Ltd,15,1,1,18.9
+Radiographic System,Drager Medical AG & Co KGaA,7,1,2,18.6
+Radiographic System,Canon Inc (Toshiba Medical),29,0,2,2.0
+Radiographic System,Med-Vantage Sdn Bhd,14,0,1,29.0
+Defibrillator,Blease Medical Equipment Ltd,16,0,1,27.5
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),16,1,1,20.8
+Sphygmomanometers,Med-Vantage Sdn Bhd,21,0,1,25.7
+Sphygmomanometers,Baxter Healthcare Corp,25,1,1,7.2
+Defibrillator,Koninklijke Philips N.V.,12,0,1,34.4
+Sphygmomanometers,B. Braun Melsungen AG,16,0,1,31.3
+Radiographic System,Canon Inc (Toshiba Medical),5,0,1,37.9
+Infusion Pump,B. Braun Melsungen AG,16,2,2,2.7
+Ventilator,Omron Healthcare Co Ltd,15,1,1,12.7
+Physiologic Monitoring System,Siemens Healthineers,13,0,1,38.0
+Physiologic Monitoring System,B. Braun Melsungen AG,12,1,1,23.2
+Defibrillator,Nihon Kohden Corp,5,0,1,37.3
+Physiologic Monitoring System,Nihon Kohden Corp,2,2,2,20.3
+Radiographic System,Blease Medical Equipment Ltd,13,1,2,10.1
+Sphygmomanometers,Drager Medical AG & Co KGaA,13,0,2,39.8
+Radiographic System,Welch Allyn Inc,14,1,1,10.9
+Defibrillator,Koninklijke Philips N.V.,7,0,2,32.3
+Radiographic System,Physio-Control Inc,28,2,1,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,14,0,1,36.4
+Infusion Pump,Siemens Healthineers,21,1,1,10.7
+Defibrillator,Datex-Ohmeda Inc,28,0,1,8.4
+Infusion Pump,Blease Medical Equipment Ltd,26,1,1,5.9
+Ventilator,Physio-Control Inc,12,1,1,16.4
+Infusion Pump,Blease Medical Equipment Ltd,16,1,2,16.1
+Ventilator,Med-Vantage Sdn Bhd,30,1,1,2.0
+Ventilator,Siemens Healthineers,20,2,1,2.0
+Infusion Pump,Siemens Healthineers,23,0,1,21.8
+Defibrillator,Koninklijke Philips N.V.,2,0,2,42.6
+Sphygmomanometers,Datex-Ohmeda Inc,27,0,1,20.2
+Radiographic System,Nihon Kohden Corp,5,2,2,5.5
+Radiographic System,GE Healthcare,4,0,2,33.1
+Sphygmomanometers,Datex-Ohmeda Inc,21,1,1,11.7
+Ventilator,Baxter Healthcare Corp,25,1,1,2.0
+Ventilator,Blease Medical Equipment Ltd,16,0,1,24.6
+Defibrillator,Baxter Healthcare Corp,22,0,2,13.5
+Physiologic Monitoring System,Siemens Healthineers,24,0,1,24.1
+Infusion Pump,GE Healthcare,1,0,1,49.3
+Ventilator,Medtronic,25,0,1,7.8
+Radiographic System,Physio-Control Inc,14,0,2,29.7
+Defibrillator,Drager Medical AG & Co KGaA,4,2,1,15.1
+Infusion Pump,GE Healthcare,25,2,1,2.0
+Defibrillator,Med-Vantage Sdn Bhd,19,0,2,13.5
+Infusion Pump,Drager Medical AG & Co KGaA,5,0,2,40.1
+Infusion Pump,Canon Inc (Toshiba Medical),5,0,2,37.5
+Sphygmomanometers,Datex-Ohmeda Inc,26,1,1,2.0
+Ventilator,Datex-Ohmeda Inc,17,2,2,2.0
+Defibrillator,Drager Medical AG & Co KGaA,17,0,2,19.8
+Defibrillator,Welch Allyn Inc,3,0,1,42.6
+Sphygmomanometers,Physio-Control Inc,16,1,2,17.3
+Radiographic System,Med-Vantage Sdn Bhd,24,1,1,2.0
+Radiographic System,GE Healthcare,13,0,2,22.3
+Ventilator,Medtronic,13,1,1,16.0
+Ventilator,Siemens Healthineers,12,0,2,24.3
+Physiologic Monitoring System,Koninklijke Philips N.V.,6,0,1,43.8
+Sphygmomanometers,Med-Vantage Sdn Bhd,11,1,2,21.0
+Radiographic System,Datex-Ohmeda Inc,22,2,1,2.0
+Infusion Pump,Baxter Healthcare Corp,14,0,2,27.1
+Defibrillator,Physio-Control Inc,18,2,2,2.0
+Ventilator,Koninklijke Philips N.V.,30,0,1,7.3
+Defibrillator,Blease Medical Equipment Ltd,10,1,2,17.0
+Defibrillator,Blease Medical Equipment Ltd,14,1,2,9.6
+Physiologic Monitoring System,Medtronic,11,2,1,15.8
+Radiographic System,Blease Medical Equipment Ltd,2,2,1,13.4
+Ventilator,Med-Vantage Sdn Bhd,16,0,1,21.6
+Defibrillator,B. Braun Melsungen AG,2,2,1,21.1
+Ventilator,Omron Healthcare Co Ltd,18,2,1,2.0
+Infusion Pump,Siemens Healthineers,19,1,1,12.4
+Physiologic Monitoring System,Datex-Ohmeda Inc,3,0,1,49.1
+Infusion Pump,Siemens Healthineers,2,2,1,20.4
+Ventilator,Blease Medical Equipment Ltd,25,2,1,2.0
+Ventilator,Welch Allyn Inc,15,0,2,23.3
+Radiographic System,Canon Inc (Toshiba Medical),11,2,2,2.0
+Defibrillator,Canon Inc (Toshiba Medical),7,0,1,40.8
+Defibrillator,Koninklijke Philips N.V.,23,0,2,14.8
+Infusion Pump,Canon Inc (Toshiba Medical),28,1,2,2.0
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),28,1,2,2.0
+Sphygmomanometers,Siemens Healthineers,16,1,1,22.4
+Defibrillator,Omron Healthcare Co Ltd,6,0,1,35.0
+Radiographic System,B. Braun Melsungen AG,10,2,2,2.0
+Infusion Pump,Koninklijke Philips N.V.,17,0,2,27.5
+Infusion Pump,Datex-Ohmeda Inc,0,0,2,44.6
+Sphygmomanometers,GE Healthcare,2,0,2,49.2
+Radiographic System,Baxter Healthcare Corp,3,1,1,27.5
+Physiologic Monitoring System,Koninklijke Philips N.V.,12,2,1,9.7
+Radiographic System,Nihon Kohden Corp,5,1,1,20.8
+Physiologic Monitoring System,Welch Allyn Inc,25,2,1,2.0
+Radiographic System,B. Braun Melsungen AG,13,0,2,25.7
+Radiographic System,Welch Allyn Inc,4,1,1,24.7
+Ventilator,Koninklijke Philips N.V.,15,1,1,13.2
+Infusion Pump,Koninklijke Philips N.V.,14,1,2,11.5
+Radiographic System,Nihon Kohden Corp,14,0,1,24.1
+Sphygmomanometers,Canon Inc (Toshiba Medical),29,1,2,2.0
+Radiographic System,Datex-Ohmeda Inc,3,1,2,24.5
+Defibrillator,Med-Vantage Sdn Bhd,7,1,2,21.8
+Infusion Pump,Med-Vantage Sdn Bhd,26,1,1,2.0
+Defibrillator,Welch Allyn Inc,15,0,1,26.4
+Infusion Pump,Koninklijke Philips N.V.,27,1,1,2.0
+Defibrillator,Baxter Healthcare Corp,15,0,1,26.7
+Radiographic System,Siemens Healthineers,29,2,1,2.0
+Radiographic System,Datex-Ohmeda Inc,3,1,2,25.3
+Ventilator,Baxter Healthcare Corp,12,0,1,30.1
+Sphygmomanometers,Blease Medical Equipment Ltd,25,2,2,2.0
+Defibrillator,Datex-Ohmeda Inc,27,1,1,2.0
+Physiologic Monitoring System,Blease Medical Equipment Ltd,12,0,2,27.9
+Ventilator,Baxter Healthcare Corp,1,1,2,29.8
+Defibrillator,Omron Healthcare Co Ltd,30,0,1,9.1
+Defibrillator,B. Braun Melsungen AG,2,2,1,17.5
+Ventilator,Canon Inc (Toshiba Medical),21,2,2,2.0
+Radiographic System,Baxter Healthcare Corp,7,2,2,7.0
+Defibrillator,Drager Medical AG & Co KGaA,23,1,2,2.0
+Radiographic System,Baxter Healthcare Corp,14,1,1,11.5
+Ventilator,GE Healthcare,10,1,1,18.4
+Radiographic System,GE Healthcare,30,0,2,2.0
+Infusion Pump,Physio-Control Inc,8,1,2,23.6
+Physiologic Monitoring System,Blease Medical Equipment Ltd,6,1,1,34.7
+Defibrillator,Drager Medical AG & Co KGaA,12,0,2,25.7
+Sphygmomanometers,Canon Inc (Toshiba Medical),1,0,1,51.3
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,7,2,1,24.3
+Radiographic System,Siemens Healthineers,6,2,1,11.6
+Defibrillator,Drager Medical AG & Co KGaA,23,0,1,19.2
+Radiographic System,Siemens Healthineers,11,0,1,31.0
+Infusion Pump,Physio-Control Inc,18,0,1,28.1
+Ventilator,Physio-Control Inc,6,2,1,11.6
+Defibrillator,B. Braun Melsungen AG,9,0,2,23.3
+Infusion Pump,Med-Vantage Sdn Bhd,28,1,2,2.0
+Infusion Pump,GE Healthcare,24,0,2,15.6
+Defibrillator,Baxter Healthcare Corp,15,1,2,3.2
+Radiographic System,Baxter Healthcare Corp,2,0,1,41.6
+Sphygmomanometers,Blease Medical Equipment Ltd,29,1,2,2.0
+Infusion Pump,Nihon Kohden Corp,9,0,2,36.4
+Physiologic Monitoring System,Nihon Kohden Corp,5,1,1,34.5
+Infusion Pump,Medtronic,17,0,1,31.3
+Sphygmomanometers,Datex-Ohmeda Inc,17,1,1,24.4
+Radiographic System,B. Braun Melsungen AG,4,2,2,11.5
+Radiographic System,Medtronic,20,0,1,18.5
+Physiologic Monitoring System,Medtronic,28,2,2,2.0
+Infusion Pump,Koninklijke Philips N.V.,6,1,2,26.0
+Radiographic System,Blease Medical Equipment Ltd,27,0,2,3.2
+Sphygmomanometers,Koninklijke Philips N.V.,1,0,2,51.5
+Defibrillator,Welch Allyn Inc,10,0,2,30.4
+Ventilator,Blease Medical Equipment Ltd,29,1,1,2.0
+Ventilator,Medtronic,12,1,1,20.2
+Ventilator,Drager Medical AG & Co KGaA,22,0,2,10.7
+Infusion Pump,Datex-Ohmeda Inc,4,1,1,30.9
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,29,2,1,2.0
+Radiographic System,B. Braun Melsungen AG,5,2,1,10.4
+Defibrillator,Blease Medical Equipment Ltd,23,1,2,2.0
+Sphygmomanometers,Med-Vantage Sdn Bhd,25,2,1,2.0
+Defibrillator,Medtronic,28,1,2,2.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),13,0,1,40.4
+Infusion Pump,Omron Healthcare Co Ltd,11,2,1,9.9
+Ventilator,Baxter Healthcare Corp,3,1,2,24.6
+Infusion Pump,Datex-Ohmeda Inc,28,1,1,2.0
+Physiologic Monitoring System,Koninklijke Philips N.V.,22,1,2,6.5
+Physiologic Monitoring System,Welch Allyn Inc,5,2,2,16.9
+Sphygmomanometers,Baxter Healthcare Corp,9,2,2,13.2
+Radiographic System,Med-Vantage Sdn Bhd,17,0,1,22.0
+Radiographic System,Blease Medical Equipment Ltd,14,0,2,21.9
+Sphygmomanometers,Koninklijke Philips N.V.,7,1,2,27.7
+Physiologic Monitoring System,Koninklijke Philips N.V.,25,1,2,4.2
+Physiologic Monitoring System,Datex-Ohmeda Inc,8,0,1,45.0
+Physiologic Monitoring System,Koninklijke Philips N.V.,4,1,1,32.0
+Infusion Pump,Med-Vantage Sdn Bhd,9,1,2,26.2
+Physiologic Monitoring System,Omron Healthcare Co Ltd,19,0,2,21.5
+Defibrillator,Physio-Control Inc,5,0,1,45.5
+Ventilator,Welch Allyn Inc,15,0,1,24.8
+Physiologic Monitoring System,GE Healthcare,23,2,1,2.0
+Sphygmomanometers,Med-Vantage Sdn Bhd,26,0,1,23.0
+Ventilator,Physio-Control Inc,30,0,1,5.0
+Infusion Pump,Med-Vantage Sdn Bhd,2,1,1,36.1
+Sphygmomanometers,GE Healthcare,9,0,2,41.9
+Ventilator,Nihon Kohden Corp,10,0,1,31.2
+Sphygmomanometers,Canon Inc (Toshiba Medical),10,0,2,36.0
+Infusion Pump,Nihon Kohden Corp,16,1,1,14.8
+Defibrillator,Koninklijke Philips N.V.,3,1,1,34.5
+Infusion Pump,B. Braun Melsungen AG,30,0,1,10.8
+Infusion Pump,B. Braun Melsungen AG,3,0,1,50.1
+Sphygmomanometers,GE Healthcare,16,2,2,2.7
+Radiographic System,Baxter Healthcare Corp,8,0,2,31.5
+Physiologic Monitoring System,Datex-Ohmeda Inc,18,0,1,30.6
+Physiologic Monitoring System,Koninklijke Philips N.V.,4,0,1,46.2
+Defibrillator,Datex-Ohmeda Inc,21,1,1,5.4
+Defibrillator,Physio-Control Inc,23,1,2,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,5,0,2,38.8
+Radiographic System,Drager Medical AG & Co KGaA,2,1,1,31.6
+Physiologic Monitoring System,Welch Allyn Inc,21,0,2,20.1
+Radiographic System,Physio-Control Inc,0,0,2,36.2
+Defibrillator,Canon Inc (Toshiba Medical),19,1,1,9.2
+Ventilator,Welch Allyn Inc,21,0,1,17.4
+Sphygmomanometers,Omron Healthcare Co Ltd,15,1,2,12.7
+Defibrillator,Physio-Control Inc,22,0,2,12.9
+Defibrillator,GE Healthcare,10,1,1,23.3
+Infusion Pump,Omron Healthcare Co Ltd,12,0,1,35.1
+Infusion Pump,Siemens Healthineers,26,2,1,2.0
+Infusion Pump,Physio-Control Inc,9,0,1,40.5
+Sphygmomanometers,Omron Healthcare Co Ltd,2,2,2,21.5
+Infusion Pump,Koninklijke Philips N.V.,8,0,1,42.4
+Radiographic System,Welch Allyn Inc,27,1,2,2.0
+Physiologic Monitoring System,Medtronic,11,0,2,28.9
+Ventilator,Medtronic,22,2,1,2.0
+Defibrillator,Koninklijke Philips N.V.,13,0,1,35.9
+Radiographic System,Med-Vantage Sdn Bhd,0,0,1,44.4
+Ventilator,Siemens Healthineers,17,1,2,5.3
+Radiographic System,Canon Inc (Toshiba Medical),16,0,1,22.6
+Radiographic System,Siemens Healthineers,26,0,2,8.4
+Defibrillator,GE Healthcare,8,2,2,4.3
+Physiologic Monitoring System,B. Braun Melsungen AG,8,2,1,18.9
+Infusion Pump,Datex-Ohmeda Inc,22,0,2,16.7
+Sphygmomanometers,Welch Allyn Inc,9,2,2,11.4
+Physiologic Monitoring System,Siemens Healthineers,18,1,1,15.5
+Sphygmomanometers,Drager Medical AG & Co KGaA,28,0,1,18.5
+Defibrillator,GE Healthcare,14,1,2,10.1
+Defibrillator,Nihon Kohden Corp,4,1,2,27.1
+Defibrillator,Baxter Healthcare Corp,14,2,1,2.0
+Ventilator,Nihon Kohden Corp,19,0,1,20.7
+Sphygmomanometers,Canon Inc (Toshiba Medical),22,1,1,15.2
+Physiologic Monitoring System,GE Healthcare,29,0,2,9.6
+Physiologic Monitoring System,Welch Allyn Inc,24,0,1,22.7
+Radiographic System,Omron Healthcare Co Ltd,27,0,1,7.8
+Radiographic System,Physio-Control Inc,1,2,2,14.3
+Radiographic System,Datex-Ohmeda Inc,12,2,1,5.0
+Defibrillator,Baxter Healthcare Corp,23,1,2,2.0
+Physiologic Monitoring System,Nihon Kohden Corp,15,1,1,15.3
+Sphygmomanometers,Med-Vantage Sdn Bhd,14,0,2,33.1
+Defibrillator,Baxter Healthcare Corp,24,0,1,18.1
+Ventilator,Drager Medical AG & Co KGaA,9,0,2,27.3
+Radiographic System,Drager Medical AG & Co KGaA,13,0,2,20.7
+Defibrillator,Omron Healthcare Co Ltd,9,1,1,21.0
+Defibrillator,Canon Inc (Toshiba Medical),24,1,1,2.0
+Ventilator,Drager Medical AG & Co KGaA,13,0,1,29.8
+Infusion Pump,GE Healthcare,25,0,1,24.2
+Physiologic Monitoring System,Datex-Ohmeda Inc,29,0,2,7.9
+Sphygmomanometers,Welch Allyn Inc,22,0,2,20.2
+Infusion Pump,Omron Healthcare Co Ltd,30,2,1,2.0
+Radiographic System,GE Healthcare,8,1,2,12.1
+Defibrillator,Medtronic,24,2,2,2.0
+Ventilator,Med-Vantage Sdn Bhd,13,1,2,10.5
+Ventilator,Physio-Control Inc,2,0,1,40.2
+Physiologic Monitoring System,Blease Medical Equipment Ltd,19,0,1,30.3
+Infusion Pump,Physio-Control Inc,15,2,1,3.3
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,1,1,1,40.5
+Defibrillator,Medtronic,9,0,1,39.0
+Physiologic Monitoring System,Siemens Healthineers,2,1,1,37.9
+Sphygmomanometers,Siemens Healthineers,10,1,1,29.2
+Ventilator,Welch Allyn Inc,10,1,2,15.1
+Ventilator,Drager Medical AG & Co KGaA,20,2,1,2.0
+Radiographic System,Nihon Kohden Corp,20,1,1,2.0
+Radiographic System,GE Healthcare,21,1,1,2.0
+Defibrillator,Drager Medical AG & Co KGaA,12,0,1,31.4
+Sphygmomanometers,B. Braun Melsungen AG,6,0,2,39.8
+Infusion Pump,Baxter Healthcare Corp,22,0,1,21.4
+Physiologic Monitoring System,Welch Allyn Inc,16,0,1,32.4
+Defibrillator,Physio-Control Inc,29,1,1,2.0
+Radiographic System,Siemens Healthineers,1,1,1,32.8
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,11,0,1,38.4
+Radiographic System,Koninklijke Philips N.V.,24,2,2,2.0
+Physiologic Monitoring System,Blease Medical Equipment Ltd,9,0,1,38.5
+Infusion Pump,Siemens Healthineers,17,0,1,25.6
+Defibrillator,Welch Allyn Inc,21,0,1,18.7
+Physiologic Monitoring System,Physio-Control Inc,26,0,1,16.4
+Sphygmomanometers,Welch Allyn Inc,10,0,2,36.6
+Ventilator,Baxter Healthcare Corp,15,1,2,5.3
+Sphygmomanometers,Physio-Control Inc,16,0,2,31.3
+Sphygmomanometers,Canon Inc (Toshiba Medical),18,2,1,4.8
+Ventilator,Koninklijke Philips N.V.,17,0,1,22.0
+Sphygmomanometers,Drager Medical AG & Co KGaA,2,0,2,47.3
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),20,0,2,23.8
+Physiologic Monitoring System,Medtronic,26,1,1,10.1
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,25,0,1,24.1
+Ventilator,Koninklijke Philips N.V.,15,2,1,2.0
+Sphygmomanometers,Physio-Control Inc,5,1,1,35.1
+Ventilator,Physio-Control Inc,24,1,1,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,11,1,1,26.1
+Sphygmomanometers,Omron Healthcare Co Ltd,10,0,2,37.8
+Sphygmomanometers,B. Braun Melsungen AG,14,0,1,35.3
+Radiographic System,Datex-Ohmeda Inc,14,0,1,24.1
+Radiographic System,B. Braun Melsungen AG,15,1,1,9.5
+Infusion Pump,GE Healthcare,9,0,2,27.7
+Defibrillator,Medtronic,11,0,1,29.5
+Radiographic System,Canon Inc (Toshiba Medical),27,2,2,2.0
+Ventilator,Baxter Healthcare Corp,12,0,1,33.1
+Radiographic System,Canon Inc (Toshiba Medical),3,2,2,13.5
+Infusion Pump,Canon Inc (Toshiba Medical),6,1,1,33.0
+Sphygmomanometers,Koninklijke Philips N.V.,21,0,1,25.2
+Infusion Pump,Physio-Control Inc,1,0,1,46.7
+Sphygmomanometers,Datex-Ohmeda Inc,25,0,1,18.0
+Sphygmomanometers,Datex-Ohmeda Inc,26,1,1,7.2
+Defibrillator,Baxter Healthcare Corp,26,1,2,2.0
+Radiographic System,Medtronic,26,1,1,2.0
+Ventilator,Koninklijke Philips N.V.,14,2,1,2.9
+Ventilator,Siemens Healthineers,30,1,1,2.0
+Physiologic Monitoring System,Welch Allyn Inc,7,0,2,36.7
+Sphygmomanometers,B. Braun Melsungen AG,6,0,2,38.8
+Ventilator,Welch Allyn Inc,30,2,2,2.0
+Defibrillator,Welch Allyn Inc,14,0,1,28.9
+Sphygmomanometers,Drager Medical AG & Co KGaA,22,0,2,26.3
+Defibrillator,Welch Allyn Inc,13,1,2,12.8
+Ventilator,Datex-Ohmeda Inc,30,0,2,2.0
+Ventilator,B. Braun Melsungen AG,7,2,1,8.5
+Physiologic Monitoring System,B. Braun Melsungen AG,27,1,1,3.3
+Ventilator,GE Healthcare,11,0,1,26.8
+Sphygmomanometers,Medtronic,12,2,1,11.0
+Sphygmomanometers,Drager Medical AG & Co KGaA,29,0,2,14.2
+Sphygmomanometers,Welch Allyn Inc,10,0,1,41.3
+Physiologic Monitoring System,Omron Healthcare Co Ltd,16,0,1,30.1
+Physiologic Monitoring System,Siemens Healthineers,30,0,2,6.1
+Ventilator,Canon Inc (Toshiba Medical),28,1,2,2.0
+Infusion Pump,Physio-Control Inc,16,0,1,33.0
+Infusion Pump,GE Healthcare,23,0,2,16.5
+Physiologic Monitoring System,B. Braun Melsungen AG,3,0,1,45.1
+Ventilator,B. Braun Melsungen AG,20,1,2,4.1
+Infusion Pump,Nihon Kohden Corp,7,2,2,16.2
+Ventilator,Drager Medical AG & Co KGaA,4,0,1,41.0
+Ventilator,Welch Allyn Inc,25,0,2,9.7
+Ventilator,Med-Vantage Sdn Bhd,15,0,2,23.6
+Radiographic System,Drager Medical AG & Co KGaA,3,0,1,36.0
+Sphygmomanometers,Nihon Kohden Corp,27,1,1,12.1
+Ventilator,Blease Medical Equipment Ltd,21,1,2,2.9
+Radiographic System,Canon Inc (Toshiba Medical),28,0,1,8.8
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,14,0,1,33.5
+Infusion Pump,B. Braun Melsungen AG,11,0,2,28.4
+Sphygmomanometers,Datex-Ohmeda Inc,4,1,2,31.5
+Infusion Pump,Koninklijke Philips N.V.,29,0,1,14.4
+Sphygmomanometers,B. Braun Melsungen AG,22,2,1,2.0
+Infusion Pump,GE Healthcare,15,1,1,18.8
+Sphygmomanometers,Medtronic,13,0,1,35.1
+Infusion Pump,Blease Medical Equipment Ltd,9,1,1,25.8
+Infusion Pump,Nihon Kohden Corp,6,2,2,9.8
+Infusion Pump,Siemens Healthineers,12,1,1,19.3
+Infusion Pump,Physio-Control Inc,19,0,1,27.2
+Physiologic Monitoring System,Siemens Healthineers,27,0,1,15.5
+Ventilator,Med-Vantage Sdn Bhd,28,2,2,2.0
+Defibrillator,B. Braun Melsungen AG,4,1,1,27.7
+Radiographic System,GE Healthcare,28,1,1,2.0
+Defibrillator,Welch Allyn Inc,2,2,1,20.9
+Defibrillator,B. Braun Melsungen AG,14,2,2,2.0
+Sphygmomanometers,Medtronic,3,2,2,19.2
+Ventilator,Datex-Ohmeda Inc,14,0,1,28.1
+Sphygmomanometers,Canon Inc (Toshiba Medical),13,1,1,25.0
+Ventilator,Omron Healthcare Co Ltd,19,1,1,5.8
+Ventilator,Physio-Control Inc,18,1,1,13.9
+Infusion Pump,Medtronic,12,1,1,24.3
+Physiologic Monitoring System,Nihon Kohden Corp,9,0,1,41.6
+Infusion Pump,Welch Allyn Inc,20,1,1,10.1
+Physiologic Monitoring System,Nihon Kohden Corp,4,1,1,31.1
+Sphygmomanometers,B. Braun Melsungen AG,26,0,1,21.1
+Physiologic Monitoring System,GE Healthcare,22,1,2,4.5
+Sphygmomanometers,Medtronic,19,0,1,31.8
+Defibrillator,Baxter Healthcare Corp,28,0,1,12.3
+Defibrillator,Welch Allyn Inc,19,0,1,22.5
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,24,0,2,17.9
+Physiologic Monitoring System,GE Healthcare,5,1,2,28.5
+Sphygmomanometers,Datex-Ohmeda Inc,30,1,1,2.0
+Infusion Pump,Welch Allyn Inc,3,1,1,34.1
+Sphygmomanometers,Nihon Kohden Corp,1,2,1,29.0
+Infusion Pump,Welch Allyn Inc,21,0,1,26.0
+Defibrillator,Omron Healthcare Co Ltd,15,0,1,28.1
+Ventilator,B. Braun Melsungen AG,17,2,2,2.0
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,4,0,1,49.2
+Infusion Pump,Nihon Kohden Corp,21,2,2,2.0
+Sphygmomanometers,Omron Healthcare Co Ltd,3,2,1,30.0
+Defibrillator,Med-Vantage Sdn Bhd,29,1,2,2.0
+Infusion Pump,Blease Medical Equipment Ltd,12,2,2,2.8
+Sphygmomanometers,Physio-Control Inc,18,0,1,34.5
+Physiologic Monitoring System,Koninklijke Philips N.V.,22,0,1,22.0
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,1,1,1,38.9
+Radiographic System,B. Braun Melsungen AG,12,0,1,28.9
+Ventilator,Baxter Healthcare Corp,10,2,1,7.1
+Radiographic System,Drager Medical AG & Co KGaA,29,0,2,2.0
+Defibrillator,Physio-Control Inc,21,1,1,3.1
+Infusion Pump,GE Healthcare,28,1,2,2.0
+Defibrillator,Baxter Healthcare Corp,3,1,1,33.4
+Sphygmomanometers,Nihon Kohden Corp,21,0,2,23.8
+Physiologic Monitoring System,Baxter Healthcare Corp,19,0,1,32.1
+Radiographic System,Medtronic,19,2,2,2.0
+Radiographic System,Physio-Control Inc,14,0,1,25.7
+Radiographic System,Blease Medical Equipment Ltd,3,2,1,18.0
+Defibrillator,Welch Allyn Inc,8,1,2,17.7
+Physiologic Monitoring System,Omron Healthcare Co Ltd,6,1,1,30.5
+Infusion Pump,Drager Medical AG & Co KGaA,18,1,2,9.4
+Sphygmomanometers,Medtronic,18,0,2,25.5
+Infusion Pump,Canon Inc (Toshiba Medical),5,1,1,33.3
+Defibrillator,Baxter Healthcare Corp,5,2,1,11.0
+Sphygmomanometers,Medtronic,19,0,2,29.4
+Radiographic System,Med-Vantage Sdn Bhd,14,2,1,2.0
+Ventilator,Siemens Healthineers,14,1,2,4.0
+Defibrillator,Physio-Control Inc,24,0,2,10.8
+Defibrillator,Omron Healthcare Co Ltd,19,0,1,21.4
+Physiologic Monitoring System,Datex-Ohmeda Inc,8,2,1,16.2
+Infusion Pump,GE Healthcare,3,0,2,42.9
+Defibrillator,Baxter Healthcare Corp,17,2,1,2.0
+Defibrillator,Physio-Control Inc,17,2,1,4.1
+Radiographic System,Datex-Ohmeda Inc,4,0,1,37.1
+Radiographic System,Datex-Ohmeda Inc,19,0,1,21.2
+Sphygmomanometers,Canon Inc (Toshiba Medical),22,1,1,15.7
+Ventilator,B. Braun Melsungen AG,29,0,1,2.0
+Physiologic Monitoring System,Omron Healthcare Co Ltd,10,1,2,19.4
+Ventilator,Medtronic,4,0,1,36.6
+Sphygmomanometers,Datex-Ohmeda Inc,21,1,1,16.3
+Radiographic System,Siemens Healthineers,25,1,2,2.0
+Infusion Pump,Canon Inc (Toshiba Medical),3,0,2,43.0
+Radiographic System,Physio-Control Inc,28,0,2,2.0
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),11,0,1,37.2
+Radiographic System,Koninklijke Philips N.V.,1,0,2,37.6
+Physiologic Monitoring System,Koninklijke Philips N.V.,12,1,1,22.9
+Physiologic Monitoring System,Welch Allyn Inc,9,2,1,17.2
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),8,0,1,38.9
+Sphygmomanometers,Med-Vantage Sdn Bhd,9,1,1,28.8
+Physiologic Monitoring System,Welch Allyn Inc,30,1,2,2.0
+Physiologic Monitoring System,Baxter Healthcare Corp,6,0,1,43.3
+Infusion Pump,Welch Allyn Inc,3,0,2,39.3
+Ventilator,Nihon Kohden Corp,18,2,2,2.0
+Defibrillator,Medtronic,9,1,2,16.4
+Ventilator,Nihon Kohden Corp,29,1,1,2.0
+Physiologic Monitoring System,Datex-Ohmeda Inc,30,1,2,2.0
+Infusion Pump,Physio-Control Inc,2,0,1,46.2
+Radiographic System,Baxter Healthcare Corp,24,1,1,2.0
+Infusion Pump,Drager Medical AG & Co KGaA,20,1,2,6.6
+Physiologic Monitoring System,Datex-Ohmeda Inc,28,1,1,2.0
+Infusion Pump,Medtronic,30,0,1,10.7
+Infusion Pump,Koninklijke Philips N.V.,18,0,2,25.1
+Physiologic Monitoring System,Omron Healthcare Co Ltd,30,0,1,13.9
+Sphygmomanometers,Med-Vantage Sdn Bhd,20,2,2,2.0
+Infusion Pump,Welch Allyn Inc,1,0,1,51.9
+Defibrillator,B. Braun Melsungen AG,26,1,1,2.0
+Defibrillator,Physio-Control Inc,19,0,1,23.4
+Infusion Pump,GE Healthcare,9,0,1,41.5
+Sphygmomanometers,Omron Healthcare Co Ltd,1,1,1,41.2
+Radiographic System,Nihon Kohden Corp,1,1,2,26.8
+Physiologic Monitoring System,Welch Allyn Inc,27,1,1,3.2
+Defibrillator,Baxter Healthcare Corp,23,0,2,14.2
+Radiographic System,Nihon Kohden Corp,16,1,1,11.2
+Infusion Pump,Physio-Control Inc,15,0,1,28.1
+Radiographic System,Nihon Kohden Corp,15,0,2,22.1
+Ventilator,Physio-Control Inc,13,1,2,10.3
+Defibrillator,Nihon Kohden Corp,6,0,1,38.5
+Infusion Pump,Omron Healthcare Co Ltd,20,0,2,18.9
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),30,1,2,2.0
+Sphygmomanometers,Siemens Healthineers,10,1,1,30.1
+Infusion Pump,Omron Healthcare Co Ltd,23,2,2,2.0
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),0,0,1,48.1
+Sphygmomanometers,Drager Medical AG & Co KGaA,10,0,2,34.3
+Sphygmomanometers,Datex-Ohmeda Inc,22,0,2,22.4
+Infusion Pump,Datex-Ohmeda Inc,20,2,2,2.0
+Radiographic System,Medtronic,3,1,1,30.4
+Radiographic System,Med-Vantage Sdn Bhd,6,1,1,23.5
+Sphygmomanometers,Med-Vantage Sdn Bhd,25,0,2,19.6
+Radiographic System,Welch Allyn Inc,14,1,1,11.6
+Ventilator,Omron Healthcare Co Ltd,17,0,1,21.8
+Sphygmomanometers,Omron Healthcare Co Ltd,11,1,2,23.2
+Sphygmomanometers,GE Healthcare,30,2,1,2.0
+Physiologic Monitoring System,GE Healthcare,16,2,1,5.6
+Radiographic System,Med-Vantage Sdn Bhd,0,1,1,29.3
+Sphygmomanometers,Medtronic,10,1,1,25.5
+Ventilator,B. Braun Melsungen AG,27,2,2,2.0
+Physiologic Monitoring System,Datex-Ohmeda Inc,0,1,2,35.8
+Infusion Pump,B. Braun Melsungen AG,14,0,1,31.3
+Sphygmomanometers,Welch Allyn Inc,27,1,2,3.3
+Ventilator,Physio-Control Inc,20,0,2,13.6
+Defibrillator,Med-Vantage Sdn Bhd,9,1,2,20.6
+Ventilator,Med-Vantage Sdn Bhd,6,1,1,21.4
+Ventilator,Physio-Control Inc,1,1,2,25.9
+Physiologic Monitoring System,Blease Medical Equipment Ltd,9,0,1,39.8
+Infusion Pump,Koninklijke Philips N.V.,23,0,2,16.5
+Defibrillator,Nihon Kohden Corp,3,1,2,29.4
+Radiographic System,GE Healthcare,11,2,1,4.4
+Radiographic System,Koninklijke Philips N.V.,18,1,2,5.0
+Ventilator,Drager Medical AG & Co KGaA,25,0,1,12.1
+Physiologic Monitoring System,Medtronic,10,2,2,11.7
+Physiologic Monitoring System,Medtronic,7,2,1,19.8
+Radiographic System,Physio-Control Inc,17,0,2,16.1
+Defibrillator,Omron Healthcare Co Ltd,10,0,1,33.0
+Infusion Pump,Datex-Ohmeda Inc,10,1,1,26.7
+Defibrillator,B. Braun Melsungen AG,12,2,1,4.8
+Sphygmomanometers,GE Healthcare,2,2,1,27.9
+Sphygmomanometers,Koninklijke Philips N.V.,11,2,1,14.8
+Infusion Pump,B. Braun Melsungen AG,2,1,2,31.8
+Radiographic System,Omron Healthcare Co Ltd,9,1,1,19.4
+Infusion Pump,Koninklijke Philips N.V.,26,0,1,15.5
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,16,0,1,34.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),21,1,2,10.8
+Ventilator,Nihon Kohden Corp,1,1,2,26.1
+Ventilator,Drager Medical AG & Co KGaA,16,1,2,7.7
+Radiographic System,Blease Medical Equipment Ltd,15,1,2,2.8
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,1,0,1,55.9
+Defibrillator,B. Braun Melsungen AG,27,1,1,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,21,0,1,19.8
+Ventilator,Blease Medical Equipment Ltd,29,0,2,5.3
+Ventilator,B. Braun Melsungen AG,19,1,2,2.0
+Sphygmomanometers,Blease Medical Equipment Ltd,5,1,1,38.6
+Physiologic Monitoring System,Koninklijke Philips N.V.,27,2,1,2.0
+Physiologic Monitoring System,Blease Medical Equipment Ltd,24,0,1,16.9
+Ventilator,Nihon Kohden Corp,28,1,1,2.0
+Defibrillator,Blease Medical Equipment Ltd,9,0,2,30.8
+Radiographic System,Canon Inc (Toshiba Medical),27,0,1,11.8
+Radiographic System,Med-Vantage Sdn Bhd,9,2,2,3.6
+Physiologic Monitoring System,Blease Medical Equipment Ltd,7,1,1,27.3
+Radiographic System,Siemens Healthineers,0,2,2,16.5
+Ventilator,Blease Medical Equipment Ltd,12,0,2,23.4
+Ventilator,B. Braun Melsungen AG,23,2,2,2.0
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),8,0,2,35.7
+Physiologic Monitoring System,Datex-Ohmeda Inc,21,2,2,2.0
+Sphygmomanometers,Welch Allyn Inc,9,0,2,36.2
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),14,0,2,27.6
+Defibrillator,Omron Healthcare Co Ltd,4,1,2,22.4
+Radiographic System,Welch Allyn Inc,21,2,2,2.0
+Physiologic Monitoring System,GE Healthcare,15,0,2,24.2
+Infusion Pump,GE Healthcare,12,0,2,32.4
+Sphygmomanometers,Omron Healthcare Co Ltd,21,2,2,2.0
+Infusion Pump,Canon Inc (Toshiba Medical),24,0,1,23.2
+Ventilator,Koninklijke Philips N.V.,19,0,1,20.4
+Radiographic System,Omron Healthcare Co Ltd,17,0,1,19.3
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,10,0,1,38.6
+Infusion Pump,Welch Allyn Inc,26,2,2,2.0
+Radiographic System,Welch Allyn Inc,8,1,1,21.3
+Ventilator,B. Braun Melsungen AG,15,1,2,8.9
+Defibrillator,Physio-Control Inc,1,2,1,24.1
+Sphygmomanometers,Medtronic,25,1,1,11.5
+Radiographic System,Siemens Healthineers,24,0,2,8.3
+Radiographic System,Welch Allyn Inc,1,0,2,33.1
+Defibrillator,Datex-Ohmeda Inc,11,0,1,30.7
+Radiographic System,Omron Healthcare Co Ltd,7,0,2,28.9
+Ventilator,Nihon Kohden Corp,8,2,2,2.0
+Ventilator,Blease Medical Equipment Ltd,11,1,1,15.4
+Defibrillator,Physio-Control Inc,25,0,1,13.8
+Sphygmomanometers,Welch Allyn Inc,8,1,2,26.8
+Physiologic Monitoring System,Omron Healthcare Co Ltd,9,1,1,29.1
+Infusion Pump,Drager Medical AG & Co KGaA,24,2,1,2.0
+Physiologic Monitoring System,Physio-Control Inc,1,2,1,26.3
+Radiographic System,Koninklijke Philips N.V.,15,1,2,6.0
+Infusion Pump,Siemens Healthineers,19,1,2,8.9
+Defibrillator,Baxter Healthcare Corp,6,1,2,22.8
+Defibrillator,Baxter Healthcare Corp,27,1,1,3.1
+Sphygmomanometers,B. Braun Melsungen AG,1,0,2,47.4
+Infusion Pump,B. Braun Melsungen AG,0,0,1,51.4
+Ventilator,Koninklijke Philips N.V.,18,1,1,11.3
+Infusion Pump,Nihon Kohden Corp,27,0,1,12.3
+Radiographic System,B. Braun Melsungen AG,3,0,1,45.1
+Ventilator,Medtronic,23,1,2,2.0
+Defibrillator,Welch Allyn Inc,21,0,2,10.4
+Infusion Pump,Siemens Healthineers,26,1,1,5.6
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),1,1,2,31.8
+Sphygmomanometers,Omron Healthcare Co Ltd,30,2,2,2.0
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),24,1,2,4.2
+Sphygmomanometers,Koninklijke Philips N.V.,13,0,1,40.7
+Radiographic System,GE Healthcare,1,1,2,24.0
+Physiologic Monitoring System,Omron Healthcare Co Ltd,28,2,1,2.0
+Infusion Pump,Omron Healthcare Co Ltd,14,2,2,3.7
+Infusion Pump,Drager Medical AG & Co KGaA,11,0,1,38.1
+Physiologic Monitoring System,Koninklijke Philips N.V.,4,0,2,39.3
+Infusion Pump,Koninklijke Philips N.V.,27,2,1,2.0
+Radiographic System,Baxter Healthcare Corp,19,0,1,17.7
+Ventilator,Datex-Ohmeda Inc,28,1,2,2.0
+Radiographic System,Canon Inc (Toshiba Medical),6,0,2,32.3
+Sphygmomanometers,Nihon Kohden Corp,23,0,2,21.6
+Radiographic System,Datex-Ohmeda Inc,20,0,2,11.4
+Sphygmomanometers,Blease Medical Equipment Ltd,9,0,1,39.0
+Infusion Pump,Medtronic,13,1,1,21.5
+Ventilator,Med-Vantage Sdn Bhd,13,2,1,3.1
+Infusion Pump,Blease Medical Equipment Ltd,4,0,1,43.4
+Defibrillator,GE Healthcare,17,2,2,2.0
+Infusion Pump,Omron Healthcare Co Ltd,23,0,2,16.0
+Sphygmomanometers,Baxter Healthcare Corp,13,1,2,18.6
+Infusion Pump,GE Healthcare,1,0,2,46.2
+Infusion Pump,Omron Healthcare Co Ltd,25,2,2,2.0
+Ventilator,Medtronic,11,1,1,16.4
+Infusion Pump,Datex-Ohmeda Inc,21,1,1,14.3
+Ventilator,Koninklijke Philips N.V.,23,2,2,2.0
+Physiologic Monitoring System,B. Braun Melsungen AG,5,1,1,30.3
+Defibrillator,Canon Inc (Toshiba Medical),3,2,1,17.6
+Ventilator,B. Braun Melsungen AG,12,1,1,17.7
+Sphygmomanometers,Welch Allyn Inc,3,2,2,26.8
+Physiologic Monitoring System,Physio-Control Inc,21,1,1,10.4
+Ventilator,Drager Medical AG & Co KGaA,13,0,2,20.8
+Ventilator,Nihon Kohden Corp,30,1,2,2.0
+Defibrillator,Medtronic,15,0,1,30.6
+Sphygmomanometers,Drager Medical AG & Co KGaA,28,1,2,2.0
+Radiographic System,Welch Allyn Inc,3,1,2,20.5
+Radiographic System,Welch Allyn Inc,23,1,2,2.0
+Ventilator,Nihon Kohden Corp,24,0,2,9.6
+Infusion Pump,Med-Vantage Sdn Bhd,0,0,1,53.7
+Sphygmomanometers,Omron Healthcare Co Ltd,12,1,2,22.1
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,3,2,1,23.7
+Infusion Pump,Datex-Ohmeda Inc,19,0,2,21.0
+Infusion Pump,Nihon Kohden Corp,17,0,2,20.6
+Sphygmomanometers,Welch Allyn Inc,5,1,2,30.5
+Ventilator,Datex-Ohmeda Inc,2,1,1,30.1
+Ventilator,Koninklijke Philips N.V.,22,0,1,15.3
+Ventilator,Baxter Healthcare Corp,12,0,1,25.5
+Ventilator,Datex-Ohmeda Inc,26,0,1,8.4
+Radiographic System,Omron Healthcare Co Ltd,15,2,1,2.0
+Ventilator,B. Braun Melsungen AG,26,0,1,13.5
+Radiographic System,Drager Medical AG & Co KGaA,4,0,1,43.0
+Radiographic System,Omron Healthcare Co Ltd,3,0,2,34.6
+Ventilator,Physio-Control Inc,20,0,1,17.2
+Defibrillator,Canon Inc (Toshiba Medical),7,1,2,19.5
+Physiologic Monitoring System,Siemens Healthineers,18,0,2,21.0
+Infusion Pump,Welch Allyn Inc,13,0,1,36.1
+Radiographic System,Canon Inc (Toshiba Medical),6,1,2,24.0
+Sphygmomanometers,Canon Inc (Toshiba Medical),30,0,1,14.3
+Sphygmomanometers,Nihon Kohden Corp,13,0,2,30.1
+Physiologic Monitoring System,Medtronic,5,2,1,23.0
+Sphygmomanometers,Physio-Control Inc,11,1,1,29.0
+Defibrillator,B. Braun Melsungen AG,15,2,2,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,16,2,1,13.2
+Infusion Pump,Baxter Healthcare Corp,12,1,2,14.5
+Infusion Pump,Omron Healthcare Co Ltd,22,0,1,18.9
+Radiographic System,Koninklijke Philips N.V.,13,1,1,14.2
+Ventilator,Siemens Healthineers,28,2,1,2.0
+Defibrillator,GE Healthcare,6,1,1,25.8
+Radiographic System,Physio-Control Inc,13,1,1,20.8
+Defibrillator,Canon Inc (Toshiba Medical),14,0,1,28.0
+Ventilator,Baxter Healthcare Corp,11,2,1,4.3
+Sphygmomanometers,GE Healthcare,16,1,2,17.0
+Sphygmomanometers,Siemens Healthineers,8,2,1,22.0
+Ventilator,Medtronic,21,0,2,10.9
+Radiographic System,Medtronic,14,0,1,25.4
+Ventilator,Drager Medical AG & Co KGaA,11,0,2,28.2
+Physiologic Monitoring System,Blease Medical Equipment Ltd,1,1,1,40.8
+Infusion Pump,Siemens Healthineers,4,0,1,46.3
+Radiographic System,Siemens Healthineers,12,0,1,34.4
+Defibrillator,GE Healthcare,26,2,1,2.0
+Physiologic Monitoring System,Baxter Healthcare Corp,19,0,2,18.8
+Radiographic System,Omron Healthcare Co Ltd,22,2,1,2.0
+Ventilator,Nihon Kohden Corp,7,0,2,32.9
+Ventilator,Blease Medical Equipment Ltd,26,2,1,2.0
+Ventilator,GE Healthcare,13,1,1,15.0
+Ventilator,Koninklijke Philips N.V.,14,2,2,2.0
+Defibrillator,Canon Inc (Toshiba Medical),10,2,1,6.9
+Physiologic Monitoring System,Medtronic,0,0,2,44.1
+Sphygmomanometers,Canon Inc (Toshiba Medical),20,0,1,31.8
+Infusion Pump,Medtronic,30,0,2,6.0
+Defibrillator,Drager Medical AG & Co KGaA,2,1,1,32.7
+Defibrillator,Omron Healthcare Co Ltd,16,2,2,2.0
+Sphygmomanometers,Koninklijke Philips N.V.,27,1,2,4.9
+Sphygmomanometers,Medtronic,18,1,1,20.6
+Infusion Pump,GE Healthcare,13,0,1,30.7
+Infusion Pump,Koninklijke Philips N.V.,21,2,1,2.0
+Sphygmomanometers,GE Healthcare,29,2,2,2.0
+Ventilator,Nihon Kohden Corp,22,0,1,15.3
+Defibrillator,Nihon Kohden Corp,7,1,1,18.1
+Radiographic System,Canon Inc (Toshiba Medical),12,0,1,26.7
+Infusion Pump,Medtronic,26,1,1,5.5
+Infusion Pump,Medtronic,19,1,2,7.4
+Sphygmomanometers,Baxter Healthcare Corp,2,0,2,46.8
+Physiologic Monitoring System,Nihon Kohden Corp,4,0,1,50.5
+Radiographic System,Omron Healthcare Co Ltd,8,0,2,28.4
+Radiographic System,Omron Healthcare Co Ltd,28,1,1,2.0
+Infusion Pump,Physio-Control Inc,5,1,1,31.5
+Ventilator,Physio-Control Inc,30,0,1,6.2
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,24,1,2,2.0
+Radiographic System,Nihon Kohden Corp,30,1,2,2.0
+Infusion Pump,GE Healthcare,21,0,2,15.0
+Radiographic System,GE Healthcare,1,0,1,42.4
+Physiologic Monitoring System,B. Braun Melsungen AG,12,1,1,20.2
+Physiologic Monitoring System,Koninklijke Philips N.V.,4,2,1,21.1
+Defibrillator,Datex-Ohmeda Inc,27,0,2,8.7
+Sphygmomanometers,Canon Inc (Toshiba Medical),26,0,2,15.8
+Sphygmomanometers,Physio-Control Inc,24,0,2,18.2
+Infusion Pump,Canon Inc (Toshiba Medical),7,1,1,29.5
+Physiologic Monitoring System,Medtronic,22,0,1,23.6
+Defibrillator,Drager Medical AG & Co KGaA,0,0,1,48.7
+Defibrillator,Omron Healthcare Co Ltd,19,1,1,11.5
+Radiographic System,Datex-Ohmeda Inc,11,1,1,20.8
+Radiographic System,Siemens Healthineers,22,0,1,15.8
+Defibrillator,Drager Medical AG & Co KGaA,10,0,1,29.8
+Radiographic System,Siemens Healthineers,6,1,2,20.8
+Physiologic Monitoring System,Welch Allyn Inc,14,0,2,32.2
+Ventilator,Nihon Kohden Corp,21,0,1,23.9
+Physiologic Monitoring System,Siemens Healthineers,23,2,1,2.0
+Defibrillator,Siemens Healthineers,10,0,1,32.8
+Defibrillator,Canon Inc (Toshiba Medical),28,1,2,2.0
+Physiologic Monitoring System,Welch Allyn Inc,21,2,2,2.0
+Radiographic System,Baxter Healthcare Corp,25,0,2,5.5
+Radiographic System,Med-Vantage Sdn Bhd,15,0,2,19.2
+Sphygmomanometers,Baxter Healthcare Corp,2,1,1,43.1
+Defibrillator,Baxter Healthcare Corp,19,2,1,2.0
+Infusion Pump,Nihon Kohden Corp,13,2,1,6.6
+Sphygmomanometers,Datex-Ohmeda Inc,2,1,1,42.9
+Radiographic System,Drager Medical AG & Co KGaA,0,0,2,42.6
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,30,1,1,2.0
+Radiographic System,Blease Medical Equipment Ltd,25,0,1,15.6
+Physiologic Monitoring System,Medtronic,20,1,1,15.9
+Sphygmomanometers,Baxter Healthcare Corp,14,0,2,31.1
+Defibrillator,Nihon Kohden Corp,0,0,1,40.9
+Radiographic System,Medtronic,16,1,2,2.0
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,1,1,1,36.6
+Defibrillator,Koninklijke Philips N.V.,28,0,1,12.5
+Infusion Pump,Medtronic,19,0,1,28.2
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),5,2,2,14.3
+Sphygmomanometers,Canon Inc (Toshiba Medical),7,1,1,32.8
+Infusion Pump,Datex-Ohmeda Inc,28,0,2,9.5
+Infusion Pump,Physio-Control Inc,15,0,1,31.0
+Ventilator,Siemens Healthineers,18,0,1,22.0
+Radiographic System,Baxter Healthcare Corp,0,2,2,13.9
+Physiologic Monitoring System,Blease Medical Equipment Ltd,2,1,1,32.7
+Infusion Pump,Welch Allyn Inc,27,1,2,2.0
+Ventilator,Blease Medical Equipment Ltd,2,1,2,24.8
+Sphygmomanometers,Physio-Control Inc,4,0,1,52.3
+Defibrillator,Omron Healthcare Co Ltd,26,2,2,2.0
+Physiologic Monitoring System,Medtronic,11,1,1,25.7
+Infusion Pump,Nihon Kohden Corp,11,0,1,38.1
+Radiographic System,Med-Vantage Sdn Bhd,19,0,1,18.9
+Ventilator,Siemens Healthineers,12,1,2,7.5
+Infusion Pump,Drager Medical AG & Co KGaA,19,2,1,3.8
+Radiographic System,GE Healthcare,8,0,2,30.5
+Infusion Pump,Siemens Healthineers,6,2,2,13.8
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,3,1,1,35.7
+Physiologic Monitoring System,Datex-Ohmeda Inc,18,0,1,24.1
+Physiologic Monitoring System,Omron Healthcare Co Ltd,21,0,1,26.6
+Sphygmomanometers,Datex-Ohmeda Inc,18,0,1,35.3
+Sphygmomanometers,Med-Vantage Sdn Bhd,5,1,1,33.2
+Ventilator,Canon Inc (Toshiba Medical),26,0,2,9.6
+Physiologic Monitoring System,Medtronic,12,0,2,34.2
+Radiographic System,Koninklijke Philips N.V.,10,1,2,10.6
+Infusion Pump,Canon Inc (Toshiba Medical),12,1,2,16.9
+Defibrillator,Datex-Ohmeda Inc,12,0,2,22.9
+Radiographic System,Datex-Ohmeda Inc,27,0,1,8.7
+Sphygmomanometers,Nihon Kohden Corp,24,1,2,7.4
+Sphygmomanometers,Medtronic,21,1,2,6.9
+Radiographic System,Siemens Healthineers,27,2,1,2.0
+Sphygmomanometers,Koninklijke Philips N.V.,19,0,2,26.9
+Physiologic Monitoring System,Physio-Control Inc,14,2,1,10.4
+Ventilator,GE Healthcare,20,1,2,2.6
+Infusion Pump,Baxter Healthcare Corp,12,1,2,14.8
+Ventilator,Drager Medical AG & Co KGaA,21,1,2,2.0
+Infusion Pump,Datex-Ohmeda Inc,10,0,1,38.9
+Infusion Pump,Medtronic,18,0,2,26.3
+Ventilator,Baxter Healthcare Corp,7,1,1,23.4
+Radiographic System,Canon Inc (Toshiba Medical),19,1,1,7.9
+Infusion Pump,Drager Medical AG & Co KGaA,7,1,2,22.1
+Ventilator,Med-Vantage Sdn Bhd,9,0,2,25.4
+Infusion Pump,Blease Medical Equipment Ltd,25,2,2,2.0
+Defibrillator,Drager Medical AG & Co KGaA,15,1,1,13.9
+Radiographic System,Blease Medical Equipment Ltd,18,0,1,25.8
+Physiologic Monitoring System,Physio-Control Inc,25,0,2,13.5
+Infusion Pump,Physio-Control Inc,22,1,1,10.8
+Defibrillator,Canon Inc (Toshiba Medical),10,1,1,22.9
+Physiologic Monitoring System,Physio-Control Inc,12,1,2,16.2
+Physiologic Monitoring System,Welch Allyn Inc,27,2,1,2.0
+Infusion Pump,B. Braun Melsungen AG,8,0,2,37.2
+Ventilator,B. Braun Melsungen AG,19,0,1,21.4
+Infusion Pump,Drager Medical AG & Co KGaA,23,2,1,2.0
+Defibrillator,Physio-Control Inc,18,2,1,2.0
+Physiologic Monitoring System,Nihon Kohden Corp,15,1,1,18.6
+Infusion Pump,Datex-Ohmeda Inc,6,2,1,16.9
+Ventilator,Baxter Healthcare Corp,18,0,1,22.6
+Infusion Pump,Baxter Healthcare Corp,11,2,1,15.5
+Radiographic System,B. Braun Melsungen AG,14,0,1,25.3
+Ventilator,Drager Medical AG & Co KGaA,30,0,1,8.9
+Defibrillator,Canon Inc (Toshiba Medical),22,0,1,14.8
+Physiologic Monitoring System,Medtronic,13,0,1,35.4
+Infusion Pump,Siemens Healthineers,10,0,2,31.6
+Ventilator,Siemens Healthineers,25,0,2,8.2
+Radiographic System,B. Braun Melsungen AG,9,0,2,26.6
+Ventilator,Med-Vantage Sdn Bhd,26,0,1,7.8
+Sphygmomanometers,Medtronic,10,1,2,22.3
+Radiographic System,Welch Allyn Inc,5,0,2,28.4
+Defibrillator,Welch Allyn Inc,1,0,2,37.4
+Physiologic Monitoring System,B. Braun Melsungen AG,10,1,1,27.7
+Defibrillator,Siemens Healthineers,18,2,2,2.0
+Infusion Pump,Med-Vantage Sdn Bhd,5,1,2,27.6
+Ventilator,Medtronic,13,0,2,27.6
+Sphygmomanometers,Med-Vantage Sdn Bhd,19,1,1,17.1
+Radiographic System,Physio-Control Inc,5,0,1,39.1
+Radiographic System,Drager Medical AG & Co KGaA,16,0,1,23.3
+Ventilator,Canon Inc (Toshiba Medical),9,0,1,40.2
+Sphygmomanometers,Baxter Healthcare Corp,27,2,2,2.0
+Ventilator,Nihon Kohden Corp,0,0,1,43.2
+Infusion Pump,Koninklijke Philips N.V.,2,0,1,50.0
+Defibrillator,Blease Medical Equipment Ltd,7,0,1,36.0
+Radiographic System,Blease Medical Equipment Ltd,7,2,1,11.3
+Infusion Pump,Drager Medical AG & Co KGaA,26,1,1,4.5
+Defibrillator,Physio-Control Inc,19,0,2,19.5
+Infusion Pump,Omron Healthcare Co Ltd,21,1,2,3.4
+Sphygmomanometers,Siemens Healthineers,14,1,1,24.7
+Radiographic System,Blease Medical Equipment Ltd,23,1,1,2.8
+Ventilator,Physio-Control Inc,6,0,1,37.5
+Ventilator,Blease Medical Equipment Ltd,10,2,1,7.4
+Defibrillator,Omron Healthcare Co Ltd,6,0,2,37.2
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,28,1,2,2.0
+Sphygmomanometers,B. Braun Melsungen AG,3,0,2,46.4
+Defibrillator,Medtronic,24,0,2,7.8
+Physiologic Monitoring System,Baxter Healthcare Corp,11,0,1,39.6
+Infusion Pump,Datex-Ohmeda Inc,25,1,2,2.0
+Sphygmomanometers,B. Braun Melsungen AG,5,0,2,37.3
+Infusion Pump,Drager Medical AG & Co KGaA,13,1,2,18.6
+Radiographic System,B. Braun Melsungen AG,11,0,1,29.0
+Sphygmomanometers,Drager Medical AG & Co KGaA,10,1,2,25.4
+Physiologic Monitoring System,Datex-Ohmeda Inc,18,2,2,2.2
+Radiographic System,GE Healthcare,20,1,2,2.0
+Ventilator,Omron Healthcare Co Ltd,4,1,1,27.7
+Physiologic Monitoring System,Baxter Healthcare Corp,13,1,2,17.5
+Defibrillator,Med-Vantage Sdn Bhd,20,0,2,13.1
+Ventilator,Nihon Kohden Corp,23,2,2,2.0
+Ventilator,Nihon Kohden Corp,15,0,2,25.4
+Defibrillator,Omron Healthcare Co Ltd,24,1,2,2.0
+Sphygmomanometers,Koninklijke Philips N.V.,12,1,1,26.5
+Ventilator,Med-Vantage Sdn Bhd,24,0,2,11.9
+Physiologic Monitoring System,Blease Medical Equipment Ltd,28,0,1,11.7
+Radiographic System,Physio-Control Inc,21,1,2,2.0
+Ventilator,GE Healthcare,21,2,1,2.0
+Physiologic Monitoring System,Omron Healthcare Co Ltd,24,2,1,2.0
+Infusion Pump,Nihon Kohden Corp,19,1,2,8.7
+Physiologic Monitoring System,B. Braun Melsungen AG,21,1,2,8.7
+Radiographic System,Physio-Control Inc,3,2,2,7.6
+Physiologic Monitoring System,GE Healthcare,10,0,2,32.7
+Defibrillator,Medtronic,16,0,2,22.9
+Radiographic System,Medtronic,6,1,1,22.4
+Sphygmomanometers,Med-Vantage Sdn Bhd,13,2,1,15.0
+Infusion Pump,Physio-Control Inc,25,2,1,2.0
+Defibrillator,Omron Healthcare Co Ltd,10,0,1,32.9
+Sphygmomanometers,Drager Medical AG & Co KGaA,27,0,1,19.1
+Physiologic Monitoring System,Drager Medical AG & Co KGaA,21,0,2,19.7
+Radiographic System,B. Braun Melsungen AG,8,0,2,28.0
+Infusion Pump,GE Healthcare,22,0,1,24.2
+Defibrillator,GE Healthcare,12,1,1,18.0
+Sphygmomanometers,Med-Vantage Sdn Bhd,22,0,2,20.0
+Sphygmomanometers,Physio-Control Inc,17,2,1,10.2
+Infusion Pump,Siemens Healthineers,27,0,1,14.8
+Physiologic Monitoring System,Medtronic,10,1,2,20.1
+Infusion Pump,GE Healthcare,14,0,2,21.6
+Sphygmomanometers,Physio-Control Inc,24,0,1,21.2
+Ventilator,Med-Vantage Sdn Bhd,25,0,2,5.4
+Defibrillator,Datex-Ohmeda Inc,24,2,1,2.0
+Infusion Pump,Koninklijke Philips N.V.,21,2,2,2.0
+Sphygmomanometers,Datex-Ohmeda Inc,28,1,1,8.6
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,18,0,1,26.7
+Sphygmomanometers,Baxter Healthcare Corp,0,2,2,23.2
+Physiologic Monitoring System,Omron Healthcare Co Ltd,3,0,1,48.5
+Infusion Pump,B. Braun Melsungen AG,13,0,2,26.3
+Physiologic Monitoring System,GE Healthcare,13,1,1,26.5
+Radiographic System,Med-Vantage Sdn Bhd,2,2,1,18.4
+Radiographic System,Baxter Healthcare Corp,29,0,1,3.4
+Radiographic System,Nihon Kohden Corp,27,0,1,11.4
+Ventilator,Baxter Healthcare Corp,16,2,2,2.0
+Infusion Pump,Canon Inc (Toshiba Medical),2,0,1,45.5
+Sphygmomanometers,Blease Medical Equipment Ltd,15,0,2,27.6
+Sphygmomanometers,Physio-Control Inc,13,1,2,19.1
+Ventilator,GE Healthcare,29,2,2,2.0
+Physiologic Monitoring System,Koninklijke Philips N.V.,19,1,1,12.8
+Ventilator,Omron Healthcare Co Ltd,28,2,2,2.0
+Physiologic Monitoring System,Physio-Control Inc,12,1,1,25.2
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),14,0,1,34.0
+Defibrillator,Physio-Control Inc,13,2,1,4.7
+Sphygmomanometers,Canon Inc (Toshiba Medical),23,0,1,23.9
+Radiographic System,B. Braun Melsungen AG,24,0,1,9.5
+Physiologic Monitoring System,B. Braun Melsungen AG,18,1,2,12.6
+Defibrillator,Medtronic,5,0,1,41.9
+Sphygmomanometers,Medtronic,9,0,1,41.8
+Radiographic System,Drager Medical AG & Co KGaA,26,0,2,2.4
+Physiologic Monitoring System,Siemens Healthineers,14,0,1,37.7
+Physiologic Monitoring System,GE Healthcare,20,2,1,2.0
+Ventilator,Med-Vantage Sdn Bhd,21,1,1,6.2
+Ventilator,GE Healthcare,19,2,2,2.0
+Sphygmomanometers,Welch Allyn Inc,25,0,1,19.5
+Radiographic System,Med-Vantage Sdn Bhd,5,0,1,41.2
+Physiologic Monitoring System,Canon Inc (Toshiba Medical),22,0,1,22.4
+Sphygmomanometers,Baxter Healthcare Corp,24,0,2,20.9
+Sphygmomanometers,GE Healthcare,9,0,2,41.9
+Infusion Pump,GE Healthcare,6,1,2,25.9
+Ventilator,Siemens Healthineers,21,2,1,2.0
+Radiographic System,Nihon Kohden Corp,16,2,1,2.0
+Physiologic Monitoring System,Med-Vantage Sdn Bhd,17,0,1,29.8
+Sphygmomanometers,Medtronic,16,2,1,9.8
+Physiologic Monitoring System,Medtronic,8,0,1,40.1
+Infusion Pump,Koninklijke Philips N.V.,9,0,1,39.6
+Radiographic System,GE Healthcare,9,2,1,8.4
+Sphygmomanometers,Siemens Healthineers,24,1,2,8.8
+Physiologic Monitoring System,Omron Healthcare Co Ltd,6,0,1,43.6
+Ventilator,Medtronic,15,0,2,20.4
