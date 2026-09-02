@@ -17,7 +17,6 @@ import {
   Sparkles,
   Thermometer,
   Wind,
-  Layers,
   ShieldAlert
 } from 'lucide-react';
 import { predictCTScanner, uploadCTTelemetry, getCTOptions } from '../lib/api';
@@ -28,7 +27,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
   const [scannerIds, setScannerIds] = useState(['CT-004', 'CT-017', 'CT-029', 'CT-042', 'CT-058']);
   const [scenarios, setScenarios] = useState(null);
 
-  // Manual Form State
+  // Manual Form State (Machine-condition parameters)
   const [inputs, setInputs] = useState({
     ScannerAge: 6.8,
     OperatingHours: 15400,
@@ -55,19 +54,19 @@ export default function CTAnalysisView({ onSaveToHistory }) {
 
   // Collapsible Sections
   const [collapsedSections, setCollapsedSections] = useState({
-    machine: false,
+    profile: false,
     tube: false,
-    mechanical: false,
+    gantry: false,
     detector: true,
     cooling: true,
-    power: true,
-    errors: true
+    power: true
   });
 
   // Upload state
   const [uploadedFile, setUploadedFile] = useState(null);
   const [uploadPreview, setUploadPreview] = useState(null);
   const [uploadError, setUploadError] = useState(null);
+  const [uploadStatus, setUploadStatus] = useState('idle'); // 'idle' | 'uploading' | 'processing' | 'success' | 'error'
 
   // Results state
   const [loading, setLoading] = useState(false);
@@ -143,7 +142,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
         });
       }
     } catch (err) {
-      setError(err.message || "Failed to analyze CT scanner telemetry.");
+      setError(err.message || "CT inference service unavailable. Please check backend connection.");
     } finally {
       setLoading(false);
     }
@@ -152,19 +151,25 @@ export default function CTAnalysisView({ onSaveToHistory }) {
   const handleFileUpload = (file) => {
     if (!file || !file.name.endsWith('.csv')) {
       setUploadError("Please select a valid CSV telemetry file.");
+      setUploadStatus('error');
       return;
     }
     setUploadedFile(file);
     setUploadError(null);
+    setUploadStatus('uploading');
 
     const reader = new FileReader();
     reader.onload = (e) => {
       const text = e.target.result;
       const lines = text.split('\n').filter(l => l.trim());
       if (lines.length > 1) {
-        const headers = lines[0].split(',');
-        const firstRow = lines[1].split(',');
+        const headers = lines[0].split(',').map(h => h.trim());
+        const firstRow = lines[1].split(',').map(v => v.trim());
         setUploadPreview({ headers, values: firstRow });
+        setUploadStatus('idle');
+      } else {
+        setUploadError("Uploaded CSV file contains no data rows.");
+        setUploadStatus('error');
       }
     };
     reader.readAsText(file);
@@ -173,16 +178,18 @@ export default function CTAnalysisView({ onSaveToHistory }) {
   const handleUploadAnalyze = async () => {
     if (!uploadedFile) return;
     setLoading(true);
+    setUploadStatus('processing');
     setError(null);
     try {
       const res = await uploadCTTelemetry(uploadedFile);
       setResult(res);
+      setUploadStatus('success');
 
       if (onSaveToHistory) {
         onSaveToHistory({
           id: `PRED-CT-${Date.now()}`,
           scanner_id: res.scanner_id,
-          analysisType: 'CT Scanner Analysis (Telemetry Upload)',
+          analysisType: 'CT Telemetry Upload Analysis',
           result: `${res.health_score} / 100 Health Score`,
           priority: res.risk_level,
           rul: `${res.rul_days} Days RUL`,
@@ -190,7 +197,8 @@ export default function CTAnalysisView({ onSaveToHistory }) {
         });
       }
     } catch (err) {
-      setError(err.message || "Failed to process CSV file.");
+      setError(err.message || "Failed to process telemetry CSV file.");
+      setUploadStatus('error');
     } finally {
       setLoading(false);
     }
@@ -216,7 +224,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
           <div>
             <div className="flex items-center gap-2">
               <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-purple-500/10 text-purple-400 border border-purple-500/30 uppercase tracking-wider">
-                Model 2 — CT Scanner Analysis
+                MODEL 2 — CT SCANNER
               </span>
               <span className="text-xs text-slate-400 font-mono">Deep AI Diagnostic Layer</span>
             </div>
@@ -224,7 +232,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
               CT Scanner Health Assessment
             </h2>
             <p className="text-sm text-slate-300 mt-1 max-w-2xl">
-              Analyze the current condition of an individual CT scanner and identify potential failure risk from operational telemetry.
+              Analyze current scanner condition and predict equipment risk using machine-condition parameters or uploaded telemetry CSV.
             </p>
           </div>
 
@@ -232,7 +240,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
           <div className="flex items-center gap-3 bg-slate-900/80 p-3 rounded-xl border border-slate-800">
             <Scan className="w-5 h-5 text-purple-400" />
             <div>
-              <label className="text-[10px] font-bold uppercase text-slate-400 block">Target CT Scanner ID</label>
+              <label className="text-[10px] font-bold uppercase text-slate-400 block">Target Scanner ID</label>
               <select
                 value={scannerId}
                 onChange={(e) => setScannerId(e.target.value)}
@@ -273,29 +281,32 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             }`}
           >
             <Upload className="w-4 h-4" />
-            <span>Upload Telemetry</span>
+            <span>Upload Telemetry CSV</span>
           </button>
         </div>
 
-        {/* Demo Presets (Only in manual mode) */}
+        {/* Demo Presets (Populate input fields only - user must still click analyze) */}
         {activeMode === 'manual' && (
           <div className="flex items-center gap-2 w-full sm:w-auto overflow-x-auto">
-            <span className="text-xs text-slate-400 font-semibold whitespace-nowrap">Demo Presets:</span>
+            <span className="text-xs text-slate-400 font-semibold whitespace-nowrap">Demo Input Presets:</span>
             <button
               onClick={() => handleApplyPreset('healthy')}
               className="px-3 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-xs font-bold hover:bg-emerald-500/20 transition flex items-center gap-1"
+              title="Populates manual input fields with healthy machine parameters"
             >
               <CheckCircle2 className="w-3.5 h-3.5" /> Healthy
             </button>
             <button
               onClick={() => handleApplyPreset('degrading')}
               className="px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-bold hover:bg-amber-500/20 transition flex items-center gap-1"
+              title="Populates manual input fields with degrading machine parameters"
             >
               <AlertTriangle className="w-3.5 h-3.5" /> Degrading
             </button>
             <button
               onClick={() => handleApplyPreset('critical')}
               className="px-3 py-1.5 rounded-lg bg-rose-500/10 text-rose-400 border border-rose-500/30 text-xs font-bold hover:bg-rose-500/20 transition flex items-center gap-1"
+              title="Populates manual input fields with critical machine parameters"
             >
               <ShieldAlert className="w-3.5 h-3.5" /> Critical
             </button>
@@ -306,21 +317,24 @@ export default function CTAnalysisView({ onSaveToHistory }) {
       {/* MODE 1: MANUAL ASSESSMENT */}
       {activeMode === 'manual' && (
         <div className="space-y-4">
+          <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-1">
+            Machine-Condition Parameters (21 Attributes)
+          </div>
           
-          {/* SECTION 1: MACHINE INFORMATION */}
+          {/* GROUP 1 — SCANNER PROFILE */}
           <div className="glass-panel rounded-2xl border border-slate-800 overflow-hidden">
             <button
-              onClick={() => toggleSection('machine')}
+              onClick={() => toggleSection('profile')}
               className="w-full p-4 flex items-center justify-between bg-slate-900/60 hover:bg-slate-900 text-left"
             >
               <div className="flex items-center gap-2.5">
                 <Cpu className="w-5 h-5 text-purple-400" />
-                <span className="font-bold text-white text-sm">Machine Information</span>
+                <span className="font-bold text-white text-sm">GROUP 1 — Scanner Profile</span>
               </div>
-              {collapsedSections.machine ? <ChevronDown className="w-5 h-5 text-slate-500" /> : <ChevronUp className="w-5 h-5 text-slate-500" />}
+              {collapsedSections.profile ? <ChevronDown className="w-5 h-5 text-slate-500" /> : <ChevronUp className="w-5 h-5 text-slate-500" />}
             </button>
 
-            {!collapsedSections.machine && (
+            {!collapsedSections.profile && (
               <div className="p-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
                 <div>
                   <div className="flex justify-between text-xs mb-1">
@@ -357,7 +371,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             )}
           </div>
 
-          {/* SECTION 2: X-RAY TUBE */}
+          {/* GROUP 2 — X-RAY TUBE */}
           <div className="glass-panel rounded-2xl border border-slate-800 overflow-hidden">
             <button
               onClick={() => toggleSection('tube')}
@@ -365,7 +379,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             >
               <div className="flex items-center gap-2.5">
                 <Zap className="w-5 h-5 text-amber-400" />
-                <span className="font-bold text-white text-sm">X-Ray Tube Metrics</span>
+                <span className="font-bold text-white text-sm">GROUP 2 — X-Ray Tube</span>
               </div>
               {collapsedSections.tube ? <ChevronDown className="w-5 h-5 text-slate-500" /> : <ChevronUp className="w-5 h-5 text-slate-500" />}
             </button>
@@ -415,20 +429,20 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             )}
           </div>
 
-          {/* SECTION 3: MECHANICAL & GANTRY */}
+          {/* GROUP 3 — GANTRY */}
           <div className="glass-panel rounded-2xl border border-slate-800 overflow-hidden">
             <button
-              onClick={() => toggleSection('mechanical')}
+              onClick={() => toggleSection('gantry')}
               className="w-full p-4 flex items-center justify-between bg-slate-900/60 hover:bg-slate-900 text-left"
             >
               <div className="flex items-center gap-2.5">
                 <Activity className="w-5 h-5 text-cyan-400" />
-                <span className="font-bold text-white text-sm">Mechanical & Gantry Dynamics</span>
+                <span className="font-bold text-white text-sm">GROUP 3 — Gantry</span>
               </div>
-              {collapsedSections.mechanical ? <ChevronDown className="w-5 h-5 text-slate-500" /> : <ChevronUp className="w-5 h-5 text-slate-500" />}
+              {collapsedSections.gantry ? <ChevronDown className="w-5 h-5 text-slate-500" /> : <ChevronUp className="w-5 h-5 text-slate-500" />}
             </button>
 
-            {!collapsedSections.mechanical && (
+            {!collapsedSections.gantry && (
               <div className="p-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>
                   <div className="flex justify-between text-xs mb-1">
@@ -449,47 +463,34 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             )}
           </div>
 
-          {/* ADVANCED SECTIONS TOGGLERS */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            
-            {/* Detector */}
+          {/* COLLAPSIBLE TOGGLERS FOR GROUPS 4, 5, 6 */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <button
               onClick={() => toggleSection('detector')}
               className="p-3.5 glass-panel rounded-xl border border-slate-800 flex items-center justify-between text-xs font-bold text-slate-300 hover:text-white"
             >
-              <span>Detector Array Parameters</span>
+              <span>GROUP 4 — Detector Array</span>
               {collapsedSections.detector ? <ChevronDown className="w-4 h-4 text-slate-500" /> : <ChevronUp className="w-4 h-4 text-slate-500" />}
             </button>
 
-            {/* Cooling */}
             <button
               onClick={() => toggleSection('cooling')}
               className="p-3.5 glass-panel rounded-xl border border-slate-800 flex items-center justify-between text-xs font-bold text-slate-300 hover:text-white"
             >
-              <span>Cooling Loop Telemetry</span>
+              <span>GROUP 5 — Cooling System</span>
               {collapsedSections.cooling ? <ChevronDown className="w-4 h-4 text-slate-500" /> : <ChevronUp className="w-4 h-4 text-slate-500" />}
             </button>
 
-            {/* Power */}
             <button
               onClick={() => toggleSection('power')}
               className="p-3.5 glass-panel rounded-xl border border-slate-800 flex items-center justify-between text-xs font-bold text-slate-300 hover:text-white"
             >
-              <span>Power Subsystem</span>
+              <span>GROUP 6 — Power & Diagnostics</span>
               {collapsedSections.power ? <ChevronDown className="w-4 h-4 text-slate-500" /> : <ChevronUp className="w-4 h-4 text-slate-500" />}
-            </button>
-
-            {/* Errors */}
-            <button
-              onClick={() => toggleSection('errors')}
-              className="p-3.5 glass-panel rounded-xl border border-slate-800 flex items-center justify-between text-xs font-bold text-slate-300 hover:text-white"
-            >
-              <span>Error Code History</span>
-              {collapsedSections.errors ? <ChevronDown className="w-4 h-4 text-slate-500" /> : <ChevronUp className="w-4 h-4 text-slate-500" />}
             </button>
           </div>
 
-          {/* DETECTOR CONTENT */}
+          {/* GROUP 4 CONTENT */}
           {!collapsedSections.detector && (
             <div className="glass-panel p-5 rounded-2xl border border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-5">
               <div>
@@ -516,7 +517,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             </div>
           )}
 
-          {/* COOLING CONTENT */}
+          {/* GROUP 5 CONTENT */}
           {!collapsedSections.cooling && (
             <div className="glass-panel p-5 rounded-2xl border border-slate-800 grid grid-cols-1 sm:grid-cols-3 gap-5">
               <div>
@@ -543,9 +544,9 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             </div>
           )}
 
-          {/* POWER CONTENT */}
+          {/* GROUP 6 CONTENT */}
           {!collapsedSections.power && (
-            <div className="glass-panel p-5 rounded-2xl border border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div className="glass-panel p-5 rounded-2xl border border-slate-800 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-400">Line Voltage</span>
@@ -555,27 +556,21 @@ export default function CTAnalysisView({ onSaveToHistory }) {
               </div>
               <div>
                 <div className="flex justify-between text-xs mb-1">
-                  <span className="text-slate-400">UPS Battery Health</span>
+                  <span className="text-slate-400">UPS Health</span>
                   <span className="text-emerald-400 font-mono font-bold">{inputs.UPSHealth}%</span>
                 </div>
                 <input type="range" min="52.0" max="100.0" step="1.0" value={inputs.UPSHealth} onChange={(e) => handleInputChange('UPSHealth', e.target.value)} className="w-full accent-emerald-500" />
               </div>
-            </div>
-          )}
-
-          {/* ERRORS CONTENT */}
-          {!collapsedSections.errors && (
-            <div className="glass-panel p-5 rounded-2xl border border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <div className="flex justify-between text-xs mb-1">
-                  <span className="text-slate-400">Logged Warning Codes</span>
+                  <span className="text-slate-400">Warning Codes</span>
                   <span className="text-amber-400 font-mono font-bold">{inputs.WarningCodes}</span>
                 </div>
                 <input type="range" min="0" max="28" step="1" value={inputs.WarningCodes} onChange={(e) => handleInputChange('WarningCodes', e.target.value)} className="w-full accent-amber-500" />
               </div>
               <div>
                 <div className="flex justify-between text-xs mb-1">
-                  <span className="text-slate-400">Logged Critical Error Codes</span>
+                  <span className="text-slate-400">Critical Error Codes</span>
                   <span className="text-rose-400 font-mono font-bold">{inputs.ErrorCodes}</span>
                 </div>
                 <input type="range" min="0" max="14" step="1" value={inputs.ErrorCodes} onChange={(e) => handleInputChange('ErrorCodes', e.target.value)} className="w-full accent-rose-500" />
@@ -587,12 +582,12 @@ export default function CTAnalysisView({ onSaveToHistory }) {
           <button
             onClick={handleManualAnalyze}
             disabled={loading}
-            className="w-full py-4 rounded-2xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white font-extrabold text-base shadow-xl shadow-purple-500/20 hover:opacity-95 transition flex items-center justify-center gap-2"
+            className="w-full py-4 rounded-2xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white font-extrabold text-base shadow-xl shadow-purple-500/20 hover:opacity-95 transition flex items-center justify-center gap-2 disabled:opacity-50"
           >
             {loading ? (
               <>
                 <RefreshCw className="w-5 h-5 animate-spin" />
-                <span>Analyzing Scanner Condition...</span>
+                <span>Running CT Model Inference...</span>
               </>
             ) : (
               <>
@@ -608,6 +603,9 @@ export default function CTAnalysisView({ onSaveToHistory }) {
       {/* MODE 2: TELEMETRY UPLOAD */}
       {activeMode === 'upload' && (
         <div className="space-y-4">
+          <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-1">
+            Machine Telemetry (Upload CSV Snapshot)
+          </div>
           
           <div className="glass-panel p-8 rounded-2xl border-2 border-dashed border-slate-700 text-center relative hover:border-purple-500/50 transition">
             <input
@@ -621,7 +619,7 @@ export default function CTAnalysisView({ onSaveToHistory }) {
             </div>
             <h3 className="text-lg font-bold text-white">Upload Scanner Telemetry CSV</h3>
             <p className="text-xs text-slate-400 mt-1">
-              Drag & Drop or browse file from your workstation (`.csv` format only)
+              Drag & Drop or browse machine telemetry file (`.csv` format containing exact 21 feature columns)
             </p>
 
             {uploadedFile && (
@@ -630,27 +628,23 @@ export default function CTAnalysisView({ onSaveToHistory }) {
                 <span>{uploadedFile.name}</span>
               </div>
             )}
-
-            {uploadError && (
-              <p className="text-xs text-rose-400 font-medium mt-2">{uploadError}</p>
-            )}
           </div>
 
           {uploadPreview && (
-            <div className="glass-panel p-5 rounded-2xl border border-slate-800">
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Telemetry Data Preview</h4>
+            <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-4">
+              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Machine Telemetry CSV Preview</h4>
               <div className="overflow-x-auto no-scrollbar">
                 <table className="w-full text-left text-xs">
                   <thead>
                     <tr className="border-b border-slate-800 text-slate-400">
-                      {uploadPreview.headers.slice(0, 8).map((h, i) => (
+                      {uploadPreview.headers.slice(0, 10).map((h, i) => (
                         <th key={i} className="py-2 px-3">{h}</th>
                       ))}
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="text-slate-200 font-mono">
-                      {uploadPreview.values.slice(0, 8).map((v, i) => (
+                      {uploadPreview.values.slice(0, 10).map((v, i) => (
                         <td key={i} className="py-2 px-3">{v}</td>
                       ))}
                     </tr>
@@ -661,17 +655,17 @@ export default function CTAnalysisView({ onSaveToHistory }) {
               <button
                 onClick={handleUploadAnalyze}
                 disabled={loading}
-                className="w-full mt-4 py-3.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold text-sm flex items-center justify-center gap-2"
+                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold text-sm flex items-center justify-center gap-2 disabled:opacity-50"
               >
                 {loading ? (
                   <>
                     <RefreshCw className="w-4 h-4 animate-spin" />
-                    <span>Processing CSV Telemetry...</span>
+                    <span>Validating CSV & Running CT ML Model...</span>
                   </>
                 ) : (
                   <>
                     <Scan className="w-4 h-4" />
-                    <span>Analyze Uploaded Scanner Telemetry</span>
+                    <span>Run CT Model Inference on Uploaded Telemetry</span>
                   </>
                 )}
               </button>
@@ -681,9 +675,9 @@ export default function CTAnalysisView({ onSaveToHistory }) {
         </div>
       )}
 
-      {/* ERROR MESSAGE */}
+      {/* ERROR DISPLAY */}
       {error && (
-        <div className="p-4 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs flex items-center gap-3">
+        <div className="p-4 rounded-xl bg-rose-500/10 border border-rose-500/40 text-rose-300 text-xs flex items-center gap-3">
           <AlertTriangle className="w-5 h-5 text-rose-400 shrink-0" />
           <span>{error}</span>
         </div>
@@ -706,16 +700,17 @@ export default function CTAnalysisView({ onSaveToHistory }) {
 
             <div className={`px-4 py-1.5 rounded-full border text-xs font-extrabold flex items-center gap-1.5 self-start sm:self-auto ${getRiskBadgeColor(result.risk_level)}`}>
               <ShieldAlert className="w-4 h-4" />
-              <span>CT RISK: {result.risk_level}</span>
+              <span>CT RISK LEVEL: {result.risk_level}</span>
             </div>
           </div>
 
           {/* Primary Metric Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             
-            {/* Health Score */}
+            {/* Health Score (MODEL PREDICTION) */}
             <div className="p-5 rounded-xl bg-slate-900/80 border border-slate-800 text-center">
-              <span className="text-xs text-slate-400 font-bold uppercase block">CT AI Health Score</span>
+              <span className="text-[10px] text-cyan-400 font-bold uppercase tracking-wider block">Model Prediction</span>
+              <span className="text-xs text-slate-300 font-bold uppercase block mt-0.5">Health Score</span>
               <div className="text-4xl font-black text-white mt-2 font-mono">
                 {result.health_score} <span className="text-xs text-slate-500">/ 100</span>
               </div>
@@ -731,31 +726,34 @@ export default function CTAnalysisView({ onSaveToHistory }) {
               </div>
             </div>
 
-            {/* Remaining Useful Life */}
+            {/* Remaining Useful Life (MODEL PREDICTION) */}
             <div className="p-5 rounded-xl bg-slate-900/80 border border-slate-800 text-center">
-              <span className="text-xs text-slate-400 font-bold uppercase block">Predicted RUL</span>
+              <span className="text-[10px] text-cyan-400 font-bold uppercase tracking-wider block">Model Prediction</span>
+              <span className="text-xs text-slate-300 font-bold uppercase block mt-0.5">Remaining Useful Life</span>
               <div className="text-4xl font-black text-purple-400 mt-2 font-mono">
                 {result.rul_days} <span className="text-xs text-slate-400">DAYS</span>
               </div>
-              <p className="text-[11px] text-slate-400 mt-2">Estimated remaining useful life before service</p>
+              <p className="text-[10px] text-slate-400 mt-2">Predicted useful life before failure</p>
             </div>
 
-            {/* Failure Probability */}
+            {/* Derived Risk Indicator (DERIVED) */}
             <div className="p-5 rounded-xl bg-slate-900/80 border border-slate-800 text-center">
-              <span className="text-xs text-slate-400 font-bold uppercase block">Failure Risk Factor</span>
+              <span className="text-[10px] text-amber-400 font-bold uppercase tracking-wider block">Derived Risk Indicator</span>
+              <span className="text-xs text-slate-300 font-bold uppercase block mt-0.5">Failure Risk Factor</span>
               <div className="text-4xl font-black text-amber-400 mt-2 font-mono">
                 {Math.round(result.failure_probability * 100)}%
               </div>
-              <p className="text-[11px] text-slate-400 mt-2">Model calculated failure probability</p>
+              <p className="text-[10px] text-slate-400 mt-2">*Derived from predicted Health Score</p>
             </div>
 
-            {/* Component at Risk */}
+            {/* Component at Risk (MODEL PREDICTION) */}
             <div className="p-5 rounded-xl bg-slate-900/80 border border-slate-800 text-center">
-              <span className="text-xs text-slate-400 font-bold uppercase block">Component at Risk</span>
+              <span className="text-[10px] text-cyan-400 font-bold uppercase tracking-wider block">Model Prediction</span>
+              <span className="text-xs text-slate-300 font-bold uppercase block mt-0.5">Component at Risk</span>
               <div className="text-base font-bold text-rose-300 mt-3">
                 {result.primary_component_at_risk}
               </div>
-              <p className="text-[11px] text-slate-400 mt-2">Primary component triggering degradation</p>
+              <p className="text-[10px] text-slate-400 mt-2">Primary degradation classifier output</p>
             </div>
           </div>
 
@@ -803,10 +801,13 @@ export default function CTAnalysisView({ onSaveToHistory }) {
                 <p className="text-sm font-medium text-slate-200 mt-3 leading-relaxed">
                   {result.recommendedAction}
                 </p>
+                <p className="text-[10px] text-slate-500 mt-2 italic">
+                  *Rule-based recommendation derived from model output.
+                </p>
               </div>
 
               <div className="mt-4 pt-3 border-t border-slate-800 text-[11px] text-slate-500 font-mono">
-                Model: CT-Scanner-GradBoost-v3.0 • Response Time: 42ms
+                Model Pipeline: Health Regressor + RUL Regressor + Component Classifier
               </div>
             </div>
           </div>

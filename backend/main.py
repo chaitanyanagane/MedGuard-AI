@@ -19,6 +19,14 @@ MODEL2_PATH = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "ct_scanner_failure_prediction.pkl")
 )
 
+REQUIRED_CT_COLUMNS = [
+    'ScannerAge', 'OperatingHours', 'ScansPerformed', 'DaysSinceMaintenance',
+    'TubeWear', 'HeatLoad', 'TubeArcs', 'FilamentCurrent', 'FocalSpotDrift',
+    'GantryVibration', 'BearingTemperature', 'DetectorTemperature', 'DetectorDropouts',
+    'SNR', 'CoolantFlow', 'CoolantTemperature', 'ChillerCycles', 'Voltage',
+    'UPSHealth', 'WarningCodes', 'ErrorCodes'
+]
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global general_model_pipeline, ct_model_pipeline
@@ -42,7 +50,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="MedGuard AI Command Center API",
     description="FastAPI dual-model serving backend for Cognizant Medical Equipment Failure Prediction & CT Scanner Diagnostics",
-    version="3.0.0",
+    version="3.1.0",
     lifespan=lifespan
 )
 
@@ -62,7 +70,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Allowed options for Model 1
 ALLOWED_TYPES = [
     "Ventilator",
     "Infusion Pump",
@@ -238,7 +245,19 @@ def predict(request: PredictRequest):
     if general_model_pipeline is None:
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail="General equipment prediction model is not initialized."
+            detail="General equipment prediction model is not loaded."
+        )
+
+    if request.TypeDescription not in ALLOWED_TYPES:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail=f"Invalid TypeDescription. Allowed: {ALLOWED_TYPES}"
+        )
+
+    if request.Manufacturer not in ALLOWED_MANUFACTURERS:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail=f"Invalid Manufacturer. Allowed: {ALLOWED_MANUFACTURERS}"
         )
 
     try:
@@ -260,31 +279,18 @@ def predict(request: PredictRequest):
         )
 
 def _eval_ct(input_dict: dict, scanner_id: str = "CT-017") -> CTPredictResponse:
-    feature_cols = [
-        'ScannerAge', 'OperatingHours', 'ScansPerformed', 'DaysSinceMaintenance',
-        'TubeWear', 'HeatLoad', 'TubeArcs', 'FilamentCurrent', 'FocalSpotDrift',
-        'GantryVibration', 'BearingTemperature', 'DetectorTemperature', 'DetectorDropouts',
-        'SNR', 'CoolantFlow', 'CoolantTemperature', 'ChillerCycles', 'Voltage',
-        'UPSHealth', 'WarningCodes', 'ErrorCodes'
-    ]
-    
-    row = {col: input_dict.get(col, 0.0) for col in feature_cols}
+    if ct_model_pipeline is None:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="CT scanner prediction model is not loaded."
+        )
+
+    row = {col: float(input_dict.get(col, 0.0)) for col in REQUIRED_CT_COLUMNS}
     df = pd.DataFrame([row])
 
-    if ct_model_pipeline is not None:
-        health_score = float(ct_model_pipeline['health_model'].predict(df)[0])
-        rul_days = float(ct_model_pipeline['rul_model'].predict(df)[0])
-        comp = str(ct_model_pipeline['comp_model'].predict(df)[0])
-    else:
-        # Fallback local calculation matching trained physics formula
-        tw = row['TubeWear']
-        gv = row['GantryVibration']
-        cf = row['CoolantFlow']
-        ec = row['ErrorCodes']
-        penalty = (tw * 0.35) + (gv * 20.0) + ((10.0 - cf) * 3.0) + (ec * 4.0)
-        health_score = max(5.0, min(99.0, 100.0 - penalty))
-        rul_days = round(health_score * 3.4, 0)
-        comp = "X-Ray Tube Anode" if tw > 60 else "Coolant Loop Unit" if cf < 4.0 else "Gantry Bearing"
+    health_score = float(ct_model_pipeline['health_model'].predict(df)[0])
+    rul_days = float(ct_model_pipeline['rul_model'].predict(df)[0])
+    comp = str(ct_model_pipeline['comp_model'].predict(df)[0])
 
     health_score = round(max(0.0, min(100.0, health_score)), 1)
     rul_days = round(max(1.0, min(365.0, rul_days)), 0)
@@ -314,6 +320,8 @@ def predict_ct(request: CTPredictRequest):
         data = request.model_dump()
         scanner_id = data.pop("ScannerId", "CT-017")
         return _eval_ct(data, scanner_id=scanner_id)
+    except HTTPException:
+        raise
     except Exception as e:
         print(f"CT Prediction Error: {str(e)}")
         raise HTTPException(
@@ -332,15 +340,40 @@ async def upload_ct_telemetry(file: UploadFile = File(...)):
         contents = await file.read()
         df = pd.read_csv(io.BytesIO(contents))
         if df.empty:
-            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="CSV file is empty.")
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST, 
+                detail="Uploaded CSV file is empty."
+            )
         
+        # Check required columns
+        missing_cols = [col for col in REQUIRED_CT_COLUMNS if col not in df.columns]
+        if missing_cols:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Invalid telemetry CSV file. Missing required feature columns: {', '.join(missing_cols)}"
+            )
+
+        # Check numeric conversions
         row_dict = df.iloc[0].to_dict()
+        for col in REQUIRED_CT_COLUMNS:
+            try:
+                row_dict[col] = float(row_dict[col])
+            except (ValueError, TypeError):
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail=f"Invalid numeric value for column '{col}' in CSV: {row_dict[col]}"
+                )
+
         scanner_id = str(row_dict.get("ScannerId", file.filename.replace('.csv', '')))
         return _eval_ct(row_dict, scanner_id=scanner_id)
+
+    except HTTPException:
+        raise
     except Exception as e:
         print(f"CSV Telemetry Error: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail=f"Invalid telemetry CSV file: {str(e)}"
+            detail=f"Failed to process telemetry CSV file: {str(e)}"
         )
+
 

@@ -168,7 +168,7 @@ export default function DashboardView({
             <span className="text-3xl font-extrabold text-white mt-1 font-mono block">
               {summary.totalDevices.toLocaleString()}
             </span>
-            <span className="text-[11px] text-slate-400 mt-1 block">Monitored across 7 wings (Demo fleet)</span>
+            <span className="text-[11px] text-slate-500 mt-1 block">*Demo Fleet Baseline Data</span>
           </div>
           <div className="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center border border-blue-500/20">
             <Cpu className="w-6 h-6" />
@@ -182,7 +182,7 @@ export default function DashboardView({
             <span className="text-3xl font-extrabold text-cyan-400 mt-1 font-mono block">
               {summary.predictionsGenerated.toLocaleString()}
             </span>
-            <span className="text-[11px] text-slate-400 mt-1 block">Dual-model AI inference engine</span>
+            <span className="text-[11px] text-slate-500 mt-1 block">*Session & Benchmark History</span>
           </div>
           <div className="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center border border-cyan-500/20">
             <Sparkles className="w-6 h-6" />
@@ -196,7 +196,7 @@ export default function DashboardView({
             <span className="text-3xl font-extrabold text-amber-400 mt-1 font-mono block">
               {summary.attentionCount}
             </span>
-            <span className="text-[11px] text-slate-400 mt-1 block">Medium risk window (6–18 mos)</span>
+            <span className="text-[11px] text-slate-500 mt-1 block">*6–18m Derived Priority</span>
           </div>
           <div className="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center border border-amber-500/20">
             <AlertTriangle className="w-6 h-6" />
@@ -210,7 +210,7 @@ export default function DashboardView({
             <span className="text-3xl font-extrabold text-rose-400 mt-1 font-mono block">
               {summary.urgentCount}
             </span>
-            <span className="text-[11px] text-slate-400 mt-1 block">Immediate inspection required</span>
+            <span className="text-[11px] text-slate-500 mt-1 block">*&lt; 6m Derived Priority</span>
           </div>
           <div className="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center border border-rose-500/20">
             <ShieldAlert className="w-6 h-6" />

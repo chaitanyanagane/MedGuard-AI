@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   ShieldAlert, 
   Activity, 
@@ -7,16 +7,48 @@ import {
   Sliders, 
   FileText, 
   History,
-  Sparkles,
   Stethoscope,
-  Scan
+  Scan,
+  CheckCircle2,
+  AlertCircle
 } from 'lucide-react';
+import { getHealth } from '../lib/api';
 
 export default function Header({
   activeTab,
   setActiveTab,
   onOpenHelp
 }) {
+  const [healthStatus, setHealthStatus] = useState({
+    online: false,
+    generalLoaded: false,
+    ctLoaded: false,
+    loading: true
+  });
+
+  useEffect(() => {
+    async function checkBackendHealth() {
+      try {
+        const res = await getHealth();
+        if (res.status === 'ok') {
+          setHealthStatus({
+            online: true,
+            generalLoaded: !!res.general_model_loaded,
+            ctLoaded: !!res.ct_model_loaded,
+            loading: false
+          });
+        } else {
+          setHealthStatus({ online: false, generalLoaded: false, ctLoaded: false, loading: false });
+        }
+      } catch (e) {
+        setHealthStatus({ online: false, generalLoaded: false, ctLoaded: false, loading: false });
+      }
+    }
+    checkBackendHealth();
+    const interval = setInterval(checkBackendHealth, 10000);
+    return () => clearInterval(interval);
+  }, []);
+
   const navItems = [
     { id: 'dashboard', label: 'Command Center', icon: Activity },
     { id: 'predict', label: 'General Screening', icon: Stethoscope },
@@ -65,8 +97,23 @@ export default function Header({
           </button>
         </div>
 
-        {/* Action Button & Help */}
-        <div className="flex items-center gap-2.5 w-full md:w-auto justify-end">
+        {/* Status Badge & Action Button */}
+        <div className="flex items-center gap-2.5 w-full md:w-auto justify-end flex-wrap">
+          
+          {/* AI ENGINE HEALTH BADGE */}
+          <div className={`px-3 py-1 rounded-xl border text-[11px] font-mono font-bold flex items-center gap-2 transition ${
+            healthStatus.online 
+              ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30' 
+              : 'bg-rose-500/10 text-rose-400 border-rose-500/30'
+          }`}>
+            <span className={`w-2 h-2 rounded-full ${healthStatus.online ? 'bg-emerald-400 animate-ping' : 'bg-rose-500'}`} />
+            {healthStatus.online ? (
+              <span>AI ENGINE ONLINE • M1: READY • M2: READY</span>
+            ) : (
+              <span>BACKEND OFFLINE • Start FastAPI Server</span>
+            )}
+          </div>
+
           <button
             onClick={() => setActiveTab('ct-analysis')}
             className="px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-purple-600 via-cyan-500 to-blue-600 text-white font-bold text-xs shadow-lg shadow-cyan-500/20 flex items-center gap-1.5 hover:opacity-90 transition"

@@ -253,24 +253,8 @@ export async function predictDevice(payload: PredictPayload): Promise<PredictRes
       derivedPriority: calculateDerivedPriority(months)
     };
   } catch (err: any) {
-    console.warn("Prediction service API error, performing local prediction inference:", err.message);
-    
-    let months = 54.0 - (payload.Age * 1.3) - (payload.AssetCondition * 12.5) - (payload.Operations * 5.0);
-    const typeModifiers: Record<string, number> = {
-      "Ventilator": -4.0,
-      "Infusion Pump": 2.0,
-      "Defibrillator": -2.0,
-      "Physiologic Monitoring System": 3.0,
-      "Radiographic System": -5.0,
-      "Sphygmomanometers": 6.0
-    };
-    months += typeModifiers[payload.TypeDescription] || 0;
-    months = Math.round(Math.max(2.0, Math.min(60.0, months)) * 10) / 10;
-
-    return {
-      months_to_failure: months,
-      derivedPriority: calculateDerivedPriority(months)
-    };
+    console.error("Prediction API error:", err.message);
+    throw new Error(err.message || "Prediction service unavailable. Please ensure the backend server is running.");
   }
 }
 
@@ -298,32 +282,8 @@ export async function predictCTScanner(payload: CTPredictPayload): Promise<CTPre
       recommendedAction: deriveCTRecommendation(data.risk_level, data.primary_component_at_risk)
     };
   } catch (err: any) {
-    console.warn("CT Prediction API offline, performing local physics inference:", err.message);
-    
-    const tw = payload.TubeWear || 30;
-    const gv = payload.GantryVibration || 0.1;
-    const cf = payload.CoolantFlow || 7.0;
-    const ec = payload.ErrorCodes || 0;
-    
-    const penalty = (tw * 0.35) + (gv * 20.0) + ((10.0 - cf) * 3.0) + (ec * 4.0);
-    const health_score = Math.round(Math.max(5.0, Math.min(99.0, 100.0 - penalty)) * 10) / 10;
-    const rul_days = Math.round(health_score * 3.4);
-    const comp = tw > 60 ? "X-Ray Tube Anode" : cf < 4.0 ? "Coolant Loop Unit" : "Gantry Bearing";
-
-    let risk_level: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL' = 'LOW';
-    if (health_score < 40) risk_level = 'CRITICAL';
-    else if (health_score < 60) risk_level = 'HIGH';
-    else if (health_score < 80) risk_level = 'MEDIUM';
-
-    return {
-      scanner_id: payload.ScannerId || 'CT-017',
-      health_score,
-      risk_level,
-      rul_days,
-      primary_component_at_risk: comp,
-      failure_probability: Math.round((1.0 - (health_score / 100.0)) * 100) / 100,
-      recommendedAction: deriveCTRecommendation(risk_level, comp)
-    };
+    console.error("CT Prediction API error:", err.message);
+    throw new Error(err.message || "CT inference service unavailable. Please ensure the backend server is running.");
   }
 }
 

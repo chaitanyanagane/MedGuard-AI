@@ -328,7 +328,7 @@ export default function PredictView({ onSaveToHistory }) {
                   {/* Derived Maintenance Priority Card */}
                   <div className="pt-3 border-t border-slate-800/80 max-w-xs mx-auto space-y-1">
                     <span className="text-[10px] uppercase font-bold text-slate-400 block">
-                      Derived Maintenance Priority
+                      Maintenance Priority — Derived from predicted time to failure
                     </span>
                     
                     <span className={`inline-block px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-wider border ${
@@ -342,7 +342,7 @@ export default function PredictView({ onSaveToHistory }) {
                     </span>
 
                     <p className="text-[10px] text-slate-500 pt-1 italic">
-                      *Derived maintenance heuristic (&lt;6m Urgent, 6-18m Attention, &gt;18m Routine).
+                      *Rule-based maintenance heuristic (&lt;6m Urgent, 6-18m Attention, &gt;18m Routine).
                     </p>
                   </div>
                 </div>
